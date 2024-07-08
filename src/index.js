@@ -1,6 +1,4 @@
 import './styles.css';
-import './lib/components/my-element.js';
-
-const element = document.createElement('div');
-element.innerHTML = 'Hello!';
-document.body.appendChild(element);
+import './lib/components/reflection-widget.js';
+import './lib/components/carousel-widget.js';
+import './lib/components/reflection-graph.js';

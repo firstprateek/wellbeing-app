@@ -1,32 +1,69 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/lib/components/reflection-widget.js":
+/*!*************************************************!*\
+  !*** ./src/lib/components/reflection-widget.js ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _lib_components_my_element_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/components/my-element.js */ \"./src/lib/components/my-element.js\");\n\n\nvar element = document.createElement('div');\nelement.innerHTML = 'Hello, Webpack!';\ndocument.body.appendChild(element);\nvar myElement = document.createElement('my-element');\ndocument.body.appendChild(myElement);\n\n//# sourceURL=webpack://wellbeing-app/./src/index.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit */ "./node_modules/lit/index.js");
+var _templateObject, _templateObject2, _templateObject3;
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _taggedTemplateLiteral(e, t) { return t || (t = e.slice(0)), Object.freeze(Object.defineProperties(e, { raw: { value: Object.freeze(t) } })); }
+function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
+function _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }
+function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, "prototype", { writable: !1 }), e; }
+function _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }
+function _possibleConstructorReturn(t, e) { if (e && ("object" == _typeof(e) || "function" == typeof e)) return e; if (void 0 !== e) throw new TypeError("Derived constructors may only return object or undefined"); return _assertThisInitialized(t); }
+function _assertThisInitialized(e) { if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); return e; }
+function _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }
+function _getPrototypeOf(t) { return _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function (t) { return t.__proto__ || Object.getPrototypeOf(t); }, _getPrototypeOf(t); }
+function _inherits(t, e) { if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function"); t.prototype = Object.create(e && e.prototype, { constructor: { value: t, writable: !0, configurable: !0 } }), Object.defineProperty(t, "prototype", { writable: !1 }), e && _setPrototypeOf(t, e); }
+function _setPrototypeOf(t, e) { return _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function (t, e) { return t.__proto__ = e, t; }, _setPrototypeOf(t, e); }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
-/***/ }),
-
-/***/ "./src/lib/components/my-element.js":
-/*!******************************************!*\
-  !*** ./src/lib/components/my-element.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lit */ \"./node_modules/lit/index.js\");\nfunction _typeof(o) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && \"function\" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? \"symbol\" : typeof o; }, _typeof(o); }\nvar _templateObject;\nfunction _taggedTemplateLiteral(e, t) { return t || (t = e.slice(0)), Object.freeze(Object.defineProperties(e, { raw: { value: Object.freeze(t) } })); }\nfunction _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError(\"Cannot call a class as a function\"); }\nfunction _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, \"value\" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }\nfunction _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, \"prototype\", { writable: !1 }), e; }\nfunction _toPropertyKey(t) { var i = _toPrimitive(t, \"string\"); return \"symbol\" == _typeof(i) ? i : i + \"\"; }\nfunction _toPrimitive(t, r) { if (\"object\" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || \"default\"); if (\"object\" != _typeof(i)) return i; throw new TypeError(\"@@toPrimitive must return a primitive value.\"); } return (\"string\" === r ? String : Number)(t); }\nfunction _callSuper(t, o, e) { return o = _getPrototypeOf(o), _possibleConstructorReturn(t, _isNativeReflectConstruct() ? Reflect.construct(o, e || [], _getPrototypeOf(t).constructor) : o.apply(t, e)); }\nfunction _possibleConstructorReturn(t, e) { if (e && (\"object\" == _typeof(e) || \"function\" == typeof e)) return e; if (void 0 !== e) throw new TypeError(\"Derived constructors may only return object or undefined\"); return _assertThisInitialized(t); }\nfunction _assertThisInitialized(e) { if (void 0 === e) throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); return e; }\nfunction _isNativeReflectConstruct() { try { var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); } catch (t) {} return (_isNativeReflectConstruct = function _isNativeReflectConstruct() { return !!t; })(); }\nfunction _getPrototypeOf(t) { return _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function (t) { return t.__proto__ || Object.getPrototypeOf(t); }, _getPrototypeOf(t); }\nfunction _inherits(t, e) { if (\"function\" != typeof e && null !== e) throw new TypeError(\"Super expression must either be null or a function\"); t.prototype = Object.create(e && e.prototype, { constructor: { value: t, writable: !0, configurable: !0 } }), Object.defineProperty(t, \"prototype\", { writable: !1 }), e && _setPrototypeOf(t, e); }\nfunction _setPrototypeOf(t, e) { return _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function (t, e) { return t.__proto__ = e, t; }, _setPrototypeOf(t, e); }\n\nvar MyElement = /*#__PURE__*/function (_LitElement) {\n  function MyElement() {\n    _classCallCheck(this, MyElement);\n    return _callSuper(this, MyElement, arguments);\n  }\n  _inherits(MyElement, _LitElement);\n  return _createClass(MyElement, [{\n    key: \"render\",\n    value: function render() {\n      return (0,lit__WEBPACK_IMPORTED_MODULE_0__.html)(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n      <div>Hello from MyElement!</div>\\n    \"])));\n    }\n  }]);\n}(lit__WEBPACK_IMPORTED_MODULE_0__.LitElement);\ncustomElements.define('my-element', MyElement);\n\n//# sourceURL=webpack://wellbeing-app/./src/lib/components/my-element.js?");
+var ReflectionWidget = /*#__PURE__*/function (_LitElement) {
+  function ReflectionWidget() {
+    var _this;
+    _classCallCheck(this, ReflectionWidget);
+    _this = _callSuper(this, ReflectionWidget);
+    _this.selectedMood = '';
+    return _this;
+  }
+  _inherits(ReflectionWidget, _LitElement);
+  return _createClass(ReflectionWidget, [{
+    key: "handleEmojiClick",
+    value: function handleEmojiClick(event) {
+      this.selectedMood = event.target.textContent.trim();
+      this.dispatchEvent(new CustomEvent('mood-selected', {
+        detail: {
+          mood: this.selectedMood
+        }
+      }));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+      var emojis = ['😀', '😊', '😐', '😢', '😡'];
+      return (0,lit__WEBPACK_IMPORTED_MODULE_0__.html)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n      <div>\n        ", "\n      </div>\n    "])), emojis.map(function (emoji) {
+        return (0,lit__WEBPACK_IMPORTED_MODULE_0__.html)(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n            <span\n              class=\"emoji ", "\"\n              @click=\"", "\"\n            >\n              ", "\n            </span>\n          "])), _this2.selectedMood === emoji ? 'selected' : '', _this2.handleEmojiClick, emoji);
+      }));
+    }
+  }]);
+}(lit__WEBPACK_IMPORTED_MODULE_0__.LitElement);
+_defineProperty(ReflectionWidget, "properties", {
+  selectedMood: {
+    type: String
+  }
+});
+_defineProperty(ReflectionWidget, "styles", (0,lit__WEBPACK_IMPORTED_MODULE_0__.css)(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n    .emoji {\n      font-size: 2rem;\n      cursor: pointer;\n      padding: 0.5rem;\n      transition: transform 0.2s;\n    }\n    .emoji:hover {\n      transform: scale(1.2);\n      border: 1px solid red;\n    }\n    .selected {\n      border: 2px solid #000;\n      border-radius: 50%;\n    }\n  "]))));
+customElements.define('reflection-widget', ReflectionWidget);
 
 /***/ }),
 
@@ -36,7 +73,34 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lit_
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n    background-color: #f0f0f0;\n    font-family: Arial, sans-serif;\n  }\n  \n  div {\n    color: #333;\n    font-size: 2em;\n    text-align: center;\n    margin-top: 20%;\n  }\n  `, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://wellbeing-app/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `/* body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  div {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20%;
+  }
+   */`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;IAWI","sourcesContent":["/* body {\n    background-color: #f0f0f0;\n    font-family: Arial, sans-serif;\n  }\n  \n  div {\n    color: #333;\n    font-size: 2em;\n    text-align: center;\n    margin-top: 20%;\n  }\n   */"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
 
 /***/ }),
 
@@ -46,17 +110,116 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************************/
 /***/ ((module) => {
 
-eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/css-loader/dist/runtime/api.js?");
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = [];
+
+  // return the list of modules as css string
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+      content += cssWithMappingToString(item);
+      if (needLayer) {
+        content += "}";
+      }
+      if (item[2]) {
+        content += "}";
+      }
+      if (item[4]) {
+        content += "}";
+      }
+      return content;
+    }).join("");
+  };
+
+  // import a list of modules into the list
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+    var alreadyImportedModules = {};
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+      list.push(item);
+    }
+  };
+  return list;
+};
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
+/***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
 /***/ ((module) => {
 
-eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+  if (!cssMapping) {
+    return content;
+  }
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    return [content].concat([sourceMapping]).join("\n");
+  }
+  return [content].join("\n");
+};
 
 /***/ }),
 
@@ -66,7 +229,49 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\noptions.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://wellbeing-app/./src/styles.css?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./styles.css */ "./node_modules/css-loader/dist/cjs.js!./src/styles.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
 
 /***/ }),
 
@@ -76,7 +281,90 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************/
 /***/ ((module) => {
 
-eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n  return result;\n}\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n    identifiers.push(identifier);\n  }\n  return identifiers;\n}\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n  return updater;\n}\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n    var newLastIdentifiers = modulesToDom(newList, options);\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n      var _index = getIndexByIdentifier(_identifier);\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+
+var stylesInDOM = [];
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+  return result;
+}
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+    identifiers.push(identifier);
+  }
+  return identifiers;
+}
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+  return updater;
+}
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+    var newLastIdentifiers = modulesToDom(newList, options);
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+      var _index = getIndexByIdentifier(_identifier);
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
 
 /***/ }),
 
@@ -86,7 +374,40 @@ eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  
   \********************************************************************/
 /***/ ((module) => {
 
-eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target);\n\n    // Special case to return head of iframe instead of iframe itself\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n    memo[target] = styleTarget;\n  }\n  return memo[target];\n}\n\n/* istanbul ignore next  */\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n  target.appendChild(style);\n}\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
+
+
+var memo = {};
+
+/* istanbul ignore next  */
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target);
+
+    // Special case to return head of iframe instead of iframe itself
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+    memo[target] = styleTarget;
+  }
+  return memo[target];
+}
+
+/* istanbul ignore next  */
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+  target.appendChild(style);
+}
+module.exports = insertBySelector;
 
 /***/ }),
 
@@ -96,7 +417,16 @@ eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(targ
   \**********************************************************************/
 /***/ ((module) => {
 
-eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+module.exports = insertStyleElement;
 
 /***/ }),
 
@@ -106,7 +436,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n 
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+module.exports = setAttributesWithoutAttributes;
 
 /***/ }),
 
@@ -116,7 +455,67 @@ eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(s
   \***************************************************************/
 /***/ ((module) => {
 
-eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n  var needLayer = typeof obj.layer !== \"undefined\";\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n  css += obj.css;\n  if (needLayer) {\n    css += \"}\";\n  }\n  if (obj.media) {\n    css += \"}\";\n  }\n  if (obj.supports) {\n    css += \"}\";\n  }\n  var sourceMap = obj.sourceMap;\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  }\n\n  // For old IE\n  /* istanbul ignore if  */\n  options.styleTagTransform(css, styleElement, options.options);\n}\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n  styleElement.parentNode.removeChild(styleElement);\n}\n\n/* istanbul ignore next  */\nfunction domAPI(options) {\n  if (typeof document === \"undefined\") {\n    return {\n      update: function update() {},\n      remove: function remove() {}\n    };\n  }\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+  var needLayer = typeof obj.layer !== "undefined";
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+  css += obj.css;
+  if (needLayer) {
+    css += "}";
+  }
+  if (obj.media) {
+    css += "}";
+  }
+  if (obj.supports) {
+    css += "}";
+  }
+  var sourceMap = obj.sourceMap;
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  }
+
+  // For old IE
+  /* istanbul ignore if  */
+  options.styleTagTransform(css, styleElement, options.options);
+}
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+  styleElement.parentNode.removeChild(styleElement);
+}
+
+/* istanbul ignore next  */
+function domAPI(options) {
+  if (typeof document === "undefined") {
+    return {
+      update: function update() {},
+      remove: function remove() {}
+    };
+  }
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+module.exports = domAPI;
 
 /***/ }),
 
@@ -126,7 +525,20 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
   \*********************************************************************/
 /***/ ((module) => {
 
-eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+module.exports = styleTagTransform;
 
 /***/ }),
 
@@ -136,7 +548,148 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*******************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CSSResult: () => (/* binding */ CSSResult),\n/* harmony export */   adoptStyles: () => (/* binding */ adoptStyles),\n/* harmony export */   css: () => (/* binding */ css),\n/* harmony export */   getCompatibleStyle: () => (/* binding */ getCompatibleStyle),\n/* harmony export */   supportsAdoptingStyleSheets: () => (/* binding */ supportsAdoptingStyleSheets),\n/* harmony export */   unsafeCSS: () => (/* binding */ unsafeCSS)\n/* harmony export */ });\n/**\n * @license\n * Copyright 2019 Google LLC\n * SPDX-License-Identifier: BSD-3-Clause\n */\nconst NODE_MODE = false;\n// Allows minifiers to rename references to globalThis\nconst global = globalThis;\n/**\n * Whether the current browser supports `adoptedStyleSheets`.\n */\nconst supportsAdoptingStyleSheets = global.ShadowRoot &&\n    (global.ShadyCSS === undefined || global.ShadyCSS.nativeShadow) &&\n    'adoptedStyleSheets' in Document.prototype &&\n    'replace' in CSSStyleSheet.prototype;\nconst constructionToken = Symbol();\nconst cssTagCache = new WeakMap();\n/**\n * A container for a string of CSS text, that may be used to create a CSSStyleSheet.\n *\n * CSSResult is the return value of `css`-tagged template literals and\n * `unsafeCSS()`. In order to ensure that CSSResults are only created via the\n * `css` tag and `unsafeCSS()`, CSSResult cannot be constructed directly.\n */\nclass CSSResult {\n    constructor(cssText, strings, safeToken) {\n        // This property needs to remain unminified.\n        this['_$cssResult$'] = true;\n        if (safeToken !== constructionToken) {\n            throw new Error('CSSResult is not constructable. Use `unsafeCSS` or `css` instead.');\n        }\n        this.cssText = cssText;\n        this._strings = strings;\n    }\n    // This is a getter so that it's lazy. In practice, this means stylesheets\n    // are not created until the first element instance is made.\n    get styleSheet() {\n        // If `supportsAdoptingStyleSheets` is true then we assume CSSStyleSheet is\n        // constructable.\n        let styleSheet = this._styleSheet;\n        const strings = this._strings;\n        if (supportsAdoptingStyleSheets && styleSheet === undefined) {\n            const cacheable = strings !== undefined && strings.length === 1;\n            if (cacheable) {\n                styleSheet = cssTagCache.get(strings);\n            }\n            if (styleSheet === undefined) {\n                (this._styleSheet = styleSheet = new CSSStyleSheet()).replaceSync(this.cssText);\n                if (cacheable) {\n                    cssTagCache.set(strings, styleSheet);\n                }\n            }\n        }\n        return styleSheet;\n    }\n    toString() {\n        return this.cssText;\n    }\n}\nconst textFromCSSResult = (value) => {\n    // This property needs to remain unminified.\n    if (value['_$cssResult$'] === true) {\n        return value.cssText;\n    }\n    else if (typeof value === 'number') {\n        return value;\n    }\n    else {\n        throw new Error(`Value passed to 'css' function must be a 'css' function result: ` +\n            `${value}. Use 'unsafeCSS' to pass non-literal values, but take care ` +\n            `to ensure page security.`);\n    }\n};\n/**\n * Wrap a value for interpolation in a {@linkcode css} tagged template literal.\n *\n * This is unsafe because untrusted CSS text can be used to phone home\n * or exfiltrate data to an attacker controlled site. Take care to only use\n * this with trusted input.\n */\nconst unsafeCSS = (value) => new CSSResult(typeof value === 'string' ? value : String(value), undefined, constructionToken);\n/**\n * A template literal tag which can be used with LitElement's\n * {@linkcode LitElement.styles} property to set element styles.\n *\n * For security reasons, only literal string values and number may be used in\n * embedded expressions. To incorporate non-literal values {@linkcode unsafeCSS}\n * may be used inside an expression.\n */\nconst css = (strings, ...values) => {\n    const cssText = strings.length === 1\n        ? strings[0]\n        : values.reduce((acc, v, idx) => acc + textFromCSSResult(v) + strings[idx + 1], strings[0]);\n    return new CSSResult(cssText, strings, constructionToken);\n};\n/**\n * Applies the given styles to a `shadowRoot`. When Shadow DOM is\n * available but `adoptedStyleSheets` is not, styles are appended to the\n * `shadowRoot` to [mimic spec behavior](https://wicg.github.io/construct-stylesheets/#using-constructed-stylesheets).\n * Note, when shimming is used, any styles that are subsequently placed into\n * the shadowRoot should be placed *before* any shimmed adopted styles. This\n * will match spec behavior that gives adopted sheets precedence over styles in\n * shadowRoot.\n */\nconst adoptStyles = (renderRoot, styles) => {\n    if (supportsAdoptingStyleSheets) {\n        renderRoot.adoptedStyleSheets = styles.map((s) => s instanceof CSSStyleSheet ? s : s.styleSheet);\n    }\n    else {\n        for (const s of styles) {\n            const style = document.createElement('style');\n            // eslint-disable-next-line @typescript-eslint/no-explicit-any\n            const nonce = global['litNonce'];\n            if (nonce !== undefined) {\n                style.setAttribute('nonce', nonce);\n            }\n            style.textContent = s.cssText;\n            renderRoot.appendChild(style);\n        }\n    }\n};\nconst cssResultFromStyleSheet = (sheet) => {\n    let cssText = '';\n    for (const rule of sheet.cssRules) {\n        cssText += rule.cssText;\n    }\n    return unsafeCSS(cssText);\n};\nconst getCompatibleStyle = supportsAdoptingStyleSheets ||\n    (NODE_MODE && global.CSSStyleSheet === undefined)\n    ? (s) => s\n    : (s) => s instanceof CSSStyleSheet ? cssResultFromStyleSheet(s) : s;\n//# sourceMappingURL=css-tag.js.map\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/@lit/reactive-element/development/css-tag.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CSSResult: () => (/* binding */ CSSResult),
+/* harmony export */   adoptStyles: () => (/* binding */ adoptStyles),
+/* harmony export */   css: () => (/* binding */ css),
+/* harmony export */   getCompatibleStyle: () => (/* binding */ getCompatibleStyle),
+/* harmony export */   supportsAdoptingStyleSheets: () => (/* binding */ supportsAdoptingStyleSheets),
+/* harmony export */   unsafeCSS: () => (/* binding */ unsafeCSS)
+/* harmony export */ });
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+const NODE_MODE = false;
+// Allows minifiers to rename references to globalThis
+const global = globalThis;
+/**
+ * Whether the current browser supports `adoptedStyleSheets`.
+ */
+const supportsAdoptingStyleSheets = global.ShadowRoot &&
+    (global.ShadyCSS === undefined || global.ShadyCSS.nativeShadow) &&
+    'adoptedStyleSheets' in Document.prototype &&
+    'replace' in CSSStyleSheet.prototype;
+const constructionToken = Symbol();
+const cssTagCache = new WeakMap();
+/**
+ * A container for a string of CSS text, that may be used to create a CSSStyleSheet.
+ *
+ * CSSResult is the return value of `css`-tagged template literals and
+ * `unsafeCSS()`. In order to ensure that CSSResults are only created via the
+ * `css` tag and `unsafeCSS()`, CSSResult cannot be constructed directly.
+ */
+class CSSResult {
+    constructor(cssText, strings, safeToken) {
+        // This property needs to remain unminified.
+        this['_$cssResult$'] = true;
+        if (safeToken !== constructionToken) {
+            throw new Error('CSSResult is not constructable. Use `unsafeCSS` or `css` instead.');
+        }
+        this.cssText = cssText;
+        this._strings = strings;
+    }
+    // This is a getter so that it's lazy. In practice, this means stylesheets
+    // are not created until the first element instance is made.
+    get styleSheet() {
+        // If `supportsAdoptingStyleSheets` is true then we assume CSSStyleSheet is
+        // constructable.
+        let styleSheet = this._styleSheet;
+        const strings = this._strings;
+        if (supportsAdoptingStyleSheets && styleSheet === undefined) {
+            const cacheable = strings !== undefined && strings.length === 1;
+            if (cacheable) {
+                styleSheet = cssTagCache.get(strings);
+            }
+            if (styleSheet === undefined) {
+                (this._styleSheet = styleSheet = new CSSStyleSheet()).replaceSync(this.cssText);
+                if (cacheable) {
+                    cssTagCache.set(strings, styleSheet);
+                }
+            }
+        }
+        return styleSheet;
+    }
+    toString() {
+        return this.cssText;
+    }
+}
+const textFromCSSResult = (value) => {
+    // This property needs to remain unminified.
+    if (value['_$cssResult$'] === true) {
+        return value.cssText;
+    }
+    else if (typeof value === 'number') {
+        return value;
+    }
+    else {
+        throw new Error(`Value passed to 'css' function must be a 'css' function result: ` +
+            `${value}. Use 'unsafeCSS' to pass non-literal values, but take care ` +
+            `to ensure page security.`);
+    }
+};
+/**
+ * Wrap a value for interpolation in a {@linkcode css} tagged template literal.
+ *
+ * This is unsafe because untrusted CSS text can be used to phone home
+ * or exfiltrate data to an attacker controlled site. Take care to only use
+ * this with trusted input.
+ */
+const unsafeCSS = (value) => new CSSResult(typeof value === 'string' ? value : String(value), undefined, constructionToken);
+/**
+ * A template literal tag which can be used with LitElement's
+ * {@linkcode LitElement.styles} property to set element styles.
+ *
+ * For security reasons, only literal string values and number may be used in
+ * embedded expressions. To incorporate non-literal values {@linkcode unsafeCSS}
+ * may be used inside an expression.
+ */
+const css = (strings, ...values) => {
+    const cssText = strings.length === 1
+        ? strings[0]
+        : values.reduce((acc, v, idx) => acc + textFromCSSResult(v) + strings[idx + 1], strings[0]);
+    return new CSSResult(cssText, strings, constructionToken);
+};
+/**
+ * Applies the given styles to a `shadowRoot`. When Shadow DOM is
+ * available but `adoptedStyleSheets` is not, styles are appended to the
+ * `shadowRoot` to [mimic spec behavior](https://wicg.github.io/construct-stylesheets/#using-constructed-stylesheets).
+ * Note, when shimming is used, any styles that are subsequently placed into
+ * the shadowRoot should be placed *before* any shimmed adopted styles. This
+ * will match spec behavior that gives adopted sheets precedence over styles in
+ * shadowRoot.
+ */
+const adoptStyles = (renderRoot, styles) => {
+    if (supportsAdoptingStyleSheets) {
+        renderRoot.adoptedStyleSheets = styles.map((s) => s instanceof CSSStyleSheet ? s : s.styleSheet);
+    }
+    else {
+        for (const s of styles) {
+            const style = document.createElement('style');
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const nonce = global['litNonce'];
+            if (nonce !== undefined) {
+                style.setAttribute('nonce', nonce);
+            }
+            style.textContent = s.cssText;
+            renderRoot.appendChild(style);
+        }
+    }
+};
+const cssResultFromStyleSheet = (sheet) => {
+    let cssText = '';
+    for (const rule of sheet.cssRules) {
+        cssText += rule.cssText;
+    }
+    return unsafeCSS(cssText);
+};
+const getCompatibleStyle = supportsAdoptingStyleSheets ||
+    (NODE_MODE && global.CSSStyleSheet === undefined)
+    ? (s) => s
+    : (s) => s instanceof CSSStyleSheet ? cssResultFromStyleSheet(s) : s;
+//# sourceMappingURL=css-tag.js.map
 
 /***/ }),
 
@@ -146,7 +699,1096 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CSSResult: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.CSSResult),\n/* harmony export */   ReactiveElement: () => (/* binding */ ReactiveElement),\n/* harmony export */   adoptStyles: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.adoptStyles),\n/* harmony export */   css: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.css),\n/* harmony export */   defaultConverter: () => (/* binding */ defaultConverter),\n/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle),\n/* harmony export */   notEqual: () => (/* binding */ notEqual),\n/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.supportsAdoptingStyleSheets),\n/* harmony export */   unsafeCSS: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.unsafeCSS)\n/* harmony export */ });\n/* harmony import */ var _css_tag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css-tag.js */ \"./node_modules/@lit/reactive-element/development/css-tag.js\");\n/**\n * @license\n * Copyright 2017 Google LLC\n * SPDX-License-Identifier: BSD-3-Clause\n */\n/**\n * Use this module if you want to create your own base class extending\n * {@link ReactiveElement}.\n * @packageDocumentation\n */\n\n// In the Node build, this import will be injected by Rollup:\n// import {HTMLElement, customElements} from '@lit-labs/ssr-dom-shim';\n\n// TODO (justinfagnani): Add `hasOwn` here when we ship ES2022\nconst { is, defineProperty, getOwnPropertyDescriptor, getOwnPropertyNames, getOwnPropertySymbols, getPrototypeOf, } = Object;\nconst NODE_MODE = false;\n// Lets a minifier replace globalThis references with a minified name\nconst global = globalThis;\nif (NODE_MODE) {\n    global.customElements ??= customElements;\n}\nconst DEV_MODE = true;\nlet issueWarning;\nconst trustedTypes = global\n    .trustedTypes;\n// Temporary workaround for https://crbug.com/993268\n// Currently, any attribute starting with \"on\" is considered to be a\n// TrustedScript source. Such boolean attributes must be set to the equivalent\n// trusted emptyScript value.\nconst emptyStringForBooleanAttribute = trustedTypes\n    ? trustedTypes.emptyScript\n    : '';\nconst polyfillSupport = DEV_MODE\n    ? global.reactiveElementPolyfillSupportDevMode\n    : global.reactiveElementPolyfillSupport;\nif (DEV_MODE) {\n    // Ensure warnings are issued only 1x, even if multiple versions of Lit\n    // are loaded.\n    const issuedWarnings = (global.litIssuedWarnings ??=\n        new Set());\n    // Issue a warning, if we haven't already.\n    issueWarning = (code, warning) => {\n        warning += ` See https://lit.dev/msg/${code} for more information.`;\n        if (!issuedWarnings.has(warning)) {\n            console.warn(warning);\n            issuedWarnings.add(warning);\n        }\n    };\n    issueWarning('dev-mode', `Lit is in dev mode. Not recommended for production!`);\n    // Issue polyfill support warning.\n    if (global.ShadyDOM?.inUse && polyfillSupport === undefined) {\n        issueWarning('polyfill-support-missing', `Shadow DOM is being polyfilled via \\`ShadyDOM\\` but ` +\n            `the \\`polyfill-support\\` module has not been loaded.`);\n    }\n}\n/**\n * Useful for visualizing and logging insights into what the Lit template system is doing.\n *\n * Compiled out of prod mode builds.\n */\nconst debugLogEvent = DEV_MODE\n    ? (event) => {\n        const shouldEmit = global\n            .emitLitDebugLogEvents;\n        if (!shouldEmit) {\n            return;\n        }\n        global.dispatchEvent(new CustomEvent('lit-debug', {\n            detail: event,\n        }));\n    }\n    : undefined;\n/*\n * When using Closure Compiler, JSCompiler_renameProperty(property, object) is\n * replaced at compile time by the munged name for object[property]. We cannot\n * alias this function, so we have to use a small shim that has the same\n * behavior when not compiling.\n */\n/*@__INLINE__*/\nconst JSCompiler_renameProperty = (prop, _obj) => prop;\nconst defaultConverter = {\n    toAttribute(value, type) {\n        switch (type) {\n            case Boolean:\n                value = value ? emptyStringForBooleanAttribute : null;\n                break;\n            case Object:\n            case Array:\n                // if the value is `null` or `undefined` pass this through\n                // to allow removing/no change behavior.\n                value = value == null ? value : JSON.stringify(value);\n                break;\n        }\n        return value;\n    },\n    fromAttribute(value, type) {\n        let fromValue = value;\n        switch (type) {\n            case Boolean:\n                fromValue = value !== null;\n                break;\n            case Number:\n                fromValue = value === null ? null : Number(value);\n                break;\n            case Object:\n            case Array:\n                // Do *not* generate exception when invalid JSON is set as elements\n                // don't normally complain on being mis-configured.\n                // TODO(sorvell): Do generate exception in *dev mode*.\n                try {\n                    // Assert to adhere to Bazel's \"must type assert JSON parse\" rule.\n                    fromValue = JSON.parse(value);\n                }\n                catch (e) {\n                    fromValue = null;\n                }\n                break;\n        }\n        return fromValue;\n    },\n};\n/**\n * Change function that returns true if `value` is different from `oldValue`.\n * This method is used as the default for a property's `hasChanged` function.\n */\nconst notEqual = (value, old) => !is(value, old);\nconst defaultPropertyDeclaration = {\n    attribute: true,\n    type: String,\n    converter: defaultConverter,\n    reflect: false,\n    hasChanged: notEqual,\n};\n// Ensure metadata is enabled. TypeScript does not polyfill\n// Symbol.metadata, so we must ensure that it exists.\nSymbol.metadata ??= Symbol('metadata');\n// Map from a class's metadata object to property options\n// Note that we must use nullish-coalescing assignment so that we only use one\n// map even if we load multiple version of this module.\nglobal.litPropertyMetadata ??= new WeakMap();\n/**\n * Base element class which manages element properties and attributes. When\n * properties change, the `update` method is asynchronously called. This method\n * should be supplied by subclasses to render updates as desired.\n * @noInheritDoc\n */\nclass ReactiveElement\n// In the Node build, this `extends` clause will be substituted with\n// `(globalThis.HTMLElement ?? HTMLElement)`.\n//\n// This way, we will first prefer any global `HTMLElement` polyfill that the\n// user has assigned, and then fall back to the `HTMLElement` shim which has\n// been imported (see note at the top of this file about how this import is\n// generated by Rollup). Note that the `HTMLElement` variable has been\n// shadowed by this import, so it no longer refers to the global.\n extends HTMLElement {\n    /**\n     * Adds an initializer function to the class that is called during instance\n     * construction.\n     *\n     * This is useful for code that runs against a `ReactiveElement`\n     * subclass, such as a decorator, that needs to do work for each\n     * instance, such as setting up a `ReactiveController`.\n     *\n     * ```ts\n     * const myDecorator = (target: typeof ReactiveElement, key: string) => {\n     *   target.addInitializer((instance: ReactiveElement) => {\n     *     // This is run during construction of the element\n     *     new MyController(instance);\n     *   });\n     * }\n     * ```\n     *\n     * Decorating a field will then cause each instance to run an initializer\n     * that adds a controller:\n     *\n     * ```ts\n     * class MyElement extends LitElement {\n     *   @myDecorator foo;\n     * }\n     * ```\n     *\n     * Initializers are stored per-constructor. Adding an initializer to a\n     * subclass does not add it to a superclass. Since initializers are run in\n     * constructors, initializers will run in order of the class hierarchy,\n     * starting with superclasses and progressing to the instance's class.\n     *\n     * @nocollapse\n     */\n    static addInitializer(initializer) {\n        this.__prepare();\n        (this._initializers ??= []).push(initializer);\n    }\n    /**\n     * Returns a list of attributes corresponding to the registered properties.\n     * @nocollapse\n     * @category attributes\n     */\n    static get observedAttributes() {\n        // Ensure we've created all properties\n        this.finalize();\n        // this.__attributeToPropertyMap is only undefined after finalize() in\n        // ReactiveElement itself. ReactiveElement.observedAttributes is only\n        // accessed with ReactiveElement as the receiver when a subclass or mixin\n        // calls super.observedAttributes\n        return (this.__attributeToPropertyMap && [...this.__attributeToPropertyMap.keys()]);\n    }\n    /**\n     * Creates a property accessor on the element prototype if one does not exist\n     * and stores a {@linkcode PropertyDeclaration} for the property with the\n     * given options. The property setter calls the property's `hasChanged`\n     * property option or uses a strict identity check to determine whether or not\n     * to request an update.\n     *\n     * This method may be overridden to customize properties; however,\n     * when doing so, it's important to call `super.createProperty` to ensure\n     * the property is setup correctly. This method calls\n     * `getPropertyDescriptor` internally to get a descriptor to install.\n     * To customize what properties do when they are get or set, override\n     * `getPropertyDescriptor`. To customize the options for a property,\n     * implement `createProperty` like this:\n     *\n     * ```ts\n     * static createProperty(name, options) {\n     *   options = Object.assign(options, {myOption: true});\n     *   super.createProperty(name, options);\n     * }\n     * ```\n     *\n     * @nocollapse\n     * @category properties\n     */\n    static createProperty(name, options = defaultPropertyDeclaration) {\n        // If this is a state property, force the attribute to false.\n        if (options.state) {\n            options.attribute = false;\n        }\n        this.__prepare();\n        this.elementProperties.set(name, options);\n        if (!options.noAccessor) {\n            const key = DEV_MODE\n                ? // Use Symbol.for in dev mode to make it easier to maintain state\n                    // when doing HMR.\n                    Symbol.for(`${String(name)} (@property() cache)`)\n                : Symbol();\n            const descriptor = this.getPropertyDescriptor(name, key, options);\n            if (descriptor !== undefined) {\n                defineProperty(this.prototype, name, descriptor);\n            }\n        }\n    }\n    /**\n     * Returns a property descriptor to be defined on the given named property.\n     * If no descriptor is returned, the property will not become an accessor.\n     * For example,\n     *\n     * ```ts\n     * class MyElement extends LitElement {\n     *   static getPropertyDescriptor(name, key, options) {\n     *     const defaultDescriptor =\n     *         super.getPropertyDescriptor(name, key, options);\n     *     const setter = defaultDescriptor.set;\n     *     return {\n     *       get: defaultDescriptor.get,\n     *       set(value) {\n     *         setter.call(this, value);\n     *         // custom action.\n     *       },\n     *       configurable: true,\n     *       enumerable: true\n     *     }\n     *   }\n     * }\n     * ```\n     *\n     * @nocollapse\n     * @category properties\n     */\n    static getPropertyDescriptor(name, key, options) {\n        const { get, set } = getOwnPropertyDescriptor(this.prototype, name) ?? {\n            get() {\n                return this[key];\n            },\n            set(v) {\n                this[key] = v;\n            },\n        };\n        if (DEV_MODE && get == null) {\n            if ('value' in (getOwnPropertyDescriptor(this.prototype, name) ?? {})) {\n                throw new Error(`Field ${JSON.stringify(String(name))} on ` +\n                    `${this.name} was declared as a reactive property ` +\n                    `but it's actually declared as a value on the prototype. ` +\n                    `Usually this is due to using @property or @state on a method.`);\n            }\n            issueWarning('reactive-property-without-getter', `Field ${JSON.stringify(String(name))} on ` +\n                `${this.name} was declared as a reactive property ` +\n                `but it does not have a getter. This will be an error in a ` +\n                `future version of Lit.`);\n        }\n        return {\n            get() {\n                return get?.call(this);\n            },\n            set(value) {\n                const oldValue = get?.call(this);\n                set.call(this, value);\n                this.requestUpdate(name, oldValue, options);\n            },\n            configurable: true,\n            enumerable: true,\n        };\n    }\n    /**\n     * Returns the property options associated with the given property.\n     * These options are defined with a `PropertyDeclaration` via the `properties`\n     * object or the `@property` decorator and are registered in\n     * `createProperty(...)`.\n     *\n     * Note, this method should be considered \"final\" and not overridden. To\n     * customize the options for a given property, override\n     * {@linkcode createProperty}.\n     *\n     * @nocollapse\n     * @final\n     * @category properties\n     */\n    static getPropertyOptions(name) {\n        return this.elementProperties.get(name) ?? defaultPropertyDeclaration;\n    }\n    /**\n     * Initializes static own properties of the class used in bookkeeping\n     * for element properties, initializers, etc.\n     *\n     * Can be called multiple times by code that needs to ensure these\n     * properties exist before using them.\n     *\n     * This method ensures the superclass is finalized so that inherited\n     * property metadata can be copied down.\n     * @nocollapse\n     */\n    static __prepare() {\n        if (this.hasOwnProperty(JSCompiler_renameProperty('elementProperties', this))) {\n            // Already prepared\n            return;\n        }\n        // Finalize any superclasses\n        const superCtor = getPrototypeOf(this);\n        superCtor.finalize();\n        // Create own set of initializers for this class if any exist on the\n        // superclass and copy them down. Note, for a small perf boost, avoid\n        // creating initializers unless needed.\n        if (superCtor._initializers !== undefined) {\n            this._initializers = [...superCtor._initializers];\n        }\n        // Initialize elementProperties from the superclass\n        this.elementProperties = new Map(superCtor.elementProperties);\n    }\n    /**\n     * Finishes setting up the class so that it's ready to be registered\n     * as a custom element and instantiated.\n     *\n     * This method is called by the ReactiveElement.observedAttributes getter.\n     * If you override the observedAttributes getter, you must either call\n     * super.observedAttributes to trigger finalization, or call finalize()\n     * yourself.\n     *\n     * @nocollapse\n     */\n    static finalize() {\n        if (this.hasOwnProperty(JSCompiler_renameProperty('finalized', this))) {\n            return;\n        }\n        this.finalized = true;\n        this.__prepare();\n        // Create properties from the static properties block:\n        if (this.hasOwnProperty(JSCompiler_renameProperty('properties', this))) {\n            const props = this.properties;\n            const propKeys = [\n                ...getOwnPropertyNames(props),\n                ...getOwnPropertySymbols(props),\n            ];\n            for (const p of propKeys) {\n                this.createProperty(p, props[p]);\n            }\n        }\n        // Create properties from standard decorator metadata:\n        const metadata = this[Symbol.metadata];\n        if (metadata !== null) {\n            const properties = litPropertyMetadata.get(metadata);\n            if (properties !== undefined) {\n                for (const [p, options] of properties) {\n                    this.elementProperties.set(p, options);\n                }\n            }\n        }\n        // Create the attribute-to-property map\n        this.__attributeToPropertyMap = new Map();\n        for (const [p, options] of this.elementProperties) {\n            const attr = this.__attributeNameForProperty(p, options);\n            if (attr !== undefined) {\n                this.__attributeToPropertyMap.set(attr, p);\n            }\n        }\n        this.elementStyles = this.finalizeStyles(this.styles);\n        if (DEV_MODE) {\n            if (this.hasOwnProperty('createProperty')) {\n                issueWarning('no-override-create-property', 'Overriding ReactiveElement.createProperty() is deprecated. ' +\n                    'The override will not be called with standard decorators');\n            }\n            if (this.hasOwnProperty('getPropertyDescriptor')) {\n                issueWarning('no-override-get-property-descriptor', 'Overriding ReactiveElement.getPropertyDescriptor() is deprecated. ' +\n                    'The override will not be called with standard decorators');\n            }\n        }\n    }\n    /**\n     * Takes the styles the user supplied via the `static styles` property and\n     * returns the array of styles to apply to the element.\n     * Override this method to integrate into a style management system.\n     *\n     * Styles are deduplicated preserving the _last_ instance in the list. This\n     * is a performance optimization to avoid duplicated styles that can occur\n     * especially when composing via subclassing. The last item is kept to try\n     * to preserve the cascade order with the assumption that it's most important\n     * that last added styles override previous styles.\n     *\n     * @nocollapse\n     * @category styles\n     */\n    static finalizeStyles(styles) {\n        const elementStyles = [];\n        if (Array.isArray(styles)) {\n            // Dedupe the flattened array in reverse order to preserve the last items.\n            // Casting to Array<unknown> works around TS error that\n            // appears to come from trying to flatten a type CSSResultArray.\n            const set = new Set(styles.flat(Infinity).reverse());\n            // Then preserve original order by adding the set items in reverse order.\n            for (const s of set) {\n                elementStyles.unshift((0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle)(s));\n            }\n        }\n        else if (styles !== undefined) {\n            elementStyles.push((0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle)(styles));\n        }\n        return elementStyles;\n    }\n    /**\n     * Returns the property name for the given attribute `name`.\n     * @nocollapse\n     */\n    static __attributeNameForProperty(name, options) {\n        const attribute = options.attribute;\n        return attribute === false\n            ? undefined\n            : typeof attribute === 'string'\n                ? attribute\n                : typeof name === 'string'\n                    ? name.toLowerCase()\n                    : undefined;\n    }\n    constructor() {\n        super();\n        this.__instanceProperties = undefined;\n        /**\n         * True if there is a pending update as a result of calling `requestUpdate()`.\n         * Should only be read.\n         * @category updates\n         */\n        this.isUpdatePending = false;\n        /**\n         * Is set to `true` after the first update. The element code cannot assume\n         * that `renderRoot` exists before the element `hasUpdated`.\n         * @category updates\n         */\n        this.hasUpdated = false;\n        /**\n         * Name of currently reflecting property\n         */\n        this.__reflectingProperty = null;\n        this.__initialize();\n    }\n    /**\n     * Internal only override point for customizing work done when elements\n     * are constructed.\n     */\n    __initialize() {\n        this.__updatePromise = new Promise((res) => (this.enableUpdating = res));\n        this._$changedProperties = new Map();\n        // This enqueues a microtask that ust run before the first update, so it\n        // must be called before requestUpdate()\n        this.__saveInstanceProperties();\n        // ensures first update will be caught by an early access of\n        // `updateComplete`\n        this.requestUpdate();\n        this.constructor._initializers?.forEach((i) => i(this));\n    }\n    /**\n     * Registers a `ReactiveController` to participate in the element's reactive\n     * update cycle. The element automatically calls into any registered\n     * controllers during its lifecycle callbacks.\n     *\n     * If the element is connected when `addController()` is called, the\n     * controller's `hostConnected()` callback will be immediately called.\n     * @category controllers\n     */\n    addController(controller) {\n        (this.__controllers ??= new Set()).add(controller);\n        // If a controller is added after the element has been connected,\n        // call hostConnected. Note, re-using existence of `renderRoot` here\n        // (which is set in connectedCallback) to avoid the need to track a\n        // first connected state.\n        if (this.renderRoot !== undefined && this.isConnected) {\n            controller.hostConnected?.();\n        }\n    }\n    /**\n     * Removes a `ReactiveController` from the element.\n     * @category controllers\n     */\n    removeController(controller) {\n        this.__controllers?.delete(controller);\n    }\n    /**\n     * Fixes any properties set on the instance before upgrade time.\n     * Otherwise these would shadow the accessor and break these properties.\n     * The properties are stored in a Map which is played back after the\n     * constructor runs. Note, on very old versions of Safari (<=9) or Chrome\n     * (<=41), properties created for native platform properties like (`id` or\n     * `name`) may not have default values set in the element constructor. On\n     * these browsers native properties appear on instances and therefore their\n     * default value will overwrite any element default (e.g. if the element sets\n     * this.id = 'id' in the constructor, the 'id' will become '' since this is\n     * the native platform default).\n     */\n    __saveInstanceProperties() {\n        const instanceProperties = new Map();\n        const elementProperties = this.constructor\n            .elementProperties;\n        for (const p of elementProperties.keys()) {\n            if (this.hasOwnProperty(p)) {\n                instanceProperties.set(p, this[p]);\n                delete this[p];\n            }\n        }\n        if (instanceProperties.size > 0) {\n            this.__instanceProperties = instanceProperties;\n        }\n    }\n    /**\n     * Returns the node into which the element should render and by default\n     * creates and returns an open shadowRoot. Implement to customize where the\n     * element's DOM is rendered. For example, to render into the element's\n     * childNodes, return `this`.\n     *\n     * @return Returns a node into which to render.\n     * @category rendering\n     */\n    createRenderRoot() {\n        const renderRoot = this.shadowRoot ??\n            this.attachShadow(this.constructor.shadowRootOptions);\n        (0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.adoptStyles)(renderRoot, this.constructor.elementStyles);\n        return renderRoot;\n    }\n    /**\n     * On first connection, creates the element's renderRoot, sets up\n     * element styling, and enables updating.\n     * @category lifecycle\n     */\n    connectedCallback() {\n        // Create renderRoot before controllers `hostConnected`\n        this.renderRoot ??=\n            this.createRenderRoot();\n        this.enableUpdating(true);\n        this.__controllers?.forEach((c) => c.hostConnected?.());\n    }\n    /**\n     * Note, this method should be considered final and not overridden. It is\n     * overridden on the element instance with a function that triggers the first\n     * update.\n     * @category updates\n     */\n    enableUpdating(_requestedUpdate) { }\n    /**\n     * Allows for `super.disconnectedCallback()` in extensions while\n     * reserving the possibility of making non-breaking feature additions\n     * when disconnecting at some point in the future.\n     * @category lifecycle\n     */\n    disconnectedCallback() {\n        this.__controllers?.forEach((c) => c.hostDisconnected?.());\n    }\n    /**\n     * Synchronizes property values when attributes change.\n     *\n     * Specifically, when an attribute is set, the corresponding property is set.\n     * You should rarely need to implement this callback. If this method is\n     * overridden, `super.attributeChangedCallback(name, _old, value)` must be\n     * called.\n     *\n     * See [using the lifecycle callbacks](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#using_the_lifecycle_callbacks)\n     * on MDN for more information about the `attributeChangedCallback`.\n     * @category attributes\n     */\n    attributeChangedCallback(name, _old, value) {\n        this._$attributeToProperty(name, value);\n    }\n    __propertyToAttribute(name, value) {\n        const elemProperties = this.constructor.elementProperties;\n        const options = elemProperties.get(name);\n        const attr = this.constructor.__attributeNameForProperty(name, options);\n        if (attr !== undefined && options.reflect === true) {\n            const converter = options.converter?.toAttribute !==\n                undefined\n                ? options.converter\n                : defaultConverter;\n            const attrValue = converter.toAttribute(value, options.type);\n            if (DEV_MODE &&\n                this.constructor.enabledWarnings.includes('migration') &&\n                attrValue === undefined) {\n                issueWarning('undefined-attribute-value', `The attribute value for the ${name} property is ` +\n                    `undefined on element ${this.localName}. The attribute will be ` +\n                    `removed, but in the previous version of \\`ReactiveElement\\`, ` +\n                    `the attribute would not have changed.`);\n            }\n            // Track if the property is being reflected to avoid\n            // setting the property again via `attributeChangedCallback`. Note:\n            // 1. this takes advantage of the fact that the callback is synchronous.\n            // 2. will behave incorrectly if multiple attributes are in the reaction\n            // stack at time of calling. However, since we process attributes\n            // in `update` this should not be possible (or an extreme corner case\n            // that we'd like to discover).\n            // mark state reflecting\n            this.__reflectingProperty = name;\n            if (attrValue == null) {\n                this.removeAttribute(attr);\n            }\n            else {\n                this.setAttribute(attr, attrValue);\n            }\n            // mark state not reflecting\n            this.__reflectingProperty = null;\n        }\n    }\n    /** @internal */\n    _$attributeToProperty(name, value) {\n        const ctor = this.constructor;\n        // Note, hint this as an `AttributeMap` so closure clearly understands\n        // the type; it has issues with tracking types through statics\n        const propName = ctor.__attributeToPropertyMap.get(name);\n        // Use tracking info to avoid reflecting a property value to an attribute\n        // if it was just set because the attribute changed.\n        if (propName !== undefined && this.__reflectingProperty !== propName) {\n            const options = ctor.getPropertyOptions(propName);\n            const converter = typeof options.converter === 'function'\n                ? { fromAttribute: options.converter }\n                : options.converter?.fromAttribute !== undefined\n                    ? options.converter\n                    : defaultConverter;\n            // mark state reflecting\n            this.__reflectingProperty = propName;\n            this[propName] = converter.fromAttribute(value, options.type\n            // eslint-disable-next-line @typescript-eslint/no-explicit-any\n            );\n            // mark state not reflecting\n            this.__reflectingProperty = null;\n        }\n    }\n    /**\n     * Requests an update which is processed asynchronously. This should be called\n     * when an element should update based on some state not triggered by setting\n     * a reactive property. In this case, pass no arguments. It should also be\n     * called when manually implementing a property setter. In this case, pass the\n     * property `name` and `oldValue` to ensure that any configured property\n     * options are honored.\n     *\n     * @param name name of requesting property\n     * @param oldValue old value of requesting property\n     * @param options property options to use instead of the previously\n     *     configured options\n     * @category updates\n     */\n    requestUpdate(name, oldValue, options) {\n        // If we have a property key, perform property update steps.\n        if (name !== undefined) {\n            if (DEV_MODE && name instanceof Event) {\n                issueWarning(``, `The requestUpdate() method was called with an Event as the property name. This is probably a mistake caused by binding this.requestUpdate as an event listener. Instead bind a function that will call it with no arguments: () => this.requestUpdate()`);\n            }\n            options ??= this.constructor.getPropertyOptions(name);\n            const hasChanged = options.hasChanged ?? notEqual;\n            const newValue = this[name];\n            if (hasChanged(newValue, oldValue)) {\n                this._$changeProperty(name, oldValue, options);\n            }\n            else {\n                // Abort the request if the property should not be considered changed.\n                return;\n            }\n        }\n        if (this.isUpdatePending === false) {\n            this.__updatePromise = this.__enqueueUpdate();\n        }\n    }\n    /**\n     * @internal\n     */\n    _$changeProperty(name, oldValue, options) {\n        // TODO (justinfagnani): Create a benchmark of Map.has() + Map.set(\n        // vs just Map.set()\n        if (!this._$changedProperties.has(name)) {\n            this._$changedProperties.set(name, oldValue);\n        }\n        // Add to reflecting properties set.\n        // Note, it's important that every change has a chance to add the\n        // property to `__reflectingProperties`. This ensures setting\n        // attribute + property reflects correctly.\n        if (options.reflect === true && this.__reflectingProperty !== name) {\n            (this.__reflectingProperties ??= new Set()).add(name);\n        }\n    }\n    /**\n     * Sets up the element to asynchronously update.\n     */\n    async __enqueueUpdate() {\n        this.isUpdatePending = true;\n        try {\n            // Ensure any previous update has resolved before updating.\n            // This `await` also ensures that property changes are batched.\n            await this.__updatePromise;\n        }\n        catch (e) {\n            // Refire any previous errors async so they do not disrupt the update\n            // cycle. Errors are refired so developers have a chance to observe\n            // them, and this can be done by implementing\n            // `window.onunhandledrejection`.\n            Promise.reject(e);\n        }\n        const result = this.scheduleUpdate();\n        // If `scheduleUpdate` returns a Promise, we await it. This is done to\n        // enable coordinating updates with a scheduler. Note, the result is\n        // checked to avoid delaying an additional microtask unless we need to.\n        if (result != null) {\n            await result;\n        }\n        return !this.isUpdatePending;\n    }\n    /**\n     * Schedules an element update. You can override this method to change the\n     * timing of updates by returning a Promise. The update will await the\n     * returned Promise, and you should resolve the Promise to allow the update\n     * to proceed. If this method is overridden, `super.scheduleUpdate()`\n     * must be called.\n     *\n     * For instance, to schedule updates to occur just before the next frame:\n     *\n     * ```ts\n     * override protected async scheduleUpdate(): Promise<unknown> {\n     *   await new Promise((resolve) => requestAnimationFrame(() => resolve()));\n     *   super.scheduleUpdate();\n     * }\n     * ```\n     * @category updates\n     */\n    scheduleUpdate() {\n        const result = this.performUpdate();\n        if (DEV_MODE &&\n            this.constructor.enabledWarnings.includes('async-perform-update') &&\n            typeof result?.then ===\n                'function') {\n            issueWarning('async-perform-update', `Element ${this.localName} returned a Promise from performUpdate(). ` +\n                `This behavior is deprecated and will be removed in a future ` +\n                `version of ReactiveElement.`);\n        }\n        return result;\n    }\n    /**\n     * Performs an element update. Note, if an exception is thrown during the\n     * update, `firstUpdated` and `updated` will not be called.\n     *\n     * Call `performUpdate()` to immediately process a pending update. This should\n     * generally not be needed, but it can be done in rare cases when you need to\n     * update synchronously.\n     *\n     * @category updates\n     */\n    performUpdate() {\n        // Abort any update if one is not pending when this is called.\n        // This can happen if `performUpdate` is called early to \"flush\"\n        // the update.\n        if (!this.isUpdatePending) {\n            return;\n        }\n        debugLogEvent?.({ kind: 'update' });\n        if (!this.hasUpdated) {\n            // Create renderRoot before first update. This occurs in `connectedCallback`\n            // but is done here to support out of tree calls to `enableUpdating`/`performUpdate`.\n            this.renderRoot ??=\n                this.createRenderRoot();\n            if (DEV_MODE) {\n                // Produce warning if any reactive properties on the prototype are\n                // shadowed by class fields. Instance fields set before upgrade are\n                // deleted by this point, so any own property is caused by class field\n                // initialization in the constructor.\n                const ctor = this.constructor;\n                const shadowedProperties = [...ctor.elementProperties.keys()].filter((p) => this.hasOwnProperty(p) && p in getPrototypeOf(this));\n                if (shadowedProperties.length) {\n                    throw new Error(`The following properties on element ${this.localName} will not ` +\n                        `trigger updates as expected because they are set using class ` +\n                        `fields: ${shadowedProperties.join(', ')}. ` +\n                        `Native class fields and some compiled output will overwrite ` +\n                        `accessors used for detecting changes. See ` +\n                        `https://lit.dev/msg/class-field-shadowing ` +\n                        `for more information.`);\n                }\n            }\n            // Mixin instance properties once, if they exist.\n            if (this.__instanceProperties) {\n                // TODO (justinfagnani): should we use the stored value? Could a new value\n                // have been set since we stored the own property value?\n                for (const [p, value] of this.__instanceProperties) {\n                    this[p] = value;\n                }\n                this.__instanceProperties = undefined;\n            }\n            // Trigger initial value reflection and populate the initial\n            // changedProperties map, but only for the case of experimental\n            // decorators on accessors, which will not have already populated the\n            // changedProperties map. We can't know if these accessors had\n            // initializers, so we just set them anyway - a difference from\n            // experimental decorators on fields and standard decorators on\n            // auto-accessors.\n            // For context why experimentalDecorators with auto accessors are handled\n            // specifically also see:\n            // https://github.com/lit/lit/pull/4183#issuecomment-1711959635\n            const elementProperties = this.constructor\n                .elementProperties;\n            if (elementProperties.size > 0) {\n                for (const [p, options] of elementProperties) {\n                    if (options.wrapped === true &&\n                        !this._$changedProperties.has(p) &&\n                        this[p] !== undefined) {\n                        this._$changeProperty(p, this[p], options);\n                    }\n                }\n            }\n        }\n        let shouldUpdate = false;\n        const changedProperties = this._$changedProperties;\n        try {\n            shouldUpdate = this.shouldUpdate(changedProperties);\n            if (shouldUpdate) {\n                this.willUpdate(changedProperties);\n                this.__controllers?.forEach((c) => c.hostUpdate?.());\n                this.update(changedProperties);\n            }\n            else {\n                this.__markUpdated();\n            }\n        }\n        catch (e) {\n            // Prevent `firstUpdated` and `updated` from running when there's an\n            // update exception.\n            shouldUpdate = false;\n            // Ensure element can accept additional updates after an exception.\n            this.__markUpdated();\n            throw e;\n        }\n        // The update is no longer considered pending and further updates are now allowed.\n        if (shouldUpdate) {\n            this._$didUpdate(changedProperties);\n        }\n    }\n    /**\n     * Invoked before `update()` to compute values needed during the update.\n     *\n     * Implement `willUpdate` to compute property values that depend on other\n     * properties and are used in the rest of the update process.\n     *\n     * ```ts\n     * willUpdate(changedProperties) {\n     *   // only need to check changed properties for an expensive computation.\n     *   if (changedProperties.has('firstName') || changedProperties.has('lastName')) {\n     *     this.sha = computeSHA(`${this.firstName} ${this.lastName}`);\n     *   }\n     * }\n     *\n     * render() {\n     *   return html`SHA: ${this.sha}`;\n     * }\n     * ```\n     *\n     * @category updates\n     */\n    willUpdate(_changedProperties) { }\n    // Note, this is an override point for polyfill-support.\n    // @internal\n    _$didUpdate(changedProperties) {\n        this.__controllers?.forEach((c) => c.hostUpdated?.());\n        if (!this.hasUpdated) {\n            this.hasUpdated = true;\n            this.firstUpdated(changedProperties);\n        }\n        this.updated(changedProperties);\n        if (DEV_MODE &&\n            this.isUpdatePending &&\n            this.constructor.enabledWarnings.includes('change-in-update')) {\n            issueWarning('change-in-update', `Element ${this.localName} scheduled an update ` +\n                `(generally because a property was set) ` +\n                `after an update completed, causing a new update to be scheduled. ` +\n                `This is inefficient and should be avoided unless the next update ` +\n                `can only be scheduled as a side effect of the previous update.`);\n        }\n    }\n    __markUpdated() {\n        this._$changedProperties = new Map();\n        this.isUpdatePending = false;\n    }\n    /**\n     * Returns a Promise that resolves when the element has completed updating.\n     * The Promise value is a boolean that is `true` if the element completed the\n     * update without triggering another update. The Promise result is `false` if\n     * a property was set inside `updated()`. If the Promise is rejected, an\n     * exception was thrown during the update.\n     *\n     * To await additional asynchronous work, override the `getUpdateComplete`\n     * method. For example, it is sometimes useful to await a rendered element\n     * before fulfilling this Promise. To do this, first await\n     * `super.getUpdateComplete()`, then any subsequent state.\n     *\n     * @return A promise of a boolean that resolves to true if the update completed\n     *     without triggering another update.\n     * @category updates\n     */\n    get updateComplete() {\n        return this.getUpdateComplete();\n    }\n    /**\n     * Override point for the `updateComplete` promise.\n     *\n     * It is not safe to override the `updateComplete` getter directly due to a\n     * limitation in TypeScript which means it is not possible to call a\n     * superclass getter (e.g. `super.updateComplete.then(...)`) when the target\n     * language is ES5 (https://github.com/microsoft/TypeScript/issues/338).\n     * This method should be overridden instead. For example:\n     *\n     * ```ts\n     * class MyElement extends LitElement {\n     *   override async getUpdateComplete() {\n     *     const result = await super.getUpdateComplete();\n     *     await this._myChild.updateComplete;\n     *     return result;\n     *   }\n     * }\n     * ```\n     *\n     * @return A promise of a boolean that resolves to true if the update completed\n     *     without triggering another update.\n     * @category updates\n     */\n    getUpdateComplete() {\n        return this.__updatePromise;\n    }\n    /**\n     * Controls whether or not `update()` should be called when the element requests\n     * an update. By default, this method always returns `true`, but this can be\n     * customized to control when to update.\n     *\n     * @param _changedProperties Map of changed properties with old values\n     * @category updates\n     */\n    shouldUpdate(_changedProperties) {\n        return true;\n    }\n    /**\n     * Updates the element. This method reflects property values to attributes.\n     * It can be overridden to render and keep updated element DOM.\n     * Setting properties inside this method will *not* trigger\n     * another update.\n     *\n     * @param _changedProperties Map of changed properties with old values\n     * @category updates\n     */\n    update(_changedProperties) {\n        // The forEach() expression will only run when when __reflectingProperties is\n        // defined, and it returns undefined, setting __reflectingProperties to\n        // undefined\n        this.__reflectingProperties &&= this.__reflectingProperties.forEach((p) => this.__propertyToAttribute(p, this[p]));\n        this.__markUpdated();\n    }\n    /**\n     * Invoked whenever the element is updated. Implement to perform\n     * post-updating tasks via DOM APIs, for example, focusing an element.\n     *\n     * Setting properties inside this method will trigger the element to update\n     * again after this update cycle completes.\n     *\n     * @param _changedProperties Map of changed properties with old values\n     * @category updates\n     */\n    updated(_changedProperties) { }\n    /**\n     * Invoked when the element is first updated. Implement to perform one time\n     * work on the element after update.\n     *\n     * ```ts\n     * firstUpdated() {\n     *   this.renderRoot.getElementById('my-text-area').focus();\n     * }\n     * ```\n     *\n     * Setting properties inside this method will trigger the element to update\n     * again after this update cycle completes.\n     *\n     * @param _changedProperties Map of changed properties with old values\n     * @category updates\n     */\n    firstUpdated(_changedProperties) { }\n}\n/**\n * Memoized list of all element styles.\n * Created lazily on user subclasses when finalizing the class.\n * @nocollapse\n * @category styles\n */\nReactiveElement.elementStyles = [];\n/**\n * Options used when calling `attachShadow`. Set this property to customize\n * the options for the shadowRoot; for example, to create a closed\n * shadowRoot: `{mode: 'closed'}`.\n *\n * Note, these options are used in `createRenderRoot`. If this method\n * is customized, options should be respected if possible.\n * @nocollapse\n * @category rendering\n */\nReactiveElement.shadowRootOptions = { mode: 'open' };\n// Assigned here to work around a jscompiler bug with static fields\n// when compiling to ES5.\n// https://github.com/google/closure-compiler/issues/3177\nReactiveElement[JSCompiler_renameProperty('elementProperties', ReactiveElement)] = new Map();\nReactiveElement[JSCompiler_renameProperty('finalized', ReactiveElement)] = new Map();\n// Apply polyfills if available\npolyfillSupport?.({ ReactiveElement });\n// Dev mode warnings...\nif (DEV_MODE) {\n    // Default warning set.\n    ReactiveElement.enabledWarnings = [\n        'change-in-update',\n        'async-perform-update',\n    ];\n    const ensureOwnWarnings = function (ctor) {\n        if (!ctor.hasOwnProperty(JSCompiler_renameProperty('enabledWarnings', ctor))) {\n            ctor.enabledWarnings = ctor.enabledWarnings.slice();\n        }\n    };\n    ReactiveElement.enableWarning = function (warning) {\n        ensureOwnWarnings(this);\n        if (!this.enabledWarnings.includes(warning)) {\n            this.enabledWarnings.push(warning);\n        }\n    };\n    ReactiveElement.disableWarning = function (warning) {\n        ensureOwnWarnings(this);\n        const i = this.enabledWarnings.indexOf(warning);\n        if (i >= 0) {\n            this.enabledWarnings.splice(i, 1);\n        }\n    };\n}\n// IMPORTANT: do not change the property name or the assignment expression.\n// This line will be used in regexes to search for ReactiveElement usage.\n(global.reactiveElementVersions ??= []).push('2.0.4');\nif (DEV_MODE && global.reactiveElementVersions.length > 1) {\n    issueWarning('multiple-versions', `Multiple versions of Lit loaded. Loading multiple versions ` +\n        `is not recommended.`);\n}\n//# sourceMappingURL=reactive-element.js.map\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/@lit/reactive-element/development/reactive-element.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CSSResult: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.CSSResult),
+/* harmony export */   ReactiveElement: () => (/* binding */ ReactiveElement),
+/* harmony export */   adoptStyles: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.adoptStyles),
+/* harmony export */   css: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.css),
+/* harmony export */   defaultConverter: () => (/* binding */ defaultConverter),
+/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle),
+/* harmony export */   notEqual: () => (/* binding */ notEqual),
+/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.supportsAdoptingStyleSheets),
+/* harmony export */   unsafeCSS: () => (/* reexport safe */ _css_tag_js__WEBPACK_IMPORTED_MODULE_0__.unsafeCSS)
+/* harmony export */ });
+/* harmony import */ var _css_tag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css-tag.js */ "./node_modules/@lit/reactive-element/development/css-tag.js");
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Use this module if you want to create your own base class extending
+ * {@link ReactiveElement}.
+ * @packageDocumentation
+ */
+
+// In the Node build, this import will be injected by Rollup:
+// import {HTMLElement, customElements} from '@lit-labs/ssr-dom-shim';
+
+// TODO (justinfagnani): Add `hasOwn` here when we ship ES2022
+const { is, defineProperty, getOwnPropertyDescriptor, getOwnPropertyNames, getOwnPropertySymbols, getPrototypeOf, } = Object;
+const NODE_MODE = false;
+// Lets a minifier replace globalThis references with a minified name
+const global = globalThis;
+if (NODE_MODE) {
+    global.customElements ??= customElements;
+}
+const DEV_MODE = true;
+let issueWarning;
+const trustedTypes = global
+    .trustedTypes;
+// Temporary workaround for https://crbug.com/993268
+// Currently, any attribute starting with "on" is considered to be a
+// TrustedScript source. Such boolean attributes must be set to the equivalent
+// trusted emptyScript value.
+const emptyStringForBooleanAttribute = trustedTypes
+    ? trustedTypes.emptyScript
+    : '';
+const polyfillSupport = DEV_MODE
+    ? global.reactiveElementPolyfillSupportDevMode
+    : global.reactiveElementPolyfillSupport;
+if (DEV_MODE) {
+    // Ensure warnings are issued only 1x, even if multiple versions of Lit
+    // are loaded.
+    const issuedWarnings = (global.litIssuedWarnings ??=
+        new Set());
+    // Issue a warning, if we haven't already.
+    issueWarning = (code, warning) => {
+        warning += ` See https://lit.dev/msg/${code} for more information.`;
+        if (!issuedWarnings.has(warning)) {
+            console.warn(warning);
+            issuedWarnings.add(warning);
+        }
+    };
+    issueWarning('dev-mode', `Lit is in dev mode. Not recommended for production!`);
+    // Issue polyfill support warning.
+    if (global.ShadyDOM?.inUse && polyfillSupport === undefined) {
+        issueWarning('polyfill-support-missing', `Shadow DOM is being polyfilled via \`ShadyDOM\` but ` +
+            `the \`polyfill-support\` module has not been loaded.`);
+    }
+}
+/**
+ * Useful for visualizing and logging insights into what the Lit template system is doing.
+ *
+ * Compiled out of prod mode builds.
+ */
+const debugLogEvent = DEV_MODE
+    ? (event) => {
+        const shouldEmit = global
+            .emitLitDebugLogEvents;
+        if (!shouldEmit) {
+            return;
+        }
+        global.dispatchEvent(new CustomEvent('lit-debug', {
+            detail: event,
+        }));
+    }
+    : undefined;
+/*
+ * When using Closure Compiler, JSCompiler_renameProperty(property, object) is
+ * replaced at compile time by the munged name for object[property]. We cannot
+ * alias this function, so we have to use a small shim that has the same
+ * behavior when not compiling.
+ */
+/*@__INLINE__*/
+const JSCompiler_renameProperty = (prop, _obj) => prop;
+const defaultConverter = {
+    toAttribute(value, type) {
+        switch (type) {
+            case Boolean:
+                value = value ? emptyStringForBooleanAttribute : null;
+                break;
+            case Object:
+            case Array:
+                // if the value is `null` or `undefined` pass this through
+                // to allow removing/no change behavior.
+                value = value == null ? value : JSON.stringify(value);
+                break;
+        }
+        return value;
+    },
+    fromAttribute(value, type) {
+        let fromValue = value;
+        switch (type) {
+            case Boolean:
+                fromValue = value !== null;
+                break;
+            case Number:
+                fromValue = value === null ? null : Number(value);
+                break;
+            case Object:
+            case Array:
+                // Do *not* generate exception when invalid JSON is set as elements
+                // don't normally complain on being mis-configured.
+                // TODO(sorvell): Do generate exception in *dev mode*.
+                try {
+                    // Assert to adhere to Bazel's "must type assert JSON parse" rule.
+                    fromValue = JSON.parse(value);
+                }
+                catch (e) {
+                    fromValue = null;
+                }
+                break;
+        }
+        return fromValue;
+    },
+};
+/**
+ * Change function that returns true if `value` is different from `oldValue`.
+ * This method is used as the default for a property's `hasChanged` function.
+ */
+const notEqual = (value, old) => !is(value, old);
+const defaultPropertyDeclaration = {
+    attribute: true,
+    type: String,
+    converter: defaultConverter,
+    reflect: false,
+    hasChanged: notEqual,
+};
+// Ensure metadata is enabled. TypeScript does not polyfill
+// Symbol.metadata, so we must ensure that it exists.
+Symbol.metadata ??= Symbol('metadata');
+// Map from a class's metadata object to property options
+// Note that we must use nullish-coalescing assignment so that we only use one
+// map even if we load multiple version of this module.
+global.litPropertyMetadata ??= new WeakMap();
+/**
+ * Base element class which manages element properties and attributes. When
+ * properties change, the `update` method is asynchronously called. This method
+ * should be supplied by subclasses to render updates as desired.
+ * @noInheritDoc
+ */
+class ReactiveElement
+// In the Node build, this `extends` clause will be substituted with
+// `(globalThis.HTMLElement ?? HTMLElement)`.
+//
+// This way, we will first prefer any global `HTMLElement` polyfill that the
+// user has assigned, and then fall back to the `HTMLElement` shim which has
+// been imported (see note at the top of this file about how this import is
+// generated by Rollup). Note that the `HTMLElement` variable has been
+// shadowed by this import, so it no longer refers to the global.
+ extends HTMLElement {
+    /**
+     * Adds an initializer function to the class that is called during instance
+     * construction.
+     *
+     * This is useful for code that runs against a `ReactiveElement`
+     * subclass, such as a decorator, that needs to do work for each
+     * instance, such as setting up a `ReactiveController`.
+     *
+     * ```ts
+     * const myDecorator = (target: typeof ReactiveElement, key: string) => {
+     *   target.addInitializer((instance: ReactiveElement) => {
+     *     // This is run during construction of the element
+     *     new MyController(instance);
+     *   });
+     * }
+     * ```
+     *
+     * Decorating a field will then cause each instance to run an initializer
+     * that adds a controller:
+     *
+     * ```ts
+     * class MyElement extends LitElement {
+     *   @myDecorator foo;
+     * }
+     * ```
+     *
+     * Initializers are stored per-constructor. Adding an initializer to a
+     * subclass does not add it to a superclass. Since initializers are run in
+     * constructors, initializers will run in order of the class hierarchy,
+     * starting with superclasses and progressing to the instance's class.
+     *
+     * @nocollapse
+     */
+    static addInitializer(initializer) {
+        this.__prepare();
+        (this._initializers ??= []).push(initializer);
+    }
+    /**
+     * Returns a list of attributes corresponding to the registered properties.
+     * @nocollapse
+     * @category attributes
+     */
+    static get observedAttributes() {
+        // Ensure we've created all properties
+        this.finalize();
+        // this.__attributeToPropertyMap is only undefined after finalize() in
+        // ReactiveElement itself. ReactiveElement.observedAttributes is only
+        // accessed with ReactiveElement as the receiver when a subclass or mixin
+        // calls super.observedAttributes
+        return (this.__attributeToPropertyMap && [...this.__attributeToPropertyMap.keys()]);
+    }
+    /**
+     * Creates a property accessor on the element prototype if one does not exist
+     * and stores a {@linkcode PropertyDeclaration} for the property with the
+     * given options. The property setter calls the property's `hasChanged`
+     * property option or uses a strict identity check to determine whether or not
+     * to request an update.
+     *
+     * This method may be overridden to customize properties; however,
+     * when doing so, it's important to call `super.createProperty` to ensure
+     * the property is setup correctly. This method calls
+     * `getPropertyDescriptor` internally to get a descriptor to install.
+     * To customize what properties do when they are get or set, override
+     * `getPropertyDescriptor`. To customize the options for a property,
+     * implement `createProperty` like this:
+     *
+     * ```ts
+     * static createProperty(name, options) {
+     *   options = Object.assign(options, {myOption: true});
+     *   super.createProperty(name, options);
+     * }
+     * ```
+     *
+     * @nocollapse
+     * @category properties
+     */
+    static createProperty(name, options = defaultPropertyDeclaration) {
+        // If this is a state property, force the attribute to false.
+        if (options.state) {
+            options.attribute = false;
+        }
+        this.__prepare();
+        this.elementProperties.set(name, options);
+        if (!options.noAccessor) {
+            const key = DEV_MODE
+                ? // Use Symbol.for in dev mode to make it easier to maintain state
+                    // when doing HMR.
+                    Symbol.for(`${String(name)} (@property() cache)`)
+                : Symbol();
+            const descriptor = this.getPropertyDescriptor(name, key, options);
+            if (descriptor !== undefined) {
+                defineProperty(this.prototype, name, descriptor);
+            }
+        }
+    }
+    /**
+     * Returns a property descriptor to be defined on the given named property.
+     * If no descriptor is returned, the property will not become an accessor.
+     * For example,
+     *
+     * ```ts
+     * class MyElement extends LitElement {
+     *   static getPropertyDescriptor(name, key, options) {
+     *     const defaultDescriptor =
+     *         super.getPropertyDescriptor(name, key, options);
+     *     const setter = defaultDescriptor.set;
+     *     return {
+     *       get: defaultDescriptor.get,
+     *       set(value) {
+     *         setter.call(this, value);
+     *         // custom action.
+     *       },
+     *       configurable: true,
+     *       enumerable: true
+     *     }
+     *   }
+     * }
+     * ```
+     *
+     * @nocollapse
+     * @category properties
+     */
+    static getPropertyDescriptor(name, key, options) {
+        const { get, set } = getOwnPropertyDescriptor(this.prototype, name) ?? {
+            get() {
+                return this[key];
+            },
+            set(v) {
+                this[key] = v;
+            },
+        };
+        if (DEV_MODE && get == null) {
+            if ('value' in (getOwnPropertyDescriptor(this.prototype, name) ?? {})) {
+                throw new Error(`Field ${JSON.stringify(String(name))} on ` +
+                    `${this.name} was declared as a reactive property ` +
+                    `but it's actually declared as a value on the prototype. ` +
+                    `Usually this is due to using @property or @state on a method.`);
+            }
+            issueWarning('reactive-property-without-getter', `Field ${JSON.stringify(String(name))} on ` +
+                `${this.name} was declared as a reactive property ` +
+                `but it does not have a getter. This will be an error in a ` +
+                `future version of Lit.`);
+        }
+        return {
+            get() {
+                return get?.call(this);
+            },
+            set(value) {
+                const oldValue = get?.call(this);
+                set.call(this, value);
+                this.requestUpdate(name, oldValue, options);
+            },
+            configurable: true,
+            enumerable: true,
+        };
+    }
+    /**
+     * Returns the property options associated with the given property.
+     * These options are defined with a `PropertyDeclaration` via the `properties`
+     * object or the `@property` decorator and are registered in
+     * `createProperty(...)`.
+     *
+     * Note, this method should be considered "final" and not overridden. To
+     * customize the options for a given property, override
+     * {@linkcode createProperty}.
+     *
+     * @nocollapse
+     * @final
+     * @category properties
+     */
+    static getPropertyOptions(name) {
+        return this.elementProperties.get(name) ?? defaultPropertyDeclaration;
+    }
+    /**
+     * Initializes static own properties of the class used in bookkeeping
+     * for element properties, initializers, etc.
+     *
+     * Can be called multiple times by code that needs to ensure these
+     * properties exist before using them.
+     *
+     * This method ensures the superclass is finalized so that inherited
+     * property metadata can be copied down.
+     * @nocollapse
+     */
+    static __prepare() {
+        if (this.hasOwnProperty(JSCompiler_renameProperty('elementProperties', this))) {
+            // Already prepared
+            return;
+        }
+        // Finalize any superclasses
+        const superCtor = getPrototypeOf(this);
+        superCtor.finalize();
+        // Create own set of initializers for this class if any exist on the
+        // superclass and copy them down. Note, for a small perf boost, avoid
+        // creating initializers unless needed.
+        if (superCtor._initializers !== undefined) {
+            this._initializers = [...superCtor._initializers];
+        }
+        // Initialize elementProperties from the superclass
+        this.elementProperties = new Map(superCtor.elementProperties);
+    }
+    /**
+     * Finishes setting up the class so that it's ready to be registered
+     * as a custom element and instantiated.
+     *
+     * This method is called by the ReactiveElement.observedAttributes getter.
+     * If you override the observedAttributes getter, you must either call
+     * super.observedAttributes to trigger finalization, or call finalize()
+     * yourself.
+     *
+     * @nocollapse
+     */
+    static finalize() {
+        if (this.hasOwnProperty(JSCompiler_renameProperty('finalized', this))) {
+            return;
+        }
+        this.finalized = true;
+        this.__prepare();
+        // Create properties from the static properties block:
+        if (this.hasOwnProperty(JSCompiler_renameProperty('properties', this))) {
+            const props = this.properties;
+            const propKeys = [
+                ...getOwnPropertyNames(props),
+                ...getOwnPropertySymbols(props),
+            ];
+            for (const p of propKeys) {
+                this.createProperty(p, props[p]);
+            }
+        }
+        // Create properties from standard decorator metadata:
+        const metadata = this[Symbol.metadata];
+        if (metadata !== null) {
+            const properties = litPropertyMetadata.get(metadata);
+            if (properties !== undefined) {
+                for (const [p, options] of properties) {
+                    this.elementProperties.set(p, options);
+                }
+            }
+        }
+        // Create the attribute-to-property map
+        this.__attributeToPropertyMap = new Map();
+        for (const [p, options] of this.elementProperties) {
+            const attr = this.__attributeNameForProperty(p, options);
+            if (attr !== undefined) {
+                this.__attributeToPropertyMap.set(attr, p);
+            }
+        }
+        this.elementStyles = this.finalizeStyles(this.styles);
+        if (DEV_MODE) {
+            if (this.hasOwnProperty('createProperty')) {
+                issueWarning('no-override-create-property', 'Overriding ReactiveElement.createProperty() is deprecated. ' +
+                    'The override will not be called with standard decorators');
+            }
+            if (this.hasOwnProperty('getPropertyDescriptor')) {
+                issueWarning('no-override-get-property-descriptor', 'Overriding ReactiveElement.getPropertyDescriptor() is deprecated. ' +
+                    'The override will not be called with standard decorators');
+            }
+        }
+    }
+    /**
+     * Takes the styles the user supplied via the `static styles` property and
+     * returns the array of styles to apply to the element.
+     * Override this method to integrate into a style management system.
+     *
+     * Styles are deduplicated preserving the _last_ instance in the list. This
+     * is a performance optimization to avoid duplicated styles that can occur
+     * especially when composing via subclassing. The last item is kept to try
+     * to preserve the cascade order with the assumption that it's most important
+     * that last added styles override previous styles.
+     *
+     * @nocollapse
+     * @category styles
+     */
+    static finalizeStyles(styles) {
+        const elementStyles = [];
+        if (Array.isArray(styles)) {
+            // Dedupe the flattened array in reverse order to preserve the last items.
+            // Casting to Array<unknown> works around TS error that
+            // appears to come from trying to flatten a type CSSResultArray.
+            const set = new Set(styles.flat(Infinity).reverse());
+            // Then preserve original order by adding the set items in reverse order.
+            for (const s of set) {
+                elementStyles.unshift((0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle)(s));
+            }
+        }
+        else if (styles !== undefined) {
+            elementStyles.push((0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle)(styles));
+        }
+        return elementStyles;
+    }
+    /**
+     * Returns the property name for the given attribute `name`.
+     * @nocollapse
+     */
+    static __attributeNameForProperty(name, options) {
+        const attribute = options.attribute;
+        return attribute === false
+            ? undefined
+            : typeof attribute === 'string'
+                ? attribute
+                : typeof name === 'string'
+                    ? name.toLowerCase()
+                    : undefined;
+    }
+    constructor() {
+        super();
+        this.__instanceProperties = undefined;
+        /**
+         * True if there is a pending update as a result of calling `requestUpdate()`.
+         * Should only be read.
+         * @category updates
+         */
+        this.isUpdatePending = false;
+        /**
+         * Is set to `true` after the first update. The element code cannot assume
+         * that `renderRoot` exists before the element `hasUpdated`.
+         * @category updates
+         */
+        this.hasUpdated = false;
+        /**
+         * Name of currently reflecting property
+         */
+        this.__reflectingProperty = null;
+        this.__initialize();
+    }
+    /**
+     * Internal only override point for customizing work done when elements
+     * are constructed.
+     */
+    __initialize() {
+        this.__updatePromise = new Promise((res) => (this.enableUpdating = res));
+        this._$changedProperties = new Map();
+        // This enqueues a microtask that ust run before the first update, so it
+        // must be called before requestUpdate()
+        this.__saveInstanceProperties();
+        // ensures first update will be caught by an early access of
+        // `updateComplete`
+        this.requestUpdate();
+        this.constructor._initializers?.forEach((i) => i(this));
+    }
+    /**
+     * Registers a `ReactiveController` to participate in the element's reactive
+     * update cycle. The element automatically calls into any registered
+     * controllers during its lifecycle callbacks.
+     *
+     * If the element is connected when `addController()` is called, the
+     * controller's `hostConnected()` callback will be immediately called.
+     * @category controllers
+     */
+    addController(controller) {
+        (this.__controllers ??= new Set()).add(controller);
+        // If a controller is added after the element has been connected,
+        // call hostConnected. Note, re-using existence of `renderRoot` here
+        // (which is set in connectedCallback) to avoid the need to track a
+        // first connected state.
+        if (this.renderRoot !== undefined && this.isConnected) {
+            controller.hostConnected?.();
+        }
+    }
+    /**
+     * Removes a `ReactiveController` from the element.
+     * @category controllers
+     */
+    removeController(controller) {
+        this.__controllers?.delete(controller);
+    }
+    /**
+     * Fixes any properties set on the instance before upgrade time.
+     * Otherwise these would shadow the accessor and break these properties.
+     * The properties are stored in a Map which is played back after the
+     * constructor runs. Note, on very old versions of Safari (<=9) or Chrome
+     * (<=41), properties created for native platform properties like (`id` or
+     * `name`) may not have default values set in the element constructor. On
+     * these browsers native properties appear on instances and therefore their
+     * default value will overwrite any element default (e.g. if the element sets
+     * this.id = 'id' in the constructor, the 'id' will become '' since this is
+     * the native platform default).
+     */
+    __saveInstanceProperties() {
+        const instanceProperties = new Map();
+        const elementProperties = this.constructor
+            .elementProperties;
+        for (const p of elementProperties.keys()) {
+            if (this.hasOwnProperty(p)) {
+                instanceProperties.set(p, this[p]);
+                delete this[p];
+            }
+        }
+        if (instanceProperties.size > 0) {
+            this.__instanceProperties = instanceProperties;
+        }
+    }
+    /**
+     * Returns the node into which the element should render and by default
+     * creates and returns an open shadowRoot. Implement to customize where the
+     * element's DOM is rendered. For example, to render into the element's
+     * childNodes, return `this`.
+     *
+     * @return Returns a node into which to render.
+     * @category rendering
+     */
+    createRenderRoot() {
+        const renderRoot = this.shadowRoot ??
+            this.attachShadow(this.constructor.shadowRootOptions);
+        (0,_css_tag_js__WEBPACK_IMPORTED_MODULE_0__.adoptStyles)(renderRoot, this.constructor.elementStyles);
+        return renderRoot;
+    }
+    /**
+     * On first connection, creates the element's renderRoot, sets up
+     * element styling, and enables updating.
+     * @category lifecycle
+     */
+    connectedCallback() {
+        // Create renderRoot before controllers `hostConnected`
+        this.renderRoot ??=
+            this.createRenderRoot();
+        this.enableUpdating(true);
+        this.__controllers?.forEach((c) => c.hostConnected?.());
+    }
+    /**
+     * Note, this method should be considered final and not overridden. It is
+     * overridden on the element instance with a function that triggers the first
+     * update.
+     * @category updates
+     */
+    enableUpdating(_requestedUpdate) { }
+    /**
+     * Allows for `super.disconnectedCallback()` in extensions while
+     * reserving the possibility of making non-breaking feature additions
+     * when disconnecting at some point in the future.
+     * @category lifecycle
+     */
+    disconnectedCallback() {
+        this.__controllers?.forEach((c) => c.hostDisconnected?.());
+    }
+    /**
+     * Synchronizes property values when attributes change.
+     *
+     * Specifically, when an attribute is set, the corresponding property is set.
+     * You should rarely need to implement this callback. If this method is
+     * overridden, `super.attributeChangedCallback(name, _old, value)` must be
+     * called.
+     *
+     * See [using the lifecycle callbacks](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements#using_the_lifecycle_callbacks)
+     * on MDN for more information about the `attributeChangedCallback`.
+     * @category attributes
+     */
+    attributeChangedCallback(name, _old, value) {
+        this._$attributeToProperty(name, value);
+    }
+    __propertyToAttribute(name, value) {
+        const elemProperties = this.constructor.elementProperties;
+        const options = elemProperties.get(name);
+        const attr = this.constructor.__attributeNameForProperty(name, options);
+        if (attr !== undefined && options.reflect === true) {
+            const converter = options.converter?.toAttribute !==
+                undefined
+                ? options.converter
+                : defaultConverter;
+            const attrValue = converter.toAttribute(value, options.type);
+            if (DEV_MODE &&
+                this.constructor.enabledWarnings.includes('migration') &&
+                attrValue === undefined) {
+                issueWarning('undefined-attribute-value', `The attribute value for the ${name} property is ` +
+                    `undefined on element ${this.localName}. The attribute will be ` +
+                    `removed, but in the previous version of \`ReactiveElement\`, ` +
+                    `the attribute would not have changed.`);
+            }
+            // Track if the property is being reflected to avoid
+            // setting the property again via `attributeChangedCallback`. Note:
+            // 1. this takes advantage of the fact that the callback is synchronous.
+            // 2. will behave incorrectly if multiple attributes are in the reaction
+            // stack at time of calling. However, since we process attributes
+            // in `update` this should not be possible (or an extreme corner case
+            // that we'd like to discover).
+            // mark state reflecting
+            this.__reflectingProperty = name;
+            if (attrValue == null) {
+                this.removeAttribute(attr);
+            }
+            else {
+                this.setAttribute(attr, attrValue);
+            }
+            // mark state not reflecting
+            this.__reflectingProperty = null;
+        }
+    }
+    /** @internal */
+    _$attributeToProperty(name, value) {
+        const ctor = this.constructor;
+        // Note, hint this as an `AttributeMap` so closure clearly understands
+        // the type; it has issues with tracking types through statics
+        const propName = ctor.__attributeToPropertyMap.get(name);
+        // Use tracking info to avoid reflecting a property value to an attribute
+        // if it was just set because the attribute changed.
+        if (propName !== undefined && this.__reflectingProperty !== propName) {
+            const options = ctor.getPropertyOptions(propName);
+            const converter = typeof options.converter === 'function'
+                ? { fromAttribute: options.converter }
+                : options.converter?.fromAttribute !== undefined
+                    ? options.converter
+                    : defaultConverter;
+            // mark state reflecting
+            this.__reflectingProperty = propName;
+            this[propName] = converter.fromAttribute(value, options.type
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            );
+            // mark state not reflecting
+            this.__reflectingProperty = null;
+        }
+    }
+    /**
+     * Requests an update which is processed asynchronously. This should be called
+     * when an element should update based on some state not triggered by setting
+     * a reactive property. In this case, pass no arguments. It should also be
+     * called when manually implementing a property setter. In this case, pass the
+     * property `name` and `oldValue` to ensure that any configured property
+     * options are honored.
+     *
+     * @param name name of requesting property
+     * @param oldValue old value of requesting property
+     * @param options property options to use instead of the previously
+     *     configured options
+     * @category updates
+     */
+    requestUpdate(name, oldValue, options) {
+        // If we have a property key, perform property update steps.
+        if (name !== undefined) {
+            if (DEV_MODE && name instanceof Event) {
+                issueWarning(``, `The requestUpdate() method was called with an Event as the property name. This is probably a mistake caused by binding this.requestUpdate as an event listener. Instead bind a function that will call it with no arguments: () => this.requestUpdate()`);
+            }
+            options ??= this.constructor.getPropertyOptions(name);
+            const hasChanged = options.hasChanged ?? notEqual;
+            const newValue = this[name];
+            if (hasChanged(newValue, oldValue)) {
+                this._$changeProperty(name, oldValue, options);
+            }
+            else {
+                // Abort the request if the property should not be considered changed.
+                return;
+            }
+        }
+        if (this.isUpdatePending === false) {
+            this.__updatePromise = this.__enqueueUpdate();
+        }
+    }
+    /**
+     * @internal
+     */
+    _$changeProperty(name, oldValue, options) {
+        // TODO (justinfagnani): Create a benchmark of Map.has() + Map.set(
+        // vs just Map.set()
+        if (!this._$changedProperties.has(name)) {
+            this._$changedProperties.set(name, oldValue);
+        }
+        // Add to reflecting properties set.
+        // Note, it's important that every change has a chance to add the
+        // property to `__reflectingProperties`. This ensures setting
+        // attribute + property reflects correctly.
+        if (options.reflect === true && this.__reflectingProperty !== name) {
+            (this.__reflectingProperties ??= new Set()).add(name);
+        }
+    }
+    /**
+     * Sets up the element to asynchronously update.
+     */
+    async __enqueueUpdate() {
+        this.isUpdatePending = true;
+        try {
+            // Ensure any previous update has resolved before updating.
+            // This `await` also ensures that property changes are batched.
+            await this.__updatePromise;
+        }
+        catch (e) {
+            // Refire any previous errors async so they do not disrupt the update
+            // cycle. Errors are refired so developers have a chance to observe
+            // them, and this can be done by implementing
+            // `window.onunhandledrejection`.
+            Promise.reject(e);
+        }
+        const result = this.scheduleUpdate();
+        // If `scheduleUpdate` returns a Promise, we await it. This is done to
+        // enable coordinating updates with a scheduler. Note, the result is
+        // checked to avoid delaying an additional microtask unless we need to.
+        if (result != null) {
+            await result;
+        }
+        return !this.isUpdatePending;
+    }
+    /**
+     * Schedules an element update. You can override this method to change the
+     * timing of updates by returning a Promise. The update will await the
+     * returned Promise, and you should resolve the Promise to allow the update
+     * to proceed. If this method is overridden, `super.scheduleUpdate()`
+     * must be called.
+     *
+     * For instance, to schedule updates to occur just before the next frame:
+     *
+     * ```ts
+     * override protected async scheduleUpdate(): Promise<unknown> {
+     *   await new Promise((resolve) => requestAnimationFrame(() => resolve()));
+     *   super.scheduleUpdate();
+     * }
+     * ```
+     * @category updates
+     */
+    scheduleUpdate() {
+        const result = this.performUpdate();
+        if (DEV_MODE &&
+            this.constructor.enabledWarnings.includes('async-perform-update') &&
+            typeof result?.then ===
+                'function') {
+            issueWarning('async-perform-update', `Element ${this.localName} returned a Promise from performUpdate(). ` +
+                `This behavior is deprecated and will be removed in a future ` +
+                `version of ReactiveElement.`);
+        }
+        return result;
+    }
+    /**
+     * Performs an element update. Note, if an exception is thrown during the
+     * update, `firstUpdated` and `updated` will not be called.
+     *
+     * Call `performUpdate()` to immediately process a pending update. This should
+     * generally not be needed, but it can be done in rare cases when you need to
+     * update synchronously.
+     *
+     * @category updates
+     */
+    performUpdate() {
+        // Abort any update if one is not pending when this is called.
+        // This can happen if `performUpdate` is called early to "flush"
+        // the update.
+        if (!this.isUpdatePending) {
+            return;
+        }
+        debugLogEvent?.({ kind: 'update' });
+        if (!this.hasUpdated) {
+            // Create renderRoot before first update. This occurs in `connectedCallback`
+            // but is done here to support out of tree calls to `enableUpdating`/`performUpdate`.
+            this.renderRoot ??=
+                this.createRenderRoot();
+            if (DEV_MODE) {
+                // Produce warning if any reactive properties on the prototype are
+                // shadowed by class fields. Instance fields set before upgrade are
+                // deleted by this point, so any own property is caused by class field
+                // initialization in the constructor.
+                const ctor = this.constructor;
+                const shadowedProperties = [...ctor.elementProperties.keys()].filter((p) => this.hasOwnProperty(p) && p in getPrototypeOf(this));
+                if (shadowedProperties.length) {
+                    throw new Error(`The following properties on element ${this.localName} will not ` +
+                        `trigger updates as expected because they are set using class ` +
+                        `fields: ${shadowedProperties.join(', ')}. ` +
+                        `Native class fields and some compiled output will overwrite ` +
+                        `accessors used for detecting changes. See ` +
+                        `https://lit.dev/msg/class-field-shadowing ` +
+                        `for more information.`);
+                }
+            }
+            // Mixin instance properties once, if they exist.
+            if (this.__instanceProperties) {
+                // TODO (justinfagnani): should we use the stored value? Could a new value
+                // have been set since we stored the own property value?
+                for (const [p, value] of this.__instanceProperties) {
+                    this[p] = value;
+                }
+                this.__instanceProperties = undefined;
+            }
+            // Trigger initial value reflection and populate the initial
+            // changedProperties map, but only for the case of experimental
+            // decorators on accessors, which will not have already populated the
+            // changedProperties map. We can't know if these accessors had
+            // initializers, so we just set them anyway - a difference from
+            // experimental decorators on fields and standard decorators on
+            // auto-accessors.
+            // For context why experimentalDecorators with auto accessors are handled
+            // specifically also see:
+            // https://github.com/lit/lit/pull/4183#issuecomment-1711959635
+            const elementProperties = this.constructor
+                .elementProperties;
+            if (elementProperties.size > 0) {
+                for (const [p, options] of elementProperties) {
+                    if (options.wrapped === true &&
+                        !this._$changedProperties.has(p) &&
+                        this[p] !== undefined) {
+                        this._$changeProperty(p, this[p], options);
+                    }
+                }
+            }
+        }
+        let shouldUpdate = false;
+        const changedProperties = this._$changedProperties;
+        try {
+            shouldUpdate = this.shouldUpdate(changedProperties);
+            if (shouldUpdate) {
+                this.willUpdate(changedProperties);
+                this.__controllers?.forEach((c) => c.hostUpdate?.());
+                this.update(changedProperties);
+            }
+            else {
+                this.__markUpdated();
+            }
+        }
+        catch (e) {
+            // Prevent `firstUpdated` and `updated` from running when there's an
+            // update exception.
+            shouldUpdate = false;
+            // Ensure element can accept additional updates after an exception.
+            this.__markUpdated();
+            throw e;
+        }
+        // The update is no longer considered pending and further updates are now allowed.
+        if (shouldUpdate) {
+            this._$didUpdate(changedProperties);
+        }
+    }
+    /**
+     * Invoked before `update()` to compute values needed during the update.
+     *
+     * Implement `willUpdate` to compute property values that depend on other
+     * properties and are used in the rest of the update process.
+     *
+     * ```ts
+     * willUpdate(changedProperties) {
+     *   // only need to check changed properties for an expensive computation.
+     *   if (changedProperties.has('firstName') || changedProperties.has('lastName')) {
+     *     this.sha = computeSHA(`${this.firstName} ${this.lastName}`);
+     *   }
+     * }
+     *
+     * render() {
+     *   return html`SHA: ${this.sha}`;
+     * }
+     * ```
+     *
+     * @category updates
+     */
+    willUpdate(_changedProperties) { }
+    // Note, this is an override point for polyfill-support.
+    // @internal
+    _$didUpdate(changedProperties) {
+        this.__controllers?.forEach((c) => c.hostUpdated?.());
+        if (!this.hasUpdated) {
+            this.hasUpdated = true;
+            this.firstUpdated(changedProperties);
+        }
+        this.updated(changedProperties);
+        if (DEV_MODE &&
+            this.isUpdatePending &&
+            this.constructor.enabledWarnings.includes('change-in-update')) {
+            issueWarning('change-in-update', `Element ${this.localName} scheduled an update ` +
+                `(generally because a property was set) ` +
+                `after an update completed, causing a new update to be scheduled. ` +
+                `This is inefficient and should be avoided unless the next update ` +
+                `can only be scheduled as a side effect of the previous update.`);
+        }
+    }
+    __markUpdated() {
+        this._$changedProperties = new Map();
+        this.isUpdatePending = false;
+    }
+    /**
+     * Returns a Promise that resolves when the element has completed updating.
+     * The Promise value is a boolean that is `true` if the element completed the
+     * update without triggering another update. The Promise result is `false` if
+     * a property was set inside `updated()`. If the Promise is rejected, an
+     * exception was thrown during the update.
+     *
+     * To await additional asynchronous work, override the `getUpdateComplete`
+     * method. For example, it is sometimes useful to await a rendered element
+     * before fulfilling this Promise. To do this, first await
+     * `super.getUpdateComplete()`, then any subsequent state.
+     *
+     * @return A promise of a boolean that resolves to true if the update completed
+     *     without triggering another update.
+     * @category updates
+     */
+    get updateComplete() {
+        return this.getUpdateComplete();
+    }
+    /**
+     * Override point for the `updateComplete` promise.
+     *
+     * It is not safe to override the `updateComplete` getter directly due to a
+     * limitation in TypeScript which means it is not possible to call a
+     * superclass getter (e.g. `super.updateComplete.then(...)`) when the target
+     * language is ES5 (https://github.com/microsoft/TypeScript/issues/338).
+     * This method should be overridden instead. For example:
+     *
+     * ```ts
+     * class MyElement extends LitElement {
+     *   override async getUpdateComplete() {
+     *     const result = await super.getUpdateComplete();
+     *     await this._myChild.updateComplete;
+     *     return result;
+     *   }
+     * }
+     * ```
+     *
+     * @return A promise of a boolean that resolves to true if the update completed
+     *     without triggering another update.
+     * @category updates
+     */
+    getUpdateComplete() {
+        return this.__updatePromise;
+    }
+    /**
+     * Controls whether or not `update()` should be called when the element requests
+     * an update. By default, this method always returns `true`, but this can be
+     * customized to control when to update.
+     *
+     * @param _changedProperties Map of changed properties with old values
+     * @category updates
+     */
+    shouldUpdate(_changedProperties) {
+        return true;
+    }
+    /**
+     * Updates the element. This method reflects property values to attributes.
+     * It can be overridden to render and keep updated element DOM.
+     * Setting properties inside this method will *not* trigger
+     * another update.
+     *
+     * @param _changedProperties Map of changed properties with old values
+     * @category updates
+     */
+    update(_changedProperties) {
+        // The forEach() expression will only run when when __reflectingProperties is
+        // defined, and it returns undefined, setting __reflectingProperties to
+        // undefined
+        this.__reflectingProperties &&= this.__reflectingProperties.forEach((p) => this.__propertyToAttribute(p, this[p]));
+        this.__markUpdated();
+    }
+    /**
+     * Invoked whenever the element is updated. Implement to perform
+     * post-updating tasks via DOM APIs, for example, focusing an element.
+     *
+     * Setting properties inside this method will trigger the element to update
+     * again after this update cycle completes.
+     *
+     * @param _changedProperties Map of changed properties with old values
+     * @category updates
+     */
+    updated(_changedProperties) { }
+    /**
+     * Invoked when the element is first updated. Implement to perform one time
+     * work on the element after update.
+     *
+     * ```ts
+     * firstUpdated() {
+     *   this.renderRoot.getElementById('my-text-area').focus();
+     * }
+     * ```
+     *
+     * Setting properties inside this method will trigger the element to update
+     * again after this update cycle completes.
+     *
+     * @param _changedProperties Map of changed properties with old values
+     * @category updates
+     */
+    firstUpdated(_changedProperties) { }
+}
+/**
+ * Memoized list of all element styles.
+ * Created lazily on user subclasses when finalizing the class.
+ * @nocollapse
+ * @category styles
+ */
+ReactiveElement.elementStyles = [];
+/**
+ * Options used when calling `attachShadow`. Set this property to customize
+ * the options for the shadowRoot; for example, to create a closed
+ * shadowRoot: `{mode: 'closed'}`.
+ *
+ * Note, these options are used in `createRenderRoot`. If this method
+ * is customized, options should be respected if possible.
+ * @nocollapse
+ * @category rendering
+ */
+ReactiveElement.shadowRootOptions = { mode: 'open' };
+// Assigned here to work around a jscompiler bug with static fields
+// when compiling to ES5.
+// https://github.com/google/closure-compiler/issues/3177
+ReactiveElement[JSCompiler_renameProperty('elementProperties', ReactiveElement)] = new Map();
+ReactiveElement[JSCompiler_renameProperty('finalized', ReactiveElement)] = new Map();
+// Apply polyfills if available
+polyfillSupport?.({ ReactiveElement });
+// Dev mode warnings...
+if (DEV_MODE) {
+    // Default warning set.
+    ReactiveElement.enabledWarnings = [
+        'change-in-update',
+        'async-perform-update',
+    ];
+    const ensureOwnWarnings = function (ctor) {
+        if (!ctor.hasOwnProperty(JSCompiler_renameProperty('enabledWarnings', ctor))) {
+            ctor.enabledWarnings = ctor.enabledWarnings.slice();
+        }
+    };
+    ReactiveElement.enableWarning = function (warning) {
+        ensureOwnWarnings(this);
+        if (!this.enabledWarnings.includes(warning)) {
+            this.enabledWarnings.push(warning);
+        }
+    };
+    ReactiveElement.disableWarning = function (warning) {
+        ensureOwnWarnings(this);
+        const i = this.enabledWarnings.indexOf(warning);
+        if (i >= 0) {
+            this.enabledWarnings.splice(i, 1);
+        }
+    };
+}
+// IMPORTANT: do not change the property name or the assignment expression.
+// This line will be used in regexes to search for ReactiveElement usage.
+(global.reactiveElementVersions ??= []).push('2.0.4');
+if (DEV_MODE && global.reactiveElementVersions.length > 1) {
+    issueWarning('multiple-versions', `Multiple versions of Lit loaded. Loading multiple versions ` +
+        `is not recommended.`);
+}
+//# sourceMappingURL=reactive-element.js.map
 
 /***/ }),
 
@@ -156,7 +1798,260 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CSSResult: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.CSSResult),\n/* harmony export */   LitElement: () => (/* binding */ LitElement),\n/* harmony export */   ReactiveElement: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.ReactiveElement),\n/* harmony export */   _$LE: () => (/* binding */ _$LE),\n/* harmony export */   _$LH: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__._$LH),\n/* harmony export */   adoptStyles: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.adoptStyles),\n/* harmony export */   css: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.css),\n/* harmony export */   defaultConverter: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.defaultConverter),\n/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle),\n/* harmony export */   html: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.html),\n/* harmony export */   noChange: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.noChange),\n/* harmony export */   notEqual: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.notEqual),\n/* harmony export */   nothing: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.nothing),\n/* harmony export */   render: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.render),\n/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.supportsAdoptingStyleSheets),\n/* harmony export */   svg: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.svg),\n/* harmony export */   unsafeCSS: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.unsafeCSS)\n/* harmony export */ });\n/* harmony import */ var _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lit/reactive-element */ \"./node_modules/@lit/reactive-element/development/reactive-element.js\");\n/* harmony import */ var lit_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lit-html */ \"./node_modules/lit-html/development/lit-html.js\");\n/**\n * @license\n * Copyright 2017 Google LLC\n * SPDX-License-Identifier: BSD-3-Clause\n */\n/**\n * The main LitElement module, which defines the {@linkcode LitElement} base\n * class and related APIs.\n *\n *  LitElement components can define a template and a set of observed\n * properties. Changing an observed property triggers a re-render of the\n * element.\n *\n *  Import {@linkcode LitElement} and {@linkcode html} from this module to\n * create a component:\n *\n *  ```js\n * import {LitElement, html} from 'lit-element';\n *\n * class MyElement extends LitElement {\n *\n *   // Declare observed properties\n *   static get properties() {\n *     return {\n *       adjective: {}\n *     }\n *   }\n *\n *   constructor() {\n *     this.adjective = 'awesome';\n *   }\n *\n *   // Define the element's template\n *   render() {\n *     return html`<p>your ${adjective} template here</p>`;\n *   }\n * }\n *\n * customElements.define('my-element', MyElement);\n * ```\n *\n * `LitElement` extends {@linkcode ReactiveElement} and adds lit-html\n * templating. The `ReactiveElement` class is provided for users that want to\n * build their own custom element base classes that don't use lit-html.\n *\n * @packageDocumentation\n */\n\n\n\n\n/*\n * When using Closure Compiler, JSCompiler_renameProperty(property, object) is\n * replaced at compile time by the munged name for object[property]. We cannot\n * alias this function, so we have to use a small shim that has the same\n * behavior when not compiling.\n */\n/*@__INLINE__*/\nconst JSCompiler_renameProperty = (prop, _obj) => prop;\nconst DEV_MODE = true;\nlet issueWarning;\nif (DEV_MODE) {\n    // Ensure warnings are issued only 1x, even if multiple versions of Lit\n    // are loaded.\n    const issuedWarnings = (globalThis.litIssuedWarnings ??= new Set());\n    // Issue a warning, if we haven't already.\n    issueWarning = (code, warning) => {\n        warning += ` See https://lit.dev/msg/${code} for more information.`;\n        if (!issuedWarnings.has(warning)) {\n            console.warn(warning);\n            issuedWarnings.add(warning);\n        }\n    };\n}\n/**\n * Base element class that manages element properties and attributes, and\n * renders a lit-html template.\n *\n * To define a component, subclass `LitElement` and implement a\n * `render` method to provide the component's template. Define properties\n * using the {@linkcode LitElement.properties properties} property or the\n * {@linkcode property} decorator.\n */\nclass LitElement extends _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.ReactiveElement {\n    constructor() {\n        super(...arguments);\n        /**\n         * @category rendering\n         */\n        this.renderOptions = { host: this };\n        this.__childPart = undefined;\n    }\n    /**\n     * @category rendering\n     */\n    createRenderRoot() {\n        const renderRoot = super.createRenderRoot();\n        // When adoptedStyleSheets are shimmed, they are inserted into the\n        // shadowRoot by createRenderRoot. Adjust the renderBefore node so that\n        // any styles in Lit content render before adoptedStyleSheets. This is\n        // important so that adoptedStyleSheets have precedence over styles in\n        // the shadowRoot.\n        this.renderOptions.renderBefore ??= renderRoot.firstChild;\n        return renderRoot;\n    }\n    /**\n     * Updates the element. This method reflects property values to attributes\n     * and calls `render` to render DOM via lit-html. Setting properties inside\n     * this method will *not* trigger another update.\n     * @param changedProperties Map of changed properties with old values\n     * @category updates\n     */\n    update(changedProperties) {\n        // Setting properties in `render` should not trigger an update. Since\n        // updates are allowed after super.update, it's important to call `render`\n        // before that.\n        const value = this.render();\n        if (!this.hasUpdated) {\n            this.renderOptions.isConnected = this.isConnected;\n        }\n        super.update(changedProperties);\n        this.__childPart = (0,lit_html__WEBPACK_IMPORTED_MODULE_1__.render)(value, this.renderRoot, this.renderOptions);\n    }\n    /**\n     * Invoked when the component is added to the document's DOM.\n     *\n     * In `connectedCallback()` you should setup tasks that should only occur when\n     * the element is connected to the document. The most common of these is\n     * adding event listeners to nodes external to the element, like a keydown\n     * event handler added to the window.\n     *\n     * ```ts\n     * connectedCallback() {\n     *   super.connectedCallback();\n     *   addEventListener('keydown', this._handleKeydown);\n     * }\n     * ```\n     *\n     * Typically, anything done in `connectedCallback()` should be undone when the\n     * element is disconnected, in `disconnectedCallback()`.\n     *\n     * @category lifecycle\n     */\n    connectedCallback() {\n        super.connectedCallback();\n        this.__childPart?.setConnected(true);\n    }\n    /**\n     * Invoked when the component is removed from the document's DOM.\n     *\n     * This callback is the main signal to the element that it may no longer be\n     * used. `disconnectedCallback()` should ensure that nothing is holding a\n     * reference to the element (such as event listeners added to nodes external\n     * to the element), so that it is free to be garbage collected.\n     *\n     * ```ts\n     * disconnectedCallback() {\n     *   super.disconnectedCallback();\n     *   window.removeEventListener('keydown', this._handleKeydown);\n     * }\n     * ```\n     *\n     * An element may be re-connected after being disconnected.\n     *\n     * @category lifecycle\n     */\n    disconnectedCallback() {\n        super.disconnectedCallback();\n        this.__childPart?.setConnected(false);\n    }\n    /**\n     * Invoked on each update to perform rendering tasks. This method may return\n     * any value renderable by lit-html's `ChildPart` - typically a\n     * `TemplateResult`. Setting properties inside this method will *not* trigger\n     * the element to update.\n     * @category rendering\n     */\n    render() {\n        return lit_html__WEBPACK_IMPORTED_MODULE_1__.noChange;\n    }\n}\n// This property needs to remain unminified.\nLitElement['_$litElement$'] = true;\n/**\n * Ensure this class is marked as `finalized` as an optimization ensuring\n * it will not needlessly try to `finalize`.\n *\n * Note this property name is a string to prevent breaking Closure JS Compiler\n * optimizations. See @lit/reactive-element for more information.\n */\nLitElement[JSCompiler_renameProperty('finalized', LitElement)] = true;\n// Install hydration if available\nglobalThis.litElementHydrateSupport?.({ LitElement });\n// Apply polyfills if available\nconst polyfillSupport = DEV_MODE\n    ? globalThis.litElementPolyfillSupportDevMode\n    : globalThis.litElementPolyfillSupport;\npolyfillSupport?.({ LitElement });\n/**\n * END USERS SHOULD NOT RELY ON THIS OBJECT.\n *\n * Private exports for use by other Lit packages, not intended for use by\n * external users.\n *\n * We currently do not make a mangled rollup build of the lit-ssr code. In order\n * to keep a number of (otherwise private) top-level exports  mangled in the\n * client side code, we export a _$LE object containing those members (or\n * helper methods for accessing private fields of those members), and then\n * re-export them for use in lit-ssr. This keeps lit-ssr agnostic to whether the\n * client-side code is being used in `dev` mode or `prod` mode.\n *\n * This has a unique name, to disambiguate it from private exports in\n * lit-html, since this module re-exports all of lit-html.\n *\n * @private\n */\nconst _$LE = {\n    _$attributeToProperty: (el, name, value) => {\n        // eslint-disable-next-line\n        el._$attributeToProperty(name, value);\n    },\n    // eslint-disable-next-line\n    _$changedProperties: (el) => el._$changedProperties,\n};\n// IMPORTANT: do not change the property name or the assignment expression.\n// This line will be used in regexes to search for LitElement usage.\n(globalThis.litElementVersions ??= []).push('4.0.6');\nif (DEV_MODE && globalThis.litElementVersions.length > 1) {\n    issueWarning('multiple-versions', `Multiple versions of Lit loaded. Loading multiple versions ` +\n        `is not recommended.`);\n}\n//# sourceMappingURL=lit-element.js.map\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/lit-element/development/lit-element.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CSSResult: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.CSSResult),
+/* harmony export */   LitElement: () => (/* binding */ LitElement),
+/* harmony export */   ReactiveElement: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.ReactiveElement),
+/* harmony export */   _$LE: () => (/* binding */ _$LE),
+/* harmony export */   _$LH: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__._$LH),
+/* harmony export */   adoptStyles: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.adoptStyles),
+/* harmony export */   css: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.css),
+/* harmony export */   defaultConverter: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.defaultConverter),
+/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.getCompatibleStyle),
+/* harmony export */   html: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.html),
+/* harmony export */   noChange: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.noChange),
+/* harmony export */   notEqual: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.notEqual),
+/* harmony export */   nothing: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.nothing),
+/* harmony export */   render: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.render),
+/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.supportsAdoptingStyleSheets),
+/* harmony export */   svg: () => (/* reexport safe */ lit_html__WEBPACK_IMPORTED_MODULE_1__.svg),
+/* harmony export */   unsafeCSS: () => (/* reexport safe */ _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.unsafeCSS)
+/* harmony export */ });
+/* harmony import */ var _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lit/reactive-element */ "./node_modules/@lit/reactive-element/development/reactive-element.js");
+/* harmony import */ var lit_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lit-html */ "./node_modules/lit-html/development/lit-html.js");
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * The main LitElement module, which defines the {@linkcode LitElement} base
+ * class and related APIs.
+ *
+ *  LitElement components can define a template and a set of observed
+ * properties. Changing an observed property triggers a re-render of the
+ * element.
+ *
+ *  Import {@linkcode LitElement} and {@linkcode html} from this module to
+ * create a component:
+ *
+ *  ```js
+ * import {LitElement, html} from 'lit-element';
+ *
+ * class MyElement extends LitElement {
+ *
+ *   // Declare observed properties
+ *   static get properties() {
+ *     return {
+ *       adjective: {}
+ *     }
+ *   }
+ *
+ *   constructor() {
+ *     this.adjective = 'awesome';
+ *   }
+ *
+ *   // Define the element's template
+ *   render() {
+ *     return html`<p>your ${adjective} template here</p>`;
+ *   }
+ * }
+ *
+ * customElements.define('my-element', MyElement);
+ * ```
+ *
+ * `LitElement` extends {@linkcode ReactiveElement} and adds lit-html
+ * templating. The `ReactiveElement` class is provided for users that want to
+ * build their own custom element base classes that don't use lit-html.
+ *
+ * @packageDocumentation
+ */
+
+
+
+
+/*
+ * When using Closure Compiler, JSCompiler_renameProperty(property, object) is
+ * replaced at compile time by the munged name for object[property]. We cannot
+ * alias this function, so we have to use a small shim that has the same
+ * behavior when not compiling.
+ */
+/*@__INLINE__*/
+const JSCompiler_renameProperty = (prop, _obj) => prop;
+const DEV_MODE = true;
+let issueWarning;
+if (DEV_MODE) {
+    // Ensure warnings are issued only 1x, even if multiple versions of Lit
+    // are loaded.
+    const issuedWarnings = (globalThis.litIssuedWarnings ??= new Set());
+    // Issue a warning, if we haven't already.
+    issueWarning = (code, warning) => {
+        warning += ` See https://lit.dev/msg/${code} for more information.`;
+        if (!issuedWarnings.has(warning)) {
+            console.warn(warning);
+            issuedWarnings.add(warning);
+        }
+    };
+}
+/**
+ * Base element class that manages element properties and attributes, and
+ * renders a lit-html template.
+ *
+ * To define a component, subclass `LitElement` and implement a
+ * `render` method to provide the component's template. Define properties
+ * using the {@linkcode LitElement.properties properties} property or the
+ * {@linkcode property} decorator.
+ */
+class LitElement extends _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__.ReactiveElement {
+    constructor() {
+        super(...arguments);
+        /**
+         * @category rendering
+         */
+        this.renderOptions = { host: this };
+        this.__childPart = undefined;
+    }
+    /**
+     * @category rendering
+     */
+    createRenderRoot() {
+        const renderRoot = super.createRenderRoot();
+        // When adoptedStyleSheets are shimmed, they are inserted into the
+        // shadowRoot by createRenderRoot. Adjust the renderBefore node so that
+        // any styles in Lit content render before adoptedStyleSheets. This is
+        // important so that adoptedStyleSheets have precedence over styles in
+        // the shadowRoot.
+        this.renderOptions.renderBefore ??= renderRoot.firstChild;
+        return renderRoot;
+    }
+    /**
+     * Updates the element. This method reflects property values to attributes
+     * and calls `render` to render DOM via lit-html. Setting properties inside
+     * this method will *not* trigger another update.
+     * @param changedProperties Map of changed properties with old values
+     * @category updates
+     */
+    update(changedProperties) {
+        // Setting properties in `render` should not trigger an update. Since
+        // updates are allowed after super.update, it's important to call `render`
+        // before that.
+        const value = this.render();
+        if (!this.hasUpdated) {
+            this.renderOptions.isConnected = this.isConnected;
+        }
+        super.update(changedProperties);
+        this.__childPart = (0,lit_html__WEBPACK_IMPORTED_MODULE_1__.render)(value, this.renderRoot, this.renderOptions);
+    }
+    /**
+     * Invoked when the component is added to the document's DOM.
+     *
+     * In `connectedCallback()` you should setup tasks that should only occur when
+     * the element is connected to the document. The most common of these is
+     * adding event listeners to nodes external to the element, like a keydown
+     * event handler added to the window.
+     *
+     * ```ts
+     * connectedCallback() {
+     *   super.connectedCallback();
+     *   addEventListener('keydown', this._handleKeydown);
+     * }
+     * ```
+     *
+     * Typically, anything done in `connectedCallback()` should be undone when the
+     * element is disconnected, in `disconnectedCallback()`.
+     *
+     * @category lifecycle
+     */
+    connectedCallback() {
+        super.connectedCallback();
+        this.__childPart?.setConnected(true);
+    }
+    /**
+     * Invoked when the component is removed from the document's DOM.
+     *
+     * This callback is the main signal to the element that it may no longer be
+     * used. `disconnectedCallback()` should ensure that nothing is holding a
+     * reference to the element (such as event listeners added to nodes external
+     * to the element), so that it is free to be garbage collected.
+     *
+     * ```ts
+     * disconnectedCallback() {
+     *   super.disconnectedCallback();
+     *   window.removeEventListener('keydown', this._handleKeydown);
+     * }
+     * ```
+     *
+     * An element may be re-connected after being disconnected.
+     *
+     * @category lifecycle
+     */
+    disconnectedCallback() {
+        super.disconnectedCallback();
+        this.__childPart?.setConnected(false);
+    }
+    /**
+     * Invoked on each update to perform rendering tasks. This method may return
+     * any value renderable by lit-html's `ChildPart` - typically a
+     * `TemplateResult`. Setting properties inside this method will *not* trigger
+     * the element to update.
+     * @category rendering
+     */
+    render() {
+        return lit_html__WEBPACK_IMPORTED_MODULE_1__.noChange;
+    }
+}
+// This property needs to remain unminified.
+LitElement['_$litElement$'] = true;
+/**
+ * Ensure this class is marked as `finalized` as an optimization ensuring
+ * it will not needlessly try to `finalize`.
+ *
+ * Note this property name is a string to prevent breaking Closure JS Compiler
+ * optimizations. See @lit/reactive-element for more information.
+ */
+LitElement[JSCompiler_renameProperty('finalized', LitElement)] = true;
+// Install hydration if available
+globalThis.litElementHydrateSupport?.({ LitElement });
+// Apply polyfills if available
+const polyfillSupport = DEV_MODE
+    ? globalThis.litElementPolyfillSupportDevMode
+    : globalThis.litElementPolyfillSupport;
+polyfillSupport?.({ LitElement });
+/**
+ * END USERS SHOULD NOT RELY ON THIS OBJECT.
+ *
+ * Private exports for use by other Lit packages, not intended for use by
+ * external users.
+ *
+ * We currently do not make a mangled rollup build of the lit-ssr code. In order
+ * to keep a number of (otherwise private) top-level exports  mangled in the
+ * client side code, we export a _$LE object containing those members (or
+ * helper methods for accessing private fields of those members), and then
+ * re-export them for use in lit-ssr. This keeps lit-ssr agnostic to whether the
+ * client-side code is being used in `dev` mode or `prod` mode.
+ *
+ * This has a unique name, to disambiguate it from private exports in
+ * lit-html, since this module re-exports all of lit-html.
+ *
+ * @private
+ */
+const _$LE = {
+    _$attributeToProperty: (el, name, value) => {
+        // eslint-disable-next-line
+        el._$attributeToProperty(name, value);
+    },
+    // eslint-disable-next-line
+    _$changedProperties: (el) => el._$changedProperties,
+};
+// IMPORTANT: do not change the property name or the assignment expression.
+// This line will be used in regexes to search for LitElement usage.
+(globalThis.litElementVersions ??= []).push('4.0.6');
+if (DEV_MODE && globalThis.litElementVersions.length > 1) {
+    issueWarning('multiple-versions', `Multiple versions of Lit loaded. Loading multiple versions ` +
+        `is not recommended.`);
+}
+//# sourceMappingURL=lit-element.js.map
 
 /***/ }),
 
@@ -166,7 +2061,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   isServer: () => (/* binding */ isServer)\n/* harmony export */ });\n/**\n * @license\n * Copyright 2022 Google LLC\n * SPDX-License-Identifier: BSD-3-Clause\n */\n/**\n * @fileoverview\n *\n * This file exports a boolean const whose value will depend on what environment\n * the module is being imported from.\n */\nconst NODE_MODE = false;\n/**\n * A boolean that will be `true` in server environments like Node, and `false`\n * in browser environments. Note that your server environment or toolchain must\n * support the `\"node\"` export condition for this to be `true`.\n *\n * This can be used when authoring components to change behavior based on\n * whether or not the component is executing in an SSR context.\n */\nconst isServer = NODE_MODE;\n//# sourceMappingURL=is-server.js.map\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/lit-html/development/is-server.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   isServer: () => (/* binding */ isServer)
+/* harmony export */ });
+/**
+ * @license
+ * Copyright 2022 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * @fileoverview
+ *
+ * This file exports a boolean const whose value will depend on what environment
+ * the module is being imported from.
+ */
+const NODE_MODE = false;
+/**
+ * A boolean that will be `true` in server environments like Node, and `false`
+ * in browser environments. Note that your server environment or toolchain must
+ * support the `"node"` export condition for this to be `true`.
+ *
+ * This can be used when authoring components to change behavior based on
+ * whether or not the component is executing in an SSR context.
+ */
+const isServer = NODE_MODE;
+//# sourceMappingURL=is-server.js.map
 
 /***/ }),
 
@@ -176,7 +2096,1494 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   _$LH: () => (/* binding */ _$LH),\n/* harmony export */   html: () => (/* binding */ html),\n/* harmony export */   noChange: () => (/* binding */ noChange),\n/* harmony export */   nothing: () => (/* binding */ nothing),\n/* harmony export */   render: () => (/* binding */ render),\n/* harmony export */   svg: () => (/* binding */ svg)\n/* harmony export */ });\n/**\n * @license\n * Copyright 2017 Google LLC\n * SPDX-License-Identifier: BSD-3-Clause\n */\nconst DEV_MODE = true;\nconst ENABLE_EXTRA_SECURITY_HOOKS = true;\nconst ENABLE_SHADYDOM_NOPATCH = true;\nconst NODE_MODE = false;\n// Allows minifiers to rename references to globalThis\nconst global = globalThis;\n/**\n * Useful for visualizing and logging insights into what the Lit template system is doing.\n *\n * Compiled out of prod mode builds.\n */\nconst debugLogEvent = DEV_MODE\n    ? (event) => {\n        const shouldEmit = global\n            .emitLitDebugLogEvents;\n        if (!shouldEmit) {\n            return;\n        }\n        global.dispatchEvent(new CustomEvent('lit-debug', {\n            detail: event,\n        }));\n    }\n    : undefined;\n// Used for connecting beginRender and endRender events when there are nested\n// renders when errors are thrown preventing an endRender event from being\n// called.\nlet debugLogRenderId = 0;\nlet issueWarning;\nif (DEV_MODE) {\n    global.litIssuedWarnings ??= new Set();\n    // Issue a warning, if we haven't already.\n    issueWarning = (code, warning) => {\n        warning += code\n            ? ` See https://lit.dev/msg/${code} for more information.`\n            : '';\n        if (!global.litIssuedWarnings.has(warning)) {\n            console.warn(warning);\n            global.litIssuedWarnings.add(warning);\n        }\n    };\n    issueWarning('dev-mode', `Lit is in dev mode. Not recommended for production!`);\n}\nconst wrap = ENABLE_SHADYDOM_NOPATCH &&\n    global.ShadyDOM?.inUse &&\n    global.ShadyDOM?.noPatch === true\n    ? global.ShadyDOM.wrap\n    : (node) => node;\nconst trustedTypes = global.trustedTypes;\n/**\n * Our TrustedTypePolicy for HTML which is declared using the html template\n * tag function.\n *\n * That HTML is a developer-authored constant, and is parsed with innerHTML\n * before any untrusted expressions have been mixed in. Therefor it is\n * considered safe by construction.\n */\nconst policy = trustedTypes\n    ? trustedTypes.createPolicy('lit-html', {\n        createHTML: (s) => s,\n    })\n    : undefined;\nconst identityFunction = (value) => value;\nconst noopSanitizer = (_node, _name, _type) => identityFunction;\n/** Sets the global sanitizer factory. */\nconst setSanitizer = (newSanitizer) => {\n    if (!ENABLE_EXTRA_SECURITY_HOOKS) {\n        return;\n    }\n    if (sanitizerFactoryInternal !== noopSanitizer) {\n        throw new Error(`Attempted to overwrite existing lit-html security policy.` +\n            ` setSanitizeDOMValueFactory should be called at most once.`);\n    }\n    sanitizerFactoryInternal = newSanitizer;\n};\n/**\n * Only used in internal tests, not a part of the public API.\n */\nconst _testOnlyClearSanitizerFactoryDoNotCallOrElse = () => {\n    sanitizerFactoryInternal = noopSanitizer;\n};\nconst createSanitizer = (node, name, type) => {\n    return sanitizerFactoryInternal(node, name, type);\n};\n// Added to an attribute name to mark the attribute as bound so we can find\n// it easily.\nconst boundAttributeSuffix = '$lit$';\n// This marker is used in many syntactic positions in HTML, so it must be\n// a valid element name and attribute name. We don't support dynamic names (yet)\n// but this at least ensures that the parse tree is closer to the template\n// intention.\nconst marker = `lit$${Math.random().toFixed(9).slice(2)}$`;\n// String used to tell if a comment is a marker comment\nconst markerMatch = '?' + marker;\n// Text used to insert a comment marker node. We use processing instruction\n// syntax because it's slightly smaller, but parses as a comment node.\nconst nodeMarker = `<${markerMatch}>`;\nconst d = NODE_MODE && global.document === undefined\n    ? {\n        createTreeWalker() {\n            return {};\n        },\n    }\n    : document;\n// Creates a dynamic marker. We never have to search for these in the DOM.\nconst createMarker = () => d.createComment('');\nconst isPrimitive = (value) => value === null || (typeof value != 'object' && typeof value != 'function');\nconst isArray = Array.isArray;\nconst isIterable = (value) => isArray(value) ||\n    // eslint-disable-next-line @typescript-eslint/no-explicit-any\n    typeof value?.[Symbol.iterator] === 'function';\nconst SPACE_CHAR = `[ \\t\\n\\f\\r]`;\nconst ATTR_VALUE_CHAR = `[^ \\t\\n\\f\\r\"'\\`<>=]`;\nconst NAME_CHAR = `[^\\\\s\"'>=/]`;\n// These regexes represent the five parsing states that we care about in the\n// Template's HTML scanner. They match the *end* of the state they're named\n// after.\n// Depending on the match, we transition to a new state. If there's no match,\n// we stay in the same state.\n// Note that the regexes are stateful. We utilize lastIndex and sync it\n// across the multiple regexes used. In addition to the five regexes below\n// we also dynamically create a regex to find the matching end tags for raw\n// text elements.\n/**\n * End of text is: `<` followed by:\n *   (comment start) or (tag) or (dynamic tag binding)\n */\nconst textEndRegex = /<(?:(!--|\\/[^a-zA-Z])|(\\/?[a-zA-Z][^>\\s]*)|(\\/?$))/g;\nconst COMMENT_START = 1;\nconst TAG_NAME = 2;\nconst DYNAMIC_TAG_NAME = 3;\nconst commentEndRegex = /-->/g;\n/**\n * Comments not started with <!--, like </{, can be ended by a single `>`\n */\nconst comment2EndRegex = />/g;\n/**\n * The tagEnd regex matches the end of the \"inside an opening\" tag syntax\n * position. It either matches a `>`, an attribute-like sequence, or the end\n * of the string after a space (attribute-name position ending).\n *\n * See attributes in the HTML spec:\n * https://www.w3.org/TR/html5/syntax.html#elements-attributes\n *\n * \" \\t\\n\\f\\r\" are HTML space characters:\n * https://infra.spec.whatwg.org/#ascii-whitespace\n *\n * So an attribute is:\n *  * The name: any character except a whitespace character, (\"), ('), \">\",\n *    \"=\", or \"/\". Note: this is different from the HTML spec which also excludes control characters.\n *  * Followed by zero or more space characters\n *  * Followed by \"=\"\n *  * Followed by zero or more space characters\n *  * Followed by:\n *    * Any character except space, ('), (\"), \"<\", \">\", \"=\", (`), or\n *    * (\") then any non-(\"), or\n *    * (') then any non-(')\n */\nconst tagEndRegex = new RegExp(`>|${SPACE_CHAR}(?:(${NAME_CHAR}+)(${SPACE_CHAR}*=${SPACE_CHAR}*(?:${ATTR_VALUE_CHAR}|(\"|')|))|$)`, 'g');\nconst ENTIRE_MATCH = 0;\nconst ATTRIBUTE_NAME = 1;\nconst SPACES_AND_EQUALS = 2;\nconst QUOTE_CHAR = 3;\nconst singleQuoteAttrEndRegex = /'/g;\nconst doubleQuoteAttrEndRegex = /\"/g;\n/**\n * Matches the raw text elements.\n *\n * Comments are not parsed within raw text elements, so we need to search their\n * text content for marker strings.\n */\nconst rawTextElement = /^(?:script|style|textarea|title)$/i;\n/** TemplateResult types */\nconst HTML_RESULT = 1;\nconst SVG_RESULT = 2;\n// TemplatePart types\n// IMPORTANT: these must match the values in PartType\nconst ATTRIBUTE_PART = 1;\nconst CHILD_PART = 2;\nconst PROPERTY_PART = 3;\nconst BOOLEAN_ATTRIBUTE_PART = 4;\nconst EVENT_PART = 5;\nconst ELEMENT_PART = 6;\nconst COMMENT_PART = 7;\n/**\n * Generates a template literal tag function that returns a TemplateResult with\n * the given result type.\n */\nconst tag = (type) => (strings, ...values) => {\n    // Warn against templates octal escape sequences\n    // We do this here rather than in render so that the warning is closer to the\n    // template definition.\n    if (DEV_MODE && strings.some((s) => s === undefined)) {\n        console.warn('Some template strings are undefined.\\n' +\n            'This is probably caused by illegal octal escape sequences.');\n    }\n    if (DEV_MODE) {\n        // Import static-html.js results in a circular dependency which g3 doesn't\n        // handle. Instead we know that static values must have the field\n        // `_$litStatic$`.\n        if (values.some((val) => val?.['_$litStatic$'])) {\n            issueWarning('', `Static values 'literal' or 'unsafeStatic' cannot be used as values to non-static templates.\\n` +\n                `Please use the static 'html' tag function. See https://lit.dev/docs/templates/expressions/#static-expressions`);\n        }\n    }\n    return {\n        // This property needs to remain unminified.\n        ['_$litType$']: type,\n        strings,\n        values,\n    };\n};\n/**\n * Interprets a template literal as an HTML template that can efficiently\n * render to and update a container.\n *\n * ```ts\n * const header = (title: string) => html`<h1>${title}</h1>`;\n * ```\n *\n * The `html` tag returns a description of the DOM to render as a value. It is\n * lazy, meaning no work is done until the template is rendered. When rendering,\n * if a template comes from the same expression as a previously rendered result,\n * it's efficiently updated instead of replaced.\n */\nconst html = tag(HTML_RESULT);\n/**\n * Interprets a template literal as an SVG fragment that can efficiently\n * render to and update a container.\n *\n * ```ts\n * const rect = svg`<rect width=\"10\" height=\"10\"></rect>`;\n *\n * const myImage = html`\n *   <svg viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\">\n *     ${rect}\n *   </svg>`;\n * ```\n *\n * The `svg` *tag function* should only be used for SVG fragments, or elements\n * that would be contained **inside** an `<svg>` HTML element. A common error is\n * placing an `<svg>` *element* in a template tagged with the `svg` tag\n * function. The `<svg>` element is an HTML element and should be used within a\n * template tagged with the {@linkcode html} tag function.\n *\n * In LitElement usage, it's invalid to return an SVG fragment from the\n * `render()` method, as the SVG fragment will be contained within the element's\n * shadow root and thus cannot be used within an `<svg>` HTML element.\n */\nconst svg = tag(SVG_RESULT);\n/**\n * A sentinel value that signals that a value was handled by a directive and\n * should not be written to the DOM.\n */\nconst noChange = Symbol.for('lit-noChange');\n/**\n * A sentinel value that signals a ChildPart to fully clear its content.\n *\n * ```ts\n * const button = html`${\n *  user.isAdmin\n *    ? html`<button>DELETE</button>`\n *    : nothing\n * }`;\n * ```\n *\n * Prefer using `nothing` over other falsy values as it provides a consistent\n * behavior between various expression binding contexts.\n *\n * In child expressions, `undefined`, `null`, `''`, and `nothing` all behave the\n * same and render no nodes. In attribute expressions, `nothing` _removes_ the\n * attribute, while `undefined` and `null` will render an empty string. In\n * property expressions `nothing` becomes `undefined`.\n */\nconst nothing = Symbol.for('lit-nothing');\n/**\n * The cache of prepared templates, keyed by the tagged TemplateStringsArray\n * and _not_ accounting for the specific template tag used. This means that\n * template tags cannot be dynamic - the must statically be one of html, svg,\n * or attr. This restriction simplifies the cache lookup, which is on the hot\n * path for rendering.\n */\nconst templateCache = new WeakMap();\nconst walker = d.createTreeWalker(d, 129 /* NodeFilter.SHOW_{ELEMENT|COMMENT} */);\nlet sanitizerFactoryInternal = noopSanitizer;\nfunction trustFromTemplateString(tsa, stringFromTSA) {\n    // A security check to prevent spoofing of Lit template results.\n    // In the future, we may be able to replace this with Array.isTemplateObject,\n    // though we might need to make that check inside of the html and svg\n    // functions, because precompiled templates don't come in as\n    // TemplateStringArray objects.\n    if (!Array.isArray(tsa) || !tsa.hasOwnProperty('raw')) {\n        let message = 'invalid template strings array';\n        if (DEV_MODE) {\n            message = `\n          Internal Error: expected template strings to be an array\n          with a 'raw' field. Faking a template strings array by\n          calling html or svg like an ordinary function is effectively\n          the same as calling unsafeHtml and can lead to major security\n          issues, e.g. opening your code up to XSS attacks.\n          If you're using the html or svg tagged template functions normally\n          and still seeing this error, please file a bug at\n          https://github.com/lit/lit/issues/new?template=bug_report.md\n          and include information about your build tooling, if any.\n        `\n                .trim()\n                .replace(/\\n */g, '\\n');\n        }\n        throw new Error(message);\n    }\n    return policy !== undefined\n        ? policy.createHTML(stringFromTSA)\n        : stringFromTSA;\n}\n/**\n * Returns an HTML string for the given TemplateStringsArray and result type\n * (HTML or SVG), along with the case-sensitive bound attribute names in\n * template order. The HTML contains comment markers denoting the `ChildPart`s\n * and suffixes on bound attributes denoting the `AttributeParts`.\n *\n * @param strings template strings array\n * @param type HTML or SVG\n * @return Array containing `[html, attrNames]` (array returned for terseness,\n *     to avoid object fields since this code is shared with non-minified SSR\n *     code)\n */\nconst getTemplateHtml = (strings, type) => {\n    // Insert makers into the template HTML to represent the position of\n    // bindings. The following code scans the template strings to determine the\n    // syntactic position of the bindings. They can be in text position, where\n    // we insert an HTML comment, attribute value position, where we insert a\n    // sentinel string and re-write the attribute name, or inside a tag where\n    // we insert the sentinel string.\n    const l = strings.length - 1;\n    // Stores the case-sensitive bound attribute names in the order of their\n    // parts. ElementParts are also reflected in this array as undefined\n    // rather than a string, to disambiguate from attribute bindings.\n    const attrNames = [];\n    let html = type === SVG_RESULT ? '<svg>' : '';\n    // When we're inside a raw text tag (not it's text content), the regex\n    // will still be tagRegex so we can find attributes, but will switch to\n    // this regex when the tag ends.\n    let rawTextEndRegex;\n    // The current parsing state, represented as a reference to one of the\n    // regexes\n    let regex = textEndRegex;\n    for (let i = 0; i < l; i++) {\n        const s = strings[i];\n        // The index of the end of the last attribute name. When this is\n        // positive at end of a string, it means we're in an attribute value\n        // position and need to rewrite the attribute name.\n        // We also use a special value of -2 to indicate that we encountered\n        // the end of a string in attribute name position.\n        let attrNameEndIndex = -1;\n        let attrName;\n        let lastIndex = 0;\n        let match;\n        // The conditions in this loop handle the current parse state, and the\n        // assignments to the `regex` variable are the state transitions.\n        while (lastIndex < s.length) {\n            // Make sure we start searching from where we previously left off\n            regex.lastIndex = lastIndex;\n            match = regex.exec(s);\n            if (match === null) {\n                break;\n            }\n            lastIndex = regex.lastIndex;\n            if (regex === textEndRegex) {\n                if (match[COMMENT_START] === '!--') {\n                    regex = commentEndRegex;\n                }\n                else if (match[COMMENT_START] !== undefined) {\n                    // We started a weird comment, like </{\n                    regex = comment2EndRegex;\n                }\n                else if (match[TAG_NAME] !== undefined) {\n                    if (rawTextElement.test(match[TAG_NAME])) {\n                        // Record if we encounter a raw-text element. We'll switch to\n                        // this regex at the end of the tag.\n                        rawTextEndRegex = new RegExp(`</${match[TAG_NAME]}`, 'g');\n                    }\n                    regex = tagEndRegex;\n                }\n                else if (match[DYNAMIC_TAG_NAME] !== undefined) {\n                    if (DEV_MODE) {\n                        throw new Error('Bindings in tag names are not supported. Please use static templates instead. ' +\n                            'See https://lit.dev/docs/templates/expressions/#static-expressions');\n                    }\n                    regex = tagEndRegex;\n                }\n            }\n            else if (regex === tagEndRegex) {\n                if (match[ENTIRE_MATCH] === '>') {\n                    // End of a tag. If we had started a raw-text element, use that\n                    // regex\n                    regex = rawTextEndRegex ?? textEndRegex;\n                    // We may be ending an unquoted attribute value, so make sure we\n                    // clear any pending attrNameEndIndex\n                    attrNameEndIndex = -1;\n                }\n                else if (match[ATTRIBUTE_NAME] === undefined) {\n                    // Attribute name position\n                    attrNameEndIndex = -2;\n                }\n                else {\n                    attrNameEndIndex = regex.lastIndex - match[SPACES_AND_EQUALS].length;\n                    attrName = match[ATTRIBUTE_NAME];\n                    regex =\n                        match[QUOTE_CHAR] === undefined\n                            ? tagEndRegex\n                            : match[QUOTE_CHAR] === '\"'\n                                ? doubleQuoteAttrEndRegex\n                                : singleQuoteAttrEndRegex;\n                }\n            }\n            else if (regex === doubleQuoteAttrEndRegex ||\n                regex === singleQuoteAttrEndRegex) {\n                regex = tagEndRegex;\n            }\n            else if (regex === commentEndRegex || regex === comment2EndRegex) {\n                regex = textEndRegex;\n            }\n            else {\n                // Not one of the five state regexes, so it must be the dynamically\n                // created raw text regex and we're at the close of that element.\n                regex = tagEndRegex;\n                rawTextEndRegex = undefined;\n            }\n        }\n        if (DEV_MODE) {\n            // If we have a attrNameEndIndex, which indicates that we should\n            // rewrite the attribute name, assert that we're in a valid attribute\n            // position - either in a tag, or a quoted attribute value.\n            console.assert(attrNameEndIndex === -1 ||\n                regex === tagEndRegex ||\n                regex === singleQuoteAttrEndRegex ||\n                regex === doubleQuoteAttrEndRegex, 'unexpected parse state B');\n        }\n        // We have four cases:\n        //  1. We're in text position, and not in a raw text element\n        //     (regex === textEndRegex): insert a comment marker.\n        //  2. We have a non-negative attrNameEndIndex which means we need to\n        //     rewrite the attribute name to add a bound attribute suffix.\n        //  3. We're at the non-first binding in a multi-binding attribute, use a\n        //     plain marker.\n        //  4. We're somewhere else inside the tag. If we're in attribute name\n        //     position (attrNameEndIndex === -2), add a sequential suffix to\n        //     generate a unique attribute name.\n        // Detect a binding next to self-closing tag end and insert a space to\n        // separate the marker from the tag end:\n        const end = regex === tagEndRegex && strings[i + 1].startsWith('/>') ? ' ' : '';\n        html +=\n            regex === textEndRegex\n                ? s + nodeMarker\n                : attrNameEndIndex >= 0\n                    ? (attrNames.push(attrName),\n                        s.slice(0, attrNameEndIndex) +\n                            boundAttributeSuffix +\n                            s.slice(attrNameEndIndex)) +\n                        marker +\n                        end\n                    : s + marker + (attrNameEndIndex === -2 ? i : end);\n    }\n    const htmlResult = html + (strings[l] || '<?>') + (type === SVG_RESULT ? '</svg>' : '');\n    // Returned as an array for terseness\n    return [trustFromTemplateString(strings, htmlResult), attrNames];\n};\nclass Template {\n    constructor(\n    // This property needs to remain unminified.\n    { strings, ['_$litType$']: type }, options) {\n        this.parts = [];\n        let node;\n        let nodeIndex = 0;\n        let attrNameIndex = 0;\n        const partCount = strings.length - 1;\n        const parts = this.parts;\n        // Create template element\n        const [html, attrNames] = getTemplateHtml(strings, type);\n        this.el = Template.createElement(html, options);\n        walker.currentNode = this.el.content;\n        // Re-parent SVG nodes into template root\n        if (type === SVG_RESULT) {\n            const svgElement = this.el.content.firstChild;\n            svgElement.replaceWith(...svgElement.childNodes);\n        }\n        // Walk the template to find binding markers and create TemplateParts\n        while ((node = walker.nextNode()) !== null && parts.length < partCount) {\n            if (node.nodeType === 1) {\n                if (DEV_MODE) {\n                    const tag = node.localName;\n                    // Warn if `textarea` includes an expression and throw if `template`\n                    // does since these are not supported. We do this by checking\n                    // innerHTML for anything that looks like a marker. This catches\n                    // cases like bindings in textarea there markers turn into text nodes.\n                    if (/^(?:textarea|template)$/i.test(tag) &&\n                        node.innerHTML.includes(marker)) {\n                        const m = `Expressions are not supported inside \\`${tag}\\` ` +\n                            `elements. See https://lit.dev/msg/expression-in-${tag} for more ` +\n                            `information.`;\n                        if (tag === 'template') {\n                            throw new Error(m);\n                        }\n                        else\n                            issueWarning('', m);\n                    }\n                }\n                // TODO (justinfagnani): for attempted dynamic tag names, we don't\n                // increment the bindingIndex, and it'll be off by 1 in the element\n                // and off by two after it.\n                if (node.hasAttributes()) {\n                    for (const name of node.getAttributeNames()) {\n                        if (name.endsWith(boundAttributeSuffix)) {\n                            const realName = attrNames[attrNameIndex++];\n                            const value = node.getAttribute(name);\n                            const statics = value.split(marker);\n                            const m = /([.?@])?(.*)/.exec(realName);\n                            parts.push({\n                                type: ATTRIBUTE_PART,\n                                index: nodeIndex,\n                                name: m[2],\n                                strings: statics,\n                                ctor: m[1] === '.'\n                                    ? PropertyPart\n                                    : m[1] === '?'\n                                        ? BooleanAttributePart\n                                        : m[1] === '@'\n                                            ? EventPart\n                                            : AttributePart,\n                            });\n                            node.removeAttribute(name);\n                        }\n                        else if (name.startsWith(marker)) {\n                            parts.push({\n                                type: ELEMENT_PART,\n                                index: nodeIndex,\n                            });\n                            node.removeAttribute(name);\n                        }\n                    }\n                }\n                // TODO (justinfagnani): benchmark the regex against testing for each\n                // of the 3 raw text element names.\n                if (rawTextElement.test(node.tagName)) {\n                    // For raw text elements we need to split the text content on\n                    // markers, create a Text node for each segment, and create\n                    // a TemplatePart for each marker.\n                    const strings = node.textContent.split(marker);\n                    const lastIndex = strings.length - 1;\n                    if (lastIndex > 0) {\n                        node.textContent = trustedTypes\n                            ? trustedTypes.emptyScript\n                            : '';\n                        // Generate a new text node for each literal section\n                        // These nodes are also used as the markers for node parts\n                        // We can't use empty text nodes as markers because they're\n                        // normalized when cloning in IE (could simplify when\n                        // IE is no longer supported)\n                        for (let i = 0; i < lastIndex; i++) {\n                            node.append(strings[i], createMarker());\n                            // Walk past the marker node we just added\n                            walker.nextNode();\n                            parts.push({ type: CHILD_PART, index: ++nodeIndex });\n                        }\n                        // Note because this marker is added after the walker's current\n                        // node, it will be walked to in the outer loop (and ignored), so\n                        // we don't need to adjust nodeIndex here\n                        node.append(strings[lastIndex], createMarker());\n                    }\n                }\n            }\n            else if (node.nodeType === 8) {\n                const data = node.data;\n                if (data === markerMatch) {\n                    parts.push({ type: CHILD_PART, index: nodeIndex });\n                }\n                else {\n                    let i = -1;\n                    while ((i = node.data.indexOf(marker, i + 1)) !== -1) {\n                        // Comment node has a binding marker inside, make an inactive part\n                        // The binding won't work, but subsequent bindings will\n                        parts.push({ type: COMMENT_PART, index: nodeIndex });\n                        // Move to the end of the match\n                        i += marker.length - 1;\n                    }\n                }\n            }\n            nodeIndex++;\n        }\n        if (DEV_MODE) {\n            // If there was a duplicate attribute on a tag, then when the tag is\n            // parsed into an element the attribute gets de-duplicated. We can detect\n            // this mismatch if we haven't precisely consumed every attribute name\n            // when preparing the template. This works because `attrNames` is built\n            // from the template string and `attrNameIndex` comes from processing the\n            // resulting DOM.\n            if (attrNames.length !== attrNameIndex) {\n                throw new Error(`Detected duplicate attribute bindings. This occurs if your template ` +\n                    `has duplicate attributes on an element tag. For example ` +\n                    `\"<input ?disabled=\\${true} ?disabled=\\${false}>\" contains a ` +\n                    `duplicate \"disabled\" attribute. The error was detected in ` +\n                    `the following template: \\n` +\n                    '`' +\n                    strings.join('${...}') +\n                    '`');\n            }\n        }\n        // We could set walker.currentNode to another node here to prevent a memory\n        // leak, but every time we prepare a template, we immediately render it\n        // and re-use the walker in new TemplateInstance._clone().\n        debugLogEvent &&\n            debugLogEvent({\n                kind: 'template prep',\n                template: this,\n                clonableTemplate: this.el,\n                parts: this.parts,\n                strings,\n            });\n    }\n    // Overridden via `litHtmlPolyfillSupport` to provide platform support.\n    /** @nocollapse */\n    static createElement(html, _options) {\n        const el = d.createElement('template');\n        el.innerHTML = html;\n        return el;\n    }\n}\nfunction resolveDirective(part, value, parent = part, attributeIndex) {\n    // Bail early if the value is explicitly noChange. Note, this means any\n    // nested directive is still attached and is not run.\n    if (value === noChange) {\n        return value;\n    }\n    let currentDirective = attributeIndex !== undefined\n        ? parent.__directives?.[attributeIndex]\n        : parent.__directive;\n    const nextDirectiveConstructor = isPrimitive(value)\n        ? undefined\n        : // This property needs to remain unminified.\n            value['_$litDirective$'];\n    if (currentDirective?.constructor !== nextDirectiveConstructor) {\n        // This property needs to remain unminified.\n        currentDirective?.['_$notifyDirectiveConnectionChanged']?.(false);\n        if (nextDirectiveConstructor === undefined) {\n            currentDirective = undefined;\n        }\n        else {\n            currentDirective = new nextDirectiveConstructor(part);\n            currentDirective._$initialize(part, parent, attributeIndex);\n        }\n        if (attributeIndex !== undefined) {\n            (parent.__directives ??= [])[attributeIndex] =\n                currentDirective;\n        }\n        else {\n            parent.__directive = currentDirective;\n        }\n    }\n    if (currentDirective !== undefined) {\n        value = resolveDirective(part, currentDirective._$resolve(part, value.values), currentDirective, attributeIndex);\n    }\n    return value;\n}\n/**\n * An updateable instance of a Template. Holds references to the Parts used to\n * update the template instance.\n */\nclass TemplateInstance {\n    constructor(template, parent) {\n        this._$parts = [];\n        /** @internal */\n        this._$disconnectableChildren = undefined;\n        this._$template = template;\n        this._$parent = parent;\n    }\n    // Called by ChildPart parentNode getter\n    get parentNode() {\n        return this._$parent.parentNode;\n    }\n    // See comment in Disconnectable interface for why this is a getter\n    get _$isConnected() {\n        return this._$parent._$isConnected;\n    }\n    // This method is separate from the constructor because we need to return a\n    // DocumentFragment and we don't want to hold onto it with an instance field.\n    _clone(options) {\n        const { el: { content }, parts: parts, } = this._$template;\n        const fragment = (options?.creationScope ?? d).importNode(content, true);\n        walker.currentNode = fragment;\n        let node = walker.nextNode();\n        let nodeIndex = 0;\n        let partIndex = 0;\n        let templatePart = parts[0];\n        while (templatePart !== undefined) {\n            if (nodeIndex === templatePart.index) {\n                let part;\n                if (templatePart.type === CHILD_PART) {\n                    part = new ChildPart(node, node.nextSibling, this, options);\n                }\n                else if (templatePart.type === ATTRIBUTE_PART) {\n                    part = new templatePart.ctor(node, templatePart.name, templatePart.strings, this, options);\n                }\n                else if (templatePart.type === ELEMENT_PART) {\n                    part = new ElementPart(node, this, options);\n                }\n                this._$parts.push(part);\n                templatePart = parts[++partIndex];\n            }\n            if (nodeIndex !== templatePart?.index) {\n                node = walker.nextNode();\n                nodeIndex++;\n            }\n        }\n        // We need to set the currentNode away from the cloned tree so that we\n        // don't hold onto the tree even if the tree is detached and should be\n        // freed.\n        walker.currentNode = d;\n        return fragment;\n    }\n    _update(values) {\n        let i = 0;\n        for (const part of this._$parts) {\n            if (part !== undefined) {\n                debugLogEvent &&\n                    debugLogEvent({\n                        kind: 'set part',\n                        part,\n                        value: values[i],\n                        valueIndex: i,\n                        values,\n                        templateInstance: this,\n                    });\n                if (part.strings !== undefined) {\n                    part._$setValue(values, part, i);\n                    // The number of values the part consumes is part.strings.length - 1\n                    // since values are in between template spans. We increment i by 1\n                    // later in the loop, so increment it by part.strings.length - 2 here\n                    i += part.strings.length - 2;\n                }\n                else {\n                    part._$setValue(values[i]);\n                }\n            }\n            i++;\n        }\n    }\n}\nclass ChildPart {\n    // See comment in Disconnectable interface for why this is a getter\n    get _$isConnected() {\n        // ChildParts that are not at the root should always be created with a\n        // parent; only RootChildNode's won't, so they return the local isConnected\n        // state\n        return this._$parent?._$isConnected ?? this.__isConnected;\n    }\n    constructor(startNode, endNode, parent, options) {\n        this.type = CHILD_PART;\n        this._$committedValue = nothing;\n        // The following fields will be patched onto ChildParts when required by\n        // AsyncDirective\n        /** @internal */\n        this._$disconnectableChildren = undefined;\n        this._$startNode = startNode;\n        this._$endNode = endNode;\n        this._$parent = parent;\n        this.options = options;\n        // Note __isConnected is only ever accessed on RootParts (i.e. when there is\n        // no _$parent); the value on a non-root-part is \"don't care\", but checking\n        // for parent would be more code\n        this.__isConnected = options?.isConnected ?? true;\n        if (ENABLE_EXTRA_SECURITY_HOOKS) {\n            // Explicitly initialize for consistent class shape.\n            this._textSanitizer = undefined;\n        }\n    }\n    /**\n     * The parent node into which the part renders its content.\n     *\n     * A ChildPart's content consists of a range of adjacent child nodes of\n     * `.parentNode`, possibly bordered by 'marker nodes' (`.startNode` and\n     * `.endNode`).\n     *\n     * - If both `.startNode` and `.endNode` are non-null, then the part's content\n     * consists of all siblings between `.startNode` and `.endNode`, exclusively.\n     *\n     * - If `.startNode` is non-null but `.endNode` is null, then the part's\n     * content consists of all siblings following `.startNode`, up to and\n     * including the last child of `.parentNode`. If `.endNode` is non-null, then\n     * `.startNode` will always be non-null.\n     *\n     * - If both `.endNode` and `.startNode` are null, then the part's content\n     * consists of all child nodes of `.parentNode`.\n     */\n    get parentNode() {\n        let parentNode = wrap(this._$startNode).parentNode;\n        const parent = this._$parent;\n        if (parent !== undefined &&\n            parentNode?.nodeType === 11 /* Node.DOCUMENT_FRAGMENT */) {\n            // If the parentNode is a DocumentFragment, it may be because the DOM is\n            // still in the cloned fragment during initial render; if so, get the real\n            // parentNode the part will be committed into by asking the parent.\n            parentNode = parent.parentNode;\n        }\n        return parentNode;\n    }\n    /**\n     * The part's leading marker node, if any. See `.parentNode` for more\n     * information.\n     */\n    get startNode() {\n        return this._$startNode;\n    }\n    /**\n     * The part's trailing marker node, if any. See `.parentNode` for more\n     * information.\n     */\n    get endNode() {\n        return this._$endNode;\n    }\n    _$setValue(value, directiveParent = this) {\n        if (DEV_MODE && this.parentNode === null) {\n            throw new Error(`This \\`ChildPart\\` has no \\`parentNode\\` and therefore cannot accept a value. This likely means the element containing the part was manipulated in an unsupported way outside of Lit's control such that the part's marker nodes were ejected from DOM. For example, setting the element's \\`innerHTML\\` or \\`textContent\\` can do this.`);\n        }\n        value = resolveDirective(this, value, directiveParent);\n        if (isPrimitive(value)) {\n            // Non-rendering child values. It's important that these do not render\n            // empty text nodes to avoid issues with preventing default <slot>\n            // fallback content.\n            if (value === nothing || value == null || value === '') {\n                if (this._$committedValue !== nothing) {\n                    debugLogEvent &&\n                        debugLogEvent({\n                            kind: 'commit nothing to child',\n                            start: this._$startNode,\n                            end: this._$endNode,\n                            parent: this._$parent,\n                            options: this.options,\n                        });\n                    this._$clear();\n                }\n                this._$committedValue = nothing;\n            }\n            else if (value !== this._$committedValue && value !== noChange) {\n                this._commitText(value);\n            }\n            // This property needs to remain unminified.\n        }\n        else if (value['_$litType$'] !== undefined) {\n            this._commitTemplateResult(value);\n        }\n        else if (value.nodeType !== undefined) {\n            if (DEV_MODE && this.options?.host === value) {\n                this._commitText(`[probable mistake: rendered a template's host in itself ` +\n                    `(commonly caused by writing \\${this} in a template]`);\n                console.warn(`Attempted to render the template host`, value, `inside itself. This is almost always a mistake, and in dev mode `, `we render some warning text. In production however, we'll `, `render it, which will usually result in an error, and sometimes `, `in the element disappearing from the DOM.`);\n                return;\n            }\n            this._commitNode(value);\n        }\n        else if (isIterable(value)) {\n            this._commitIterable(value);\n        }\n        else {\n            // Fallback, will render the string representation\n            this._commitText(value);\n        }\n    }\n    _insert(node) {\n        return wrap(wrap(this._$startNode).parentNode).insertBefore(node, this._$endNode);\n    }\n    _commitNode(value) {\n        if (this._$committedValue !== value) {\n            this._$clear();\n            if (ENABLE_EXTRA_SECURITY_HOOKS &&\n                sanitizerFactoryInternal !== noopSanitizer) {\n                const parentNodeName = this._$startNode.parentNode?.nodeName;\n                if (parentNodeName === 'STYLE' || parentNodeName === 'SCRIPT') {\n                    let message = 'Forbidden';\n                    if (DEV_MODE) {\n                        if (parentNodeName === 'STYLE') {\n                            message =\n                                `Lit does not support binding inside style nodes. ` +\n                                    `This is a security risk, as style injection attacks can ` +\n                                    `exfiltrate data and spoof UIs. ` +\n                                    `Consider instead using css\\`...\\` literals ` +\n                                    `to compose styles, and make do dynamic styling with ` +\n                                    `css custom properties, ::parts, <slot>s, ` +\n                                    `and by mutating the DOM rather than stylesheets.`;\n                        }\n                        else {\n                            message =\n                                `Lit does not support binding inside script nodes. ` +\n                                    `This is a security risk, as it could allow arbitrary ` +\n                                    `code execution.`;\n                        }\n                    }\n                    throw new Error(message);\n                }\n            }\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'commit node',\n                    start: this._$startNode,\n                    parent: this._$parent,\n                    value: value,\n                    options: this.options,\n                });\n            this._$committedValue = this._insert(value);\n        }\n    }\n    _commitText(value) {\n        // If the committed value is a primitive it means we called _commitText on\n        // the previous render, and we know that this._$startNode.nextSibling is a\n        // Text node. We can now just replace the text content (.data) of the node.\n        if (this._$committedValue !== nothing &&\n            isPrimitive(this._$committedValue)) {\n            const node = wrap(this._$startNode).nextSibling;\n            if (ENABLE_EXTRA_SECURITY_HOOKS) {\n                if (this._textSanitizer === undefined) {\n                    this._textSanitizer = createSanitizer(node, 'data', 'property');\n                }\n                value = this._textSanitizer(value);\n            }\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'commit text',\n                    node,\n                    value,\n                    options: this.options,\n                });\n            node.data = value;\n        }\n        else {\n            if (ENABLE_EXTRA_SECURITY_HOOKS) {\n                const textNode = d.createTextNode('');\n                this._commitNode(textNode);\n                // When setting text content, for security purposes it matters a lot\n                // what the parent is. For example, <style> and <script> need to be\n                // handled with care, while <span> does not. So first we need to put a\n                // text node into the document, then we can sanitize its content.\n                if (this._textSanitizer === undefined) {\n                    this._textSanitizer = createSanitizer(textNode, 'data', 'property');\n                }\n                value = this._textSanitizer(value);\n                debugLogEvent &&\n                    debugLogEvent({\n                        kind: 'commit text',\n                        node: textNode,\n                        value,\n                        options: this.options,\n                    });\n                textNode.data = value;\n            }\n            else {\n                this._commitNode(d.createTextNode(value));\n                debugLogEvent &&\n                    debugLogEvent({\n                        kind: 'commit text',\n                        node: wrap(this._$startNode).nextSibling,\n                        value,\n                        options: this.options,\n                    });\n            }\n        }\n        this._$committedValue = value;\n    }\n    _commitTemplateResult(result) {\n        // This property needs to remain unminified.\n        const { values, ['_$litType$']: type } = result;\n        // If $litType$ is a number, result is a plain TemplateResult and we get\n        // the template from the template cache. If not, result is a\n        // CompiledTemplateResult and _$litType$ is a CompiledTemplate and we need\n        // to create the <template> element the first time we see it.\n        const template = typeof type === 'number'\n            ? this._$getTemplate(result)\n            : (type.el === undefined &&\n                (type.el = Template.createElement(trustFromTemplateString(type.h, type.h[0]), this.options)),\n                type);\n        if (this._$committedValue?._$template === template) {\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'template updating',\n                    template,\n                    instance: this._$committedValue,\n                    parts: this._$committedValue._$parts,\n                    options: this.options,\n                    values,\n                });\n            this._$committedValue._update(values);\n        }\n        else {\n            const instance = new TemplateInstance(template, this);\n            const fragment = instance._clone(this.options);\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'template instantiated',\n                    template,\n                    instance,\n                    parts: instance._$parts,\n                    options: this.options,\n                    fragment,\n                    values,\n                });\n            instance._update(values);\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'template instantiated and updated',\n                    template,\n                    instance,\n                    parts: instance._$parts,\n                    options: this.options,\n                    fragment,\n                    values,\n                });\n            this._commitNode(fragment);\n            this._$committedValue = instance;\n        }\n    }\n    // Overridden via `litHtmlPolyfillSupport` to provide platform support.\n    /** @internal */\n    _$getTemplate(result) {\n        let template = templateCache.get(result.strings);\n        if (template === undefined) {\n            templateCache.set(result.strings, (template = new Template(result)));\n        }\n        return template;\n    }\n    _commitIterable(value) {\n        // For an Iterable, we create a new InstancePart per item, then set its\n        // value to the item. This is a little bit of overhead for every item in\n        // an Iterable, but it lets us recurse easily and efficiently update Arrays\n        // of TemplateResults that will be commonly returned from expressions like:\n        // array.map((i) => html`${i}`), by reusing existing TemplateInstances.\n        // If value is an array, then the previous render was of an\n        // iterable and value will contain the ChildParts from the previous\n        // render. If value is not an array, clear this part and make a new\n        // array for ChildParts.\n        if (!isArray(this._$committedValue)) {\n            this._$committedValue = [];\n            this._$clear();\n        }\n        // Lets us keep track of how many items we stamped so we can clear leftover\n        // items from a previous render\n        const itemParts = this._$committedValue;\n        let partIndex = 0;\n        let itemPart;\n        for (const item of value) {\n            if (partIndex === itemParts.length) {\n                // If no existing part, create a new one\n                // TODO (justinfagnani): test perf impact of always creating two parts\n                // instead of sharing parts between nodes\n                // https://github.com/lit/lit/issues/1266\n                itemParts.push((itemPart = new ChildPart(this._insert(createMarker()), this._insert(createMarker()), this, this.options)));\n            }\n            else {\n                // Reuse an existing part\n                itemPart = itemParts[partIndex];\n            }\n            itemPart._$setValue(item);\n            partIndex++;\n        }\n        if (partIndex < itemParts.length) {\n            // itemParts always have end nodes\n            this._$clear(itemPart && wrap(itemPart._$endNode).nextSibling, partIndex);\n            // Truncate the parts array so _value reflects the current state\n            itemParts.length = partIndex;\n        }\n    }\n    /**\n     * Removes the nodes contained within this Part from the DOM.\n     *\n     * @param start Start node to clear from, for clearing a subset of the part's\n     *     DOM (used when truncating iterables)\n     * @param from  When `start` is specified, the index within the iterable from\n     *     which ChildParts are being removed, used for disconnecting directives in\n     *     those Parts.\n     *\n     * @internal\n     */\n    _$clear(start = wrap(this._$startNode).nextSibling, from) {\n        this._$notifyConnectionChanged?.(false, true, from);\n        while (start && start !== this._$endNode) {\n            const n = wrap(start).nextSibling;\n            wrap(start).remove();\n            start = n;\n        }\n    }\n    /**\n     * Implementation of RootPart's `isConnected`. Note that this metod\n     * should only be called on `RootPart`s (the `ChildPart` returned from a\n     * top-level `render()` call). It has no effect on non-root ChildParts.\n     * @param isConnected Whether to set\n     * @internal\n     */\n    setConnected(isConnected) {\n        if (this._$parent === undefined) {\n            this.__isConnected = isConnected;\n            this._$notifyConnectionChanged?.(isConnected);\n        }\n        else if (DEV_MODE) {\n            throw new Error('part.setConnected() may only be called on a ' +\n                'RootPart returned from render().');\n        }\n    }\n}\nclass AttributePart {\n    get tagName() {\n        return this.element.tagName;\n    }\n    // See comment in Disconnectable interface for why this is a getter\n    get _$isConnected() {\n        return this._$parent._$isConnected;\n    }\n    constructor(element, name, strings, parent, options) {\n        this.type = ATTRIBUTE_PART;\n        /** @internal */\n        this._$committedValue = nothing;\n        /** @internal */\n        this._$disconnectableChildren = undefined;\n        this.element = element;\n        this.name = name;\n        this._$parent = parent;\n        this.options = options;\n        if (strings.length > 2 || strings[0] !== '' || strings[1] !== '') {\n            this._$committedValue = new Array(strings.length - 1).fill(new String());\n            this.strings = strings;\n        }\n        else {\n            this._$committedValue = nothing;\n        }\n        if (ENABLE_EXTRA_SECURITY_HOOKS) {\n            this._sanitizer = undefined;\n        }\n    }\n    /**\n     * Sets the value of this part by resolving the value from possibly multiple\n     * values and static strings and committing it to the DOM.\n     * If this part is single-valued, `this._strings` will be undefined, and the\n     * method will be called with a single value argument. If this part is\n     * multi-value, `this._strings` will be defined, and the method is called\n     * with the value array of the part's owning TemplateInstance, and an offset\n     * into the value array from which the values should be read.\n     * This method is overloaded this way to eliminate short-lived array slices\n     * of the template instance values, and allow a fast-path for single-valued\n     * parts.\n     *\n     * @param value The part value, or an array of values for multi-valued parts\n     * @param valueIndex the index to start reading values from. `undefined` for\n     *   single-valued parts\n     * @param noCommit causes the part to not commit its value to the DOM. Used\n     *   in hydration to prime attribute parts with their first-rendered value,\n     *   but not set the attribute, and in SSR to no-op the DOM operation and\n     *   capture the value for serialization.\n     *\n     * @internal\n     */\n    _$setValue(value, directiveParent = this, valueIndex, noCommit) {\n        const strings = this.strings;\n        // Whether any of the values has changed, for dirty-checking\n        let change = false;\n        if (strings === undefined) {\n            // Single-value binding case\n            value = resolveDirective(this, value, directiveParent, 0);\n            change =\n                !isPrimitive(value) ||\n                    (value !== this._$committedValue && value !== noChange);\n            if (change) {\n                this._$committedValue = value;\n            }\n        }\n        else {\n            // Interpolation case\n            const values = value;\n            value = strings[0];\n            let i, v;\n            for (i = 0; i < strings.length - 1; i++) {\n                v = resolveDirective(this, values[valueIndex + i], directiveParent, i);\n                if (v === noChange) {\n                    // If the user-provided value is `noChange`, use the previous value\n                    v = this._$committedValue[i];\n                }\n                change ||=\n                    !isPrimitive(v) || v !== this._$committedValue[i];\n                if (v === nothing) {\n                    value = nothing;\n                }\n                else if (value !== nothing) {\n                    value += (v ?? '') + strings[i + 1];\n                }\n                // We always record each value, even if one is `nothing`, for future\n                // change detection.\n                this._$committedValue[i] = v;\n            }\n        }\n        if (change && !noCommit) {\n            this._commitValue(value);\n        }\n    }\n    /** @internal */\n    _commitValue(value) {\n        if (value === nothing) {\n            wrap(this.element).removeAttribute(this.name);\n        }\n        else {\n            if (ENABLE_EXTRA_SECURITY_HOOKS) {\n                if (this._sanitizer === undefined) {\n                    this._sanitizer = sanitizerFactoryInternal(this.element, this.name, 'attribute');\n                }\n                value = this._sanitizer(value ?? '');\n            }\n            debugLogEvent &&\n                debugLogEvent({\n                    kind: 'commit attribute',\n                    element: this.element,\n                    name: this.name,\n                    value,\n                    options: this.options,\n                });\n            wrap(this.element).setAttribute(this.name, (value ?? ''));\n        }\n    }\n}\nclass PropertyPart extends AttributePart {\n    constructor() {\n        super(...arguments);\n        this.type = PROPERTY_PART;\n    }\n    /** @internal */\n    _commitValue(value) {\n        if (ENABLE_EXTRA_SECURITY_HOOKS) {\n            if (this._sanitizer === undefined) {\n                this._sanitizer = sanitizerFactoryInternal(this.element, this.name, 'property');\n            }\n            value = this._sanitizer(value);\n        }\n        debugLogEvent &&\n            debugLogEvent({\n                kind: 'commit property',\n                element: this.element,\n                name: this.name,\n                value,\n                options: this.options,\n            });\n        // eslint-disable-next-line @typescript-eslint/no-explicit-any\n        this.element[this.name] = value === nothing ? undefined : value;\n    }\n}\nclass BooleanAttributePart extends AttributePart {\n    constructor() {\n        super(...arguments);\n        this.type = BOOLEAN_ATTRIBUTE_PART;\n    }\n    /** @internal */\n    _commitValue(value) {\n        debugLogEvent &&\n            debugLogEvent({\n                kind: 'commit boolean attribute',\n                element: this.element,\n                name: this.name,\n                value: !!(value && value !== nothing),\n                options: this.options,\n            });\n        wrap(this.element).toggleAttribute(this.name, !!value && value !== nothing);\n    }\n}\nclass EventPart extends AttributePart {\n    constructor(element, name, strings, parent, options) {\n        super(element, name, strings, parent, options);\n        this.type = EVENT_PART;\n        if (DEV_MODE && this.strings !== undefined) {\n            throw new Error(`A \\`<${element.localName}>\\` has a \\`@${name}=...\\` listener with ` +\n                'invalid content. Event listeners in templates must have exactly ' +\n                'one expression and no surrounding text.');\n        }\n    }\n    // EventPart does not use the base _$setValue/_resolveValue implementation\n    // since the dirty checking is more complex\n    /** @internal */\n    _$setValue(newListener, directiveParent = this) {\n        newListener =\n            resolveDirective(this, newListener, directiveParent, 0) ?? nothing;\n        if (newListener === noChange) {\n            return;\n        }\n        const oldListener = this._$committedValue;\n        // If the new value is nothing or any options change we have to remove the\n        // part as a listener.\n        const shouldRemoveListener = (newListener === nothing && oldListener !== nothing) ||\n            newListener.capture !==\n                oldListener.capture ||\n            newListener.once !==\n                oldListener.once ||\n            newListener.passive !==\n                oldListener.passive;\n        // If the new value is not nothing and we removed the listener, we have\n        // to add the part as a listener.\n        const shouldAddListener = newListener !== nothing &&\n            (oldListener === nothing || shouldRemoveListener);\n        debugLogEvent &&\n            debugLogEvent({\n                kind: 'commit event listener',\n                element: this.element,\n                name: this.name,\n                value: newListener,\n                options: this.options,\n                removeListener: shouldRemoveListener,\n                addListener: shouldAddListener,\n                oldListener,\n            });\n        if (shouldRemoveListener) {\n            this.element.removeEventListener(this.name, this, oldListener);\n        }\n        if (shouldAddListener) {\n            // Beware: IE11 and Chrome 41 don't like using the listener as the\n            // options object. Figure out how to deal w/ this in IE11 - maybe\n            // patch addEventListener?\n            this.element.addEventListener(this.name, this, newListener);\n        }\n        this._$committedValue = newListener;\n    }\n    handleEvent(event) {\n        if (typeof this._$committedValue === 'function') {\n            this._$committedValue.call(this.options?.host ?? this.element, event);\n        }\n        else {\n            this._$committedValue.handleEvent(event);\n        }\n    }\n}\nclass ElementPart {\n    constructor(element, parent, options) {\n        this.element = element;\n        this.type = ELEMENT_PART;\n        /** @internal */\n        this._$disconnectableChildren = undefined;\n        this._$parent = parent;\n        this.options = options;\n    }\n    // See comment in Disconnectable interface for why this is a getter\n    get _$isConnected() {\n        return this._$parent._$isConnected;\n    }\n    _$setValue(value) {\n        debugLogEvent &&\n            debugLogEvent({\n                kind: 'commit to element binding',\n                element: this.element,\n                value,\n                options: this.options,\n            });\n        resolveDirective(this, value);\n    }\n}\n/**\n * END USERS SHOULD NOT RELY ON THIS OBJECT.\n *\n * Private exports for use by other Lit packages, not intended for use by\n * external users.\n *\n * We currently do not make a mangled rollup build of the lit-ssr code. In order\n * to keep a number of (otherwise private) top-level exports  mangled in the\n * client side code, we export a _$LH object containing those members (or\n * helper methods for accessing private fields of those members), and then\n * re-export them for use in lit-ssr. This keeps lit-ssr agnostic to whether the\n * client-side code is being used in `dev` mode or `prod` mode.\n *\n * This has a unique name, to disambiguate it from private exports in\n * lit-element, which re-exports all of lit-html.\n *\n * @private\n */\nconst _$LH = {\n    // Used in lit-ssr\n    _boundAttributeSuffix: boundAttributeSuffix,\n    _marker: marker,\n    _markerMatch: markerMatch,\n    _HTML_RESULT: HTML_RESULT,\n    _getTemplateHtml: getTemplateHtml,\n    // Used in tests and private-ssr-support\n    _TemplateInstance: TemplateInstance,\n    _isIterable: isIterable,\n    _resolveDirective: resolveDirective,\n    _ChildPart: ChildPart,\n    _AttributePart: AttributePart,\n    _BooleanAttributePart: BooleanAttributePart,\n    _EventPart: EventPart,\n    _PropertyPart: PropertyPart,\n    _ElementPart: ElementPart,\n};\n// Apply polyfills if available\nconst polyfillSupport = DEV_MODE\n    ? global.litHtmlPolyfillSupportDevMode\n    : global.litHtmlPolyfillSupport;\npolyfillSupport?.(Template, ChildPart);\n// IMPORTANT: do not change the property name or the assignment expression.\n// This line will be used in regexes to search for lit-html usage.\n(global.litHtmlVersions ??= []).push('3.1.4');\nif (DEV_MODE && global.litHtmlVersions.length > 1) {\n    issueWarning('multiple-versions', `Multiple versions of Lit loaded. ` +\n        `Loading multiple versions is not recommended.`);\n}\n/**\n * Renders a value, usually a lit-html TemplateResult, to the container.\n *\n * This example renders the text \"Hello, Zoe!\" inside a paragraph tag, appending\n * it to the container `document.body`.\n *\n * ```js\n * import {html, render} from 'lit';\n *\n * const name = \"Zoe\";\n * render(html`<p>Hello, ${name}!</p>`, document.body);\n * ```\n *\n * @param value Any [renderable\n *   value](https://lit.dev/docs/templates/expressions/#child-expressions),\n *   typically a {@linkcode TemplateResult} created by evaluating a template tag\n *   like {@linkcode html} or {@linkcode svg}.\n * @param container A DOM container to render to. The first render will append\n *   the rendered value to the container, and subsequent renders will\n *   efficiently update the rendered value if the same result type was\n *   previously rendered there.\n * @param options See {@linkcode RenderOptions} for options documentation.\n * @see\n * {@link https://lit.dev/docs/libraries/standalone-templates/#rendering-lit-html-templates| Rendering Lit HTML Templates}\n */\nconst render = (value, container, options) => {\n    if (DEV_MODE && container == null) {\n        // Give a clearer error message than\n        //     Uncaught TypeError: Cannot read properties of null (reading\n        //     '_$litPart$')\n        // which reads like an internal Lit error.\n        throw new TypeError(`The container to render into may not be ${container}`);\n    }\n    const renderId = DEV_MODE ? debugLogRenderId++ : 0;\n    const partOwnerNode = options?.renderBefore ?? container;\n    // This property needs to remain unminified.\n    // eslint-disable-next-line @typescript-eslint/no-explicit-any\n    let part = partOwnerNode['_$litPart$'];\n    debugLogEvent &&\n        debugLogEvent({\n            kind: 'begin render',\n            id: renderId,\n            value,\n            container,\n            options,\n            part,\n        });\n    if (part === undefined) {\n        const endNode = options?.renderBefore ?? null;\n        // This property needs to remain unminified.\n        // eslint-disable-next-line @typescript-eslint/no-explicit-any\n        partOwnerNode['_$litPart$'] = part = new ChildPart(container.insertBefore(createMarker(), endNode), endNode, undefined, options ?? {});\n    }\n    part._$setValue(value);\n    debugLogEvent &&\n        debugLogEvent({\n            kind: 'end render',\n            id: renderId,\n            value,\n            container,\n            options,\n            part,\n        });\n    return part;\n};\nif (ENABLE_EXTRA_SECURITY_HOOKS) {\n    render.setSanitizer = setSanitizer;\n    render.createSanitizer = createSanitizer;\n    if (DEV_MODE) {\n        render._testOnlyClearSanitizerFactoryDoNotCallOrElse =\n            _testOnlyClearSanitizerFactoryDoNotCallOrElse;\n    }\n}\n//# sourceMappingURL=lit-html.js.map\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/lit-html/development/lit-html.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   _$LH: () => (/* binding */ _$LH),
+/* harmony export */   html: () => (/* binding */ html),
+/* harmony export */   noChange: () => (/* binding */ noChange),
+/* harmony export */   nothing: () => (/* binding */ nothing),
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   svg: () => (/* binding */ svg)
+/* harmony export */ });
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+const DEV_MODE = true;
+const ENABLE_EXTRA_SECURITY_HOOKS = true;
+const ENABLE_SHADYDOM_NOPATCH = true;
+const NODE_MODE = false;
+// Allows minifiers to rename references to globalThis
+const global = globalThis;
+/**
+ * Useful for visualizing and logging insights into what the Lit template system is doing.
+ *
+ * Compiled out of prod mode builds.
+ */
+const debugLogEvent = DEV_MODE
+    ? (event) => {
+        const shouldEmit = global
+            .emitLitDebugLogEvents;
+        if (!shouldEmit) {
+            return;
+        }
+        global.dispatchEvent(new CustomEvent('lit-debug', {
+            detail: event,
+        }));
+    }
+    : undefined;
+// Used for connecting beginRender and endRender events when there are nested
+// renders when errors are thrown preventing an endRender event from being
+// called.
+let debugLogRenderId = 0;
+let issueWarning;
+if (DEV_MODE) {
+    global.litIssuedWarnings ??= new Set();
+    // Issue a warning, if we haven't already.
+    issueWarning = (code, warning) => {
+        warning += code
+            ? ` See https://lit.dev/msg/${code} for more information.`
+            : '';
+        if (!global.litIssuedWarnings.has(warning)) {
+            console.warn(warning);
+            global.litIssuedWarnings.add(warning);
+        }
+    };
+    issueWarning('dev-mode', `Lit is in dev mode. Not recommended for production!`);
+}
+const wrap = ENABLE_SHADYDOM_NOPATCH &&
+    global.ShadyDOM?.inUse &&
+    global.ShadyDOM?.noPatch === true
+    ? global.ShadyDOM.wrap
+    : (node) => node;
+const trustedTypes = global.trustedTypes;
+/**
+ * Our TrustedTypePolicy for HTML which is declared using the html template
+ * tag function.
+ *
+ * That HTML is a developer-authored constant, and is parsed with innerHTML
+ * before any untrusted expressions have been mixed in. Therefor it is
+ * considered safe by construction.
+ */
+const policy = trustedTypes
+    ? trustedTypes.createPolicy('lit-html', {
+        createHTML: (s) => s,
+    })
+    : undefined;
+const identityFunction = (value) => value;
+const noopSanitizer = (_node, _name, _type) => identityFunction;
+/** Sets the global sanitizer factory. */
+const setSanitizer = (newSanitizer) => {
+    if (!ENABLE_EXTRA_SECURITY_HOOKS) {
+        return;
+    }
+    if (sanitizerFactoryInternal !== noopSanitizer) {
+        throw new Error(`Attempted to overwrite existing lit-html security policy.` +
+            ` setSanitizeDOMValueFactory should be called at most once.`);
+    }
+    sanitizerFactoryInternal = newSanitizer;
+};
+/**
+ * Only used in internal tests, not a part of the public API.
+ */
+const _testOnlyClearSanitizerFactoryDoNotCallOrElse = () => {
+    sanitizerFactoryInternal = noopSanitizer;
+};
+const createSanitizer = (node, name, type) => {
+    return sanitizerFactoryInternal(node, name, type);
+};
+// Added to an attribute name to mark the attribute as bound so we can find
+// it easily.
+const boundAttributeSuffix = '$lit$';
+// This marker is used in many syntactic positions in HTML, so it must be
+// a valid element name and attribute name. We don't support dynamic names (yet)
+// but this at least ensures that the parse tree is closer to the template
+// intention.
+const marker = `lit$${Math.random().toFixed(9).slice(2)}$`;
+// String used to tell if a comment is a marker comment
+const markerMatch = '?' + marker;
+// Text used to insert a comment marker node. We use processing instruction
+// syntax because it's slightly smaller, but parses as a comment node.
+const nodeMarker = `<${markerMatch}>`;
+const d = NODE_MODE && global.document === undefined
+    ? {
+        createTreeWalker() {
+            return {};
+        },
+    }
+    : document;
+// Creates a dynamic marker. We never have to search for these in the DOM.
+const createMarker = () => d.createComment('');
+const isPrimitive = (value) => value === null || (typeof value != 'object' && typeof value != 'function');
+const isArray = Array.isArray;
+const isIterable = (value) => isArray(value) ||
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    typeof value?.[Symbol.iterator] === 'function';
+const SPACE_CHAR = `[ \t\n\f\r]`;
+const ATTR_VALUE_CHAR = `[^ \t\n\f\r"'\`<>=]`;
+const NAME_CHAR = `[^\\s"'>=/]`;
+// These regexes represent the five parsing states that we care about in the
+// Template's HTML scanner. They match the *end* of the state they're named
+// after.
+// Depending on the match, we transition to a new state. If there's no match,
+// we stay in the same state.
+// Note that the regexes are stateful. We utilize lastIndex and sync it
+// across the multiple regexes used. In addition to the five regexes below
+// we also dynamically create a regex to find the matching end tags for raw
+// text elements.
+/**
+ * End of text is: `<` followed by:
+ *   (comment start) or (tag) or (dynamic tag binding)
+ */
+const textEndRegex = /<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g;
+const COMMENT_START = 1;
+const TAG_NAME = 2;
+const DYNAMIC_TAG_NAME = 3;
+const commentEndRegex = /-->/g;
+/**
+ * Comments not started with <!--, like </{, can be ended by a single `>`
+ */
+const comment2EndRegex = />/g;
+/**
+ * The tagEnd regex matches the end of the "inside an opening" tag syntax
+ * position. It either matches a `>`, an attribute-like sequence, or the end
+ * of the string after a space (attribute-name position ending).
+ *
+ * See attributes in the HTML spec:
+ * https://www.w3.org/TR/html5/syntax.html#elements-attributes
+ *
+ * " \t\n\f\r" are HTML space characters:
+ * https://infra.spec.whatwg.org/#ascii-whitespace
+ *
+ * So an attribute is:
+ *  * The name: any character except a whitespace character, ("), ('), ">",
+ *    "=", or "/". Note: this is different from the HTML spec which also excludes control characters.
+ *  * Followed by zero or more space characters
+ *  * Followed by "="
+ *  * Followed by zero or more space characters
+ *  * Followed by:
+ *    * Any character except space, ('), ("), "<", ">", "=", (`), or
+ *    * (") then any non-("), or
+ *    * (') then any non-(')
+ */
+const tagEndRegex = new RegExp(`>|${SPACE_CHAR}(?:(${NAME_CHAR}+)(${SPACE_CHAR}*=${SPACE_CHAR}*(?:${ATTR_VALUE_CHAR}|("|')|))|$)`, 'g');
+const ENTIRE_MATCH = 0;
+const ATTRIBUTE_NAME = 1;
+const SPACES_AND_EQUALS = 2;
+const QUOTE_CHAR = 3;
+const singleQuoteAttrEndRegex = /'/g;
+const doubleQuoteAttrEndRegex = /"/g;
+/**
+ * Matches the raw text elements.
+ *
+ * Comments are not parsed within raw text elements, so we need to search their
+ * text content for marker strings.
+ */
+const rawTextElement = /^(?:script|style|textarea|title)$/i;
+/** TemplateResult types */
+const HTML_RESULT = 1;
+const SVG_RESULT = 2;
+// TemplatePart types
+// IMPORTANT: these must match the values in PartType
+const ATTRIBUTE_PART = 1;
+const CHILD_PART = 2;
+const PROPERTY_PART = 3;
+const BOOLEAN_ATTRIBUTE_PART = 4;
+const EVENT_PART = 5;
+const ELEMENT_PART = 6;
+const COMMENT_PART = 7;
+/**
+ * Generates a template literal tag function that returns a TemplateResult with
+ * the given result type.
+ */
+const tag = (type) => (strings, ...values) => {
+    // Warn against templates octal escape sequences
+    // We do this here rather than in render so that the warning is closer to the
+    // template definition.
+    if (DEV_MODE && strings.some((s) => s === undefined)) {
+        console.warn('Some template strings are undefined.\n' +
+            'This is probably caused by illegal octal escape sequences.');
+    }
+    if (DEV_MODE) {
+        // Import static-html.js results in a circular dependency which g3 doesn't
+        // handle. Instead we know that static values must have the field
+        // `_$litStatic$`.
+        if (values.some((val) => val?.['_$litStatic$'])) {
+            issueWarning('', `Static values 'literal' or 'unsafeStatic' cannot be used as values to non-static templates.\n` +
+                `Please use the static 'html' tag function. See https://lit.dev/docs/templates/expressions/#static-expressions`);
+        }
+    }
+    return {
+        // This property needs to remain unminified.
+        ['_$litType$']: type,
+        strings,
+        values,
+    };
+};
+/**
+ * Interprets a template literal as an HTML template that can efficiently
+ * render to and update a container.
+ *
+ * ```ts
+ * const header = (title: string) => html`<h1>${title}</h1>`;
+ * ```
+ *
+ * The `html` tag returns a description of the DOM to render as a value. It is
+ * lazy, meaning no work is done until the template is rendered. When rendering,
+ * if a template comes from the same expression as a previously rendered result,
+ * it's efficiently updated instead of replaced.
+ */
+const html = tag(HTML_RESULT);
+/**
+ * Interprets a template literal as an SVG fragment that can efficiently
+ * render to and update a container.
+ *
+ * ```ts
+ * const rect = svg`<rect width="10" height="10"></rect>`;
+ *
+ * const myImage = html`
+ *   <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+ *     ${rect}
+ *   </svg>`;
+ * ```
+ *
+ * The `svg` *tag function* should only be used for SVG fragments, or elements
+ * that would be contained **inside** an `<svg>` HTML element. A common error is
+ * placing an `<svg>` *element* in a template tagged with the `svg` tag
+ * function. The `<svg>` element is an HTML element and should be used within a
+ * template tagged with the {@linkcode html} tag function.
+ *
+ * In LitElement usage, it's invalid to return an SVG fragment from the
+ * `render()` method, as the SVG fragment will be contained within the element's
+ * shadow root and thus cannot be used within an `<svg>` HTML element.
+ */
+const svg = tag(SVG_RESULT);
+/**
+ * A sentinel value that signals that a value was handled by a directive and
+ * should not be written to the DOM.
+ */
+const noChange = Symbol.for('lit-noChange');
+/**
+ * A sentinel value that signals a ChildPart to fully clear its content.
+ *
+ * ```ts
+ * const button = html`${
+ *  user.isAdmin
+ *    ? html`<button>DELETE</button>`
+ *    : nothing
+ * }`;
+ * ```
+ *
+ * Prefer using `nothing` over other falsy values as it provides a consistent
+ * behavior between various expression binding contexts.
+ *
+ * In child expressions, `undefined`, `null`, `''`, and `nothing` all behave the
+ * same and render no nodes. In attribute expressions, `nothing` _removes_ the
+ * attribute, while `undefined` and `null` will render an empty string. In
+ * property expressions `nothing` becomes `undefined`.
+ */
+const nothing = Symbol.for('lit-nothing');
+/**
+ * The cache of prepared templates, keyed by the tagged TemplateStringsArray
+ * and _not_ accounting for the specific template tag used. This means that
+ * template tags cannot be dynamic - the must statically be one of html, svg,
+ * or attr. This restriction simplifies the cache lookup, which is on the hot
+ * path for rendering.
+ */
+const templateCache = new WeakMap();
+const walker = d.createTreeWalker(d, 129 /* NodeFilter.SHOW_{ELEMENT|COMMENT} */);
+let sanitizerFactoryInternal = noopSanitizer;
+function trustFromTemplateString(tsa, stringFromTSA) {
+    // A security check to prevent spoofing of Lit template results.
+    // In the future, we may be able to replace this with Array.isTemplateObject,
+    // though we might need to make that check inside of the html and svg
+    // functions, because precompiled templates don't come in as
+    // TemplateStringArray objects.
+    if (!Array.isArray(tsa) || !tsa.hasOwnProperty('raw')) {
+        let message = 'invalid template strings array';
+        if (DEV_MODE) {
+            message = `
+          Internal Error: expected template strings to be an array
+          with a 'raw' field. Faking a template strings array by
+          calling html or svg like an ordinary function is effectively
+          the same as calling unsafeHtml and can lead to major security
+          issues, e.g. opening your code up to XSS attacks.
+          If you're using the html or svg tagged template functions normally
+          and still seeing this error, please file a bug at
+          https://github.com/lit/lit/issues/new?template=bug_report.md
+          and include information about your build tooling, if any.
+        `
+                .trim()
+                .replace(/\n */g, '\n');
+        }
+        throw new Error(message);
+    }
+    return policy !== undefined
+        ? policy.createHTML(stringFromTSA)
+        : stringFromTSA;
+}
+/**
+ * Returns an HTML string for the given TemplateStringsArray and result type
+ * (HTML or SVG), along with the case-sensitive bound attribute names in
+ * template order. The HTML contains comment markers denoting the `ChildPart`s
+ * and suffixes on bound attributes denoting the `AttributeParts`.
+ *
+ * @param strings template strings array
+ * @param type HTML or SVG
+ * @return Array containing `[html, attrNames]` (array returned for terseness,
+ *     to avoid object fields since this code is shared with non-minified SSR
+ *     code)
+ */
+const getTemplateHtml = (strings, type) => {
+    // Insert makers into the template HTML to represent the position of
+    // bindings. The following code scans the template strings to determine the
+    // syntactic position of the bindings. They can be in text position, where
+    // we insert an HTML comment, attribute value position, where we insert a
+    // sentinel string and re-write the attribute name, or inside a tag where
+    // we insert the sentinel string.
+    const l = strings.length - 1;
+    // Stores the case-sensitive bound attribute names in the order of their
+    // parts. ElementParts are also reflected in this array as undefined
+    // rather than a string, to disambiguate from attribute bindings.
+    const attrNames = [];
+    let html = type === SVG_RESULT ? '<svg>' : '';
+    // When we're inside a raw text tag (not it's text content), the regex
+    // will still be tagRegex so we can find attributes, but will switch to
+    // this regex when the tag ends.
+    let rawTextEndRegex;
+    // The current parsing state, represented as a reference to one of the
+    // regexes
+    let regex = textEndRegex;
+    for (let i = 0; i < l; i++) {
+        const s = strings[i];
+        // The index of the end of the last attribute name. When this is
+        // positive at end of a string, it means we're in an attribute value
+        // position and need to rewrite the attribute name.
+        // We also use a special value of -2 to indicate that we encountered
+        // the end of a string in attribute name position.
+        let attrNameEndIndex = -1;
+        let attrName;
+        let lastIndex = 0;
+        let match;
+        // The conditions in this loop handle the current parse state, and the
+        // assignments to the `regex` variable are the state transitions.
+        while (lastIndex < s.length) {
+            // Make sure we start searching from where we previously left off
+            regex.lastIndex = lastIndex;
+            match = regex.exec(s);
+            if (match === null) {
+                break;
+            }
+            lastIndex = regex.lastIndex;
+            if (regex === textEndRegex) {
+                if (match[COMMENT_START] === '!--') {
+                    regex = commentEndRegex;
+                }
+                else if (match[COMMENT_START] !== undefined) {
+                    // We started a weird comment, like </{
+                    regex = comment2EndRegex;
+                }
+                else if (match[TAG_NAME] !== undefined) {
+                    if (rawTextElement.test(match[TAG_NAME])) {
+                        // Record if we encounter a raw-text element. We'll switch to
+                        // this regex at the end of the tag.
+                        rawTextEndRegex = new RegExp(`</${match[TAG_NAME]}`, 'g');
+                    }
+                    regex = tagEndRegex;
+                }
+                else if (match[DYNAMIC_TAG_NAME] !== undefined) {
+                    if (DEV_MODE) {
+                        throw new Error('Bindings in tag names are not supported. Please use static templates instead. ' +
+                            'See https://lit.dev/docs/templates/expressions/#static-expressions');
+                    }
+                    regex = tagEndRegex;
+                }
+            }
+            else if (regex === tagEndRegex) {
+                if (match[ENTIRE_MATCH] === '>') {
+                    // End of a tag. If we had started a raw-text element, use that
+                    // regex
+                    regex = rawTextEndRegex ?? textEndRegex;
+                    // We may be ending an unquoted attribute value, so make sure we
+                    // clear any pending attrNameEndIndex
+                    attrNameEndIndex = -1;
+                }
+                else if (match[ATTRIBUTE_NAME] === undefined) {
+                    // Attribute name position
+                    attrNameEndIndex = -2;
+                }
+                else {
+                    attrNameEndIndex = regex.lastIndex - match[SPACES_AND_EQUALS].length;
+                    attrName = match[ATTRIBUTE_NAME];
+                    regex =
+                        match[QUOTE_CHAR] === undefined
+                            ? tagEndRegex
+                            : match[QUOTE_CHAR] === '"'
+                                ? doubleQuoteAttrEndRegex
+                                : singleQuoteAttrEndRegex;
+                }
+            }
+            else if (regex === doubleQuoteAttrEndRegex ||
+                regex === singleQuoteAttrEndRegex) {
+                regex = tagEndRegex;
+            }
+            else if (regex === commentEndRegex || regex === comment2EndRegex) {
+                regex = textEndRegex;
+            }
+            else {
+                // Not one of the five state regexes, so it must be the dynamically
+                // created raw text regex and we're at the close of that element.
+                regex = tagEndRegex;
+                rawTextEndRegex = undefined;
+            }
+        }
+        if (DEV_MODE) {
+            // If we have a attrNameEndIndex, which indicates that we should
+            // rewrite the attribute name, assert that we're in a valid attribute
+            // position - either in a tag, or a quoted attribute value.
+            console.assert(attrNameEndIndex === -1 ||
+                regex === tagEndRegex ||
+                regex === singleQuoteAttrEndRegex ||
+                regex === doubleQuoteAttrEndRegex, 'unexpected parse state B');
+        }
+        // We have four cases:
+        //  1. We're in text position, and not in a raw text element
+        //     (regex === textEndRegex): insert a comment marker.
+        //  2. We have a non-negative attrNameEndIndex which means we need to
+        //     rewrite the attribute name to add a bound attribute suffix.
+        //  3. We're at the non-first binding in a multi-binding attribute, use a
+        //     plain marker.
+        //  4. We're somewhere else inside the tag. If we're in attribute name
+        //     position (attrNameEndIndex === -2), add a sequential suffix to
+        //     generate a unique attribute name.
+        // Detect a binding next to self-closing tag end and insert a space to
+        // separate the marker from the tag end:
+        const end = regex === tagEndRegex && strings[i + 1].startsWith('/>') ? ' ' : '';
+        html +=
+            regex === textEndRegex
+                ? s + nodeMarker
+                : attrNameEndIndex >= 0
+                    ? (attrNames.push(attrName),
+                        s.slice(0, attrNameEndIndex) +
+                            boundAttributeSuffix +
+                            s.slice(attrNameEndIndex)) +
+                        marker +
+                        end
+                    : s + marker + (attrNameEndIndex === -2 ? i : end);
+    }
+    const htmlResult = html + (strings[l] || '<?>') + (type === SVG_RESULT ? '</svg>' : '');
+    // Returned as an array for terseness
+    return [trustFromTemplateString(strings, htmlResult), attrNames];
+};
+class Template {
+    constructor(
+    // This property needs to remain unminified.
+    { strings, ['_$litType$']: type }, options) {
+        this.parts = [];
+        let node;
+        let nodeIndex = 0;
+        let attrNameIndex = 0;
+        const partCount = strings.length - 1;
+        const parts = this.parts;
+        // Create template element
+        const [html, attrNames] = getTemplateHtml(strings, type);
+        this.el = Template.createElement(html, options);
+        walker.currentNode = this.el.content;
+        // Re-parent SVG nodes into template root
+        if (type === SVG_RESULT) {
+            const svgElement = this.el.content.firstChild;
+            svgElement.replaceWith(...svgElement.childNodes);
+        }
+        // Walk the template to find binding markers and create TemplateParts
+        while ((node = walker.nextNode()) !== null && parts.length < partCount) {
+            if (node.nodeType === 1) {
+                if (DEV_MODE) {
+                    const tag = node.localName;
+                    // Warn if `textarea` includes an expression and throw if `template`
+                    // does since these are not supported. We do this by checking
+                    // innerHTML for anything that looks like a marker. This catches
+                    // cases like bindings in textarea there markers turn into text nodes.
+                    if (/^(?:textarea|template)$/i.test(tag) &&
+                        node.innerHTML.includes(marker)) {
+                        const m = `Expressions are not supported inside \`${tag}\` ` +
+                            `elements. See https://lit.dev/msg/expression-in-${tag} for more ` +
+                            `information.`;
+                        if (tag === 'template') {
+                            throw new Error(m);
+                        }
+                        else
+                            issueWarning('', m);
+                    }
+                }
+                // TODO (justinfagnani): for attempted dynamic tag names, we don't
+                // increment the bindingIndex, and it'll be off by 1 in the element
+                // and off by two after it.
+                if (node.hasAttributes()) {
+                    for (const name of node.getAttributeNames()) {
+                        if (name.endsWith(boundAttributeSuffix)) {
+                            const realName = attrNames[attrNameIndex++];
+                            const value = node.getAttribute(name);
+                            const statics = value.split(marker);
+                            const m = /([.?@])?(.*)/.exec(realName);
+                            parts.push({
+                                type: ATTRIBUTE_PART,
+                                index: nodeIndex,
+                                name: m[2],
+                                strings: statics,
+                                ctor: m[1] === '.'
+                                    ? PropertyPart
+                                    : m[1] === '?'
+                                        ? BooleanAttributePart
+                                        : m[1] === '@'
+                                            ? EventPart
+                                            : AttributePart,
+                            });
+                            node.removeAttribute(name);
+                        }
+                        else if (name.startsWith(marker)) {
+                            parts.push({
+                                type: ELEMENT_PART,
+                                index: nodeIndex,
+                            });
+                            node.removeAttribute(name);
+                        }
+                    }
+                }
+                // TODO (justinfagnani): benchmark the regex against testing for each
+                // of the 3 raw text element names.
+                if (rawTextElement.test(node.tagName)) {
+                    // For raw text elements we need to split the text content on
+                    // markers, create a Text node for each segment, and create
+                    // a TemplatePart for each marker.
+                    const strings = node.textContent.split(marker);
+                    const lastIndex = strings.length - 1;
+                    if (lastIndex > 0) {
+                        node.textContent = trustedTypes
+                            ? trustedTypes.emptyScript
+                            : '';
+                        // Generate a new text node for each literal section
+                        // These nodes are also used as the markers for node parts
+                        // We can't use empty text nodes as markers because they're
+                        // normalized when cloning in IE (could simplify when
+                        // IE is no longer supported)
+                        for (let i = 0; i < lastIndex; i++) {
+                            node.append(strings[i], createMarker());
+                            // Walk past the marker node we just added
+                            walker.nextNode();
+                            parts.push({ type: CHILD_PART, index: ++nodeIndex });
+                        }
+                        // Note because this marker is added after the walker's current
+                        // node, it will be walked to in the outer loop (and ignored), so
+                        // we don't need to adjust nodeIndex here
+                        node.append(strings[lastIndex], createMarker());
+                    }
+                }
+            }
+            else if (node.nodeType === 8) {
+                const data = node.data;
+                if (data === markerMatch) {
+                    parts.push({ type: CHILD_PART, index: nodeIndex });
+                }
+                else {
+                    let i = -1;
+                    while ((i = node.data.indexOf(marker, i + 1)) !== -1) {
+                        // Comment node has a binding marker inside, make an inactive part
+                        // The binding won't work, but subsequent bindings will
+                        parts.push({ type: COMMENT_PART, index: nodeIndex });
+                        // Move to the end of the match
+                        i += marker.length - 1;
+                    }
+                }
+            }
+            nodeIndex++;
+        }
+        if (DEV_MODE) {
+            // If there was a duplicate attribute on a tag, then when the tag is
+            // parsed into an element the attribute gets de-duplicated. We can detect
+            // this mismatch if we haven't precisely consumed every attribute name
+            // when preparing the template. This works because `attrNames` is built
+            // from the template string and `attrNameIndex` comes from processing the
+            // resulting DOM.
+            if (attrNames.length !== attrNameIndex) {
+                throw new Error(`Detected duplicate attribute bindings. This occurs if your template ` +
+                    `has duplicate attributes on an element tag. For example ` +
+                    `"<input ?disabled=\${true} ?disabled=\${false}>" contains a ` +
+                    `duplicate "disabled" attribute. The error was detected in ` +
+                    `the following template: \n` +
+                    '`' +
+                    strings.join('${...}') +
+                    '`');
+            }
+        }
+        // We could set walker.currentNode to another node here to prevent a memory
+        // leak, but every time we prepare a template, we immediately render it
+        // and re-use the walker in new TemplateInstance._clone().
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'template prep',
+                template: this,
+                clonableTemplate: this.el,
+                parts: this.parts,
+                strings,
+            });
+    }
+    // Overridden via `litHtmlPolyfillSupport` to provide platform support.
+    /** @nocollapse */
+    static createElement(html, _options) {
+        const el = d.createElement('template');
+        el.innerHTML = html;
+        return el;
+    }
+}
+function resolveDirective(part, value, parent = part, attributeIndex) {
+    // Bail early if the value is explicitly noChange. Note, this means any
+    // nested directive is still attached and is not run.
+    if (value === noChange) {
+        return value;
+    }
+    let currentDirective = attributeIndex !== undefined
+        ? parent.__directives?.[attributeIndex]
+        : parent.__directive;
+    const nextDirectiveConstructor = isPrimitive(value)
+        ? undefined
+        : // This property needs to remain unminified.
+            value['_$litDirective$'];
+    if (currentDirective?.constructor !== nextDirectiveConstructor) {
+        // This property needs to remain unminified.
+        currentDirective?.['_$notifyDirectiveConnectionChanged']?.(false);
+        if (nextDirectiveConstructor === undefined) {
+            currentDirective = undefined;
+        }
+        else {
+            currentDirective = new nextDirectiveConstructor(part);
+            currentDirective._$initialize(part, parent, attributeIndex);
+        }
+        if (attributeIndex !== undefined) {
+            (parent.__directives ??= [])[attributeIndex] =
+                currentDirective;
+        }
+        else {
+            parent.__directive = currentDirective;
+        }
+    }
+    if (currentDirective !== undefined) {
+        value = resolveDirective(part, currentDirective._$resolve(part, value.values), currentDirective, attributeIndex);
+    }
+    return value;
+}
+/**
+ * An updateable instance of a Template. Holds references to the Parts used to
+ * update the template instance.
+ */
+class TemplateInstance {
+    constructor(template, parent) {
+        this._$parts = [];
+        /** @internal */
+        this._$disconnectableChildren = undefined;
+        this._$template = template;
+        this._$parent = parent;
+    }
+    // Called by ChildPart parentNode getter
+    get parentNode() {
+        return this._$parent.parentNode;
+    }
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        return this._$parent._$isConnected;
+    }
+    // This method is separate from the constructor because we need to return a
+    // DocumentFragment and we don't want to hold onto it with an instance field.
+    _clone(options) {
+        const { el: { content }, parts: parts, } = this._$template;
+        const fragment = (options?.creationScope ?? d).importNode(content, true);
+        walker.currentNode = fragment;
+        let node = walker.nextNode();
+        let nodeIndex = 0;
+        let partIndex = 0;
+        let templatePart = parts[0];
+        while (templatePart !== undefined) {
+            if (nodeIndex === templatePart.index) {
+                let part;
+                if (templatePart.type === CHILD_PART) {
+                    part = new ChildPart(node, node.nextSibling, this, options);
+                }
+                else if (templatePart.type === ATTRIBUTE_PART) {
+                    part = new templatePart.ctor(node, templatePart.name, templatePart.strings, this, options);
+                }
+                else if (templatePart.type === ELEMENT_PART) {
+                    part = new ElementPart(node, this, options);
+                }
+                this._$parts.push(part);
+                templatePart = parts[++partIndex];
+            }
+            if (nodeIndex !== templatePart?.index) {
+                node = walker.nextNode();
+                nodeIndex++;
+            }
+        }
+        // We need to set the currentNode away from the cloned tree so that we
+        // don't hold onto the tree even if the tree is detached and should be
+        // freed.
+        walker.currentNode = d;
+        return fragment;
+    }
+    _update(values) {
+        let i = 0;
+        for (const part of this._$parts) {
+            if (part !== undefined) {
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'set part',
+                        part,
+                        value: values[i],
+                        valueIndex: i,
+                        values,
+                        templateInstance: this,
+                    });
+                if (part.strings !== undefined) {
+                    part._$setValue(values, part, i);
+                    // The number of values the part consumes is part.strings.length - 1
+                    // since values are in between template spans. We increment i by 1
+                    // later in the loop, so increment it by part.strings.length - 2 here
+                    i += part.strings.length - 2;
+                }
+                else {
+                    part._$setValue(values[i]);
+                }
+            }
+            i++;
+        }
+    }
+}
+class ChildPart {
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        // ChildParts that are not at the root should always be created with a
+        // parent; only RootChildNode's won't, so they return the local isConnected
+        // state
+        return this._$parent?._$isConnected ?? this.__isConnected;
+    }
+    constructor(startNode, endNode, parent, options) {
+        this.type = CHILD_PART;
+        this._$committedValue = nothing;
+        // The following fields will be patched onto ChildParts when required by
+        // AsyncDirective
+        /** @internal */
+        this._$disconnectableChildren = undefined;
+        this._$startNode = startNode;
+        this._$endNode = endNode;
+        this._$parent = parent;
+        this.options = options;
+        // Note __isConnected is only ever accessed on RootParts (i.e. when there is
+        // no _$parent); the value on a non-root-part is "don't care", but checking
+        // for parent would be more code
+        this.__isConnected = options?.isConnected ?? true;
+        if (ENABLE_EXTRA_SECURITY_HOOKS) {
+            // Explicitly initialize for consistent class shape.
+            this._textSanitizer = undefined;
+        }
+    }
+    /**
+     * The parent node into which the part renders its content.
+     *
+     * A ChildPart's content consists of a range of adjacent child nodes of
+     * `.parentNode`, possibly bordered by 'marker nodes' (`.startNode` and
+     * `.endNode`).
+     *
+     * - If both `.startNode` and `.endNode` are non-null, then the part's content
+     * consists of all siblings between `.startNode` and `.endNode`, exclusively.
+     *
+     * - If `.startNode` is non-null but `.endNode` is null, then the part's
+     * content consists of all siblings following `.startNode`, up to and
+     * including the last child of `.parentNode`. If `.endNode` is non-null, then
+     * `.startNode` will always be non-null.
+     *
+     * - If both `.endNode` and `.startNode` are null, then the part's content
+     * consists of all child nodes of `.parentNode`.
+     */
+    get parentNode() {
+        let parentNode = wrap(this._$startNode).parentNode;
+        const parent = this._$parent;
+        if (parent !== undefined &&
+            parentNode?.nodeType === 11 /* Node.DOCUMENT_FRAGMENT */) {
+            // If the parentNode is a DocumentFragment, it may be because the DOM is
+            // still in the cloned fragment during initial render; if so, get the real
+            // parentNode the part will be committed into by asking the parent.
+            parentNode = parent.parentNode;
+        }
+        return parentNode;
+    }
+    /**
+     * The part's leading marker node, if any. See `.parentNode` for more
+     * information.
+     */
+    get startNode() {
+        return this._$startNode;
+    }
+    /**
+     * The part's trailing marker node, if any. See `.parentNode` for more
+     * information.
+     */
+    get endNode() {
+        return this._$endNode;
+    }
+    _$setValue(value, directiveParent = this) {
+        if (DEV_MODE && this.parentNode === null) {
+            throw new Error(`This \`ChildPart\` has no \`parentNode\` and therefore cannot accept a value. This likely means the element containing the part was manipulated in an unsupported way outside of Lit's control such that the part's marker nodes were ejected from DOM. For example, setting the element's \`innerHTML\` or \`textContent\` can do this.`);
+        }
+        value = resolveDirective(this, value, directiveParent);
+        if (isPrimitive(value)) {
+            // Non-rendering child values. It's important that these do not render
+            // empty text nodes to avoid issues with preventing default <slot>
+            // fallback content.
+            if (value === nothing || value == null || value === '') {
+                if (this._$committedValue !== nothing) {
+                    debugLogEvent &&
+                        debugLogEvent({
+                            kind: 'commit nothing to child',
+                            start: this._$startNode,
+                            end: this._$endNode,
+                            parent: this._$parent,
+                            options: this.options,
+                        });
+                    this._$clear();
+                }
+                this._$committedValue = nothing;
+            }
+            else if (value !== this._$committedValue && value !== noChange) {
+                this._commitText(value);
+            }
+            // This property needs to remain unminified.
+        }
+        else if (value['_$litType$'] !== undefined) {
+            this._commitTemplateResult(value);
+        }
+        else if (value.nodeType !== undefined) {
+            if (DEV_MODE && this.options?.host === value) {
+                this._commitText(`[probable mistake: rendered a template's host in itself ` +
+                    `(commonly caused by writing \${this} in a template]`);
+                console.warn(`Attempted to render the template host`, value, `inside itself. This is almost always a mistake, and in dev mode `, `we render some warning text. In production however, we'll `, `render it, which will usually result in an error, and sometimes `, `in the element disappearing from the DOM.`);
+                return;
+            }
+            this._commitNode(value);
+        }
+        else if (isIterable(value)) {
+            this._commitIterable(value);
+        }
+        else {
+            // Fallback, will render the string representation
+            this._commitText(value);
+        }
+    }
+    _insert(node) {
+        return wrap(wrap(this._$startNode).parentNode).insertBefore(node, this._$endNode);
+    }
+    _commitNode(value) {
+        if (this._$committedValue !== value) {
+            this._$clear();
+            if (ENABLE_EXTRA_SECURITY_HOOKS &&
+                sanitizerFactoryInternal !== noopSanitizer) {
+                const parentNodeName = this._$startNode.parentNode?.nodeName;
+                if (parentNodeName === 'STYLE' || parentNodeName === 'SCRIPT') {
+                    let message = 'Forbidden';
+                    if (DEV_MODE) {
+                        if (parentNodeName === 'STYLE') {
+                            message =
+                                `Lit does not support binding inside style nodes. ` +
+                                    `This is a security risk, as style injection attacks can ` +
+                                    `exfiltrate data and spoof UIs. ` +
+                                    `Consider instead using css\`...\` literals ` +
+                                    `to compose styles, and make do dynamic styling with ` +
+                                    `css custom properties, ::parts, <slot>s, ` +
+                                    `and by mutating the DOM rather than stylesheets.`;
+                        }
+                        else {
+                            message =
+                                `Lit does not support binding inside script nodes. ` +
+                                    `This is a security risk, as it could allow arbitrary ` +
+                                    `code execution.`;
+                        }
+                    }
+                    throw new Error(message);
+                }
+            }
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit node',
+                    start: this._$startNode,
+                    parent: this._$parent,
+                    value: value,
+                    options: this.options,
+                });
+            this._$committedValue = this._insert(value);
+        }
+    }
+    _commitText(value) {
+        // If the committed value is a primitive it means we called _commitText on
+        // the previous render, and we know that this._$startNode.nextSibling is a
+        // Text node. We can now just replace the text content (.data) of the node.
+        if (this._$committedValue !== nothing &&
+            isPrimitive(this._$committedValue)) {
+            const node = wrap(this._$startNode).nextSibling;
+            if (ENABLE_EXTRA_SECURITY_HOOKS) {
+                if (this._textSanitizer === undefined) {
+                    this._textSanitizer = createSanitizer(node, 'data', 'property');
+                }
+                value = this._textSanitizer(value);
+            }
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit text',
+                    node,
+                    value,
+                    options: this.options,
+                });
+            node.data = value;
+        }
+        else {
+            if (ENABLE_EXTRA_SECURITY_HOOKS) {
+                const textNode = d.createTextNode('');
+                this._commitNode(textNode);
+                // When setting text content, for security purposes it matters a lot
+                // what the parent is. For example, <style> and <script> need to be
+                // handled with care, while <span> does not. So first we need to put a
+                // text node into the document, then we can sanitize its content.
+                if (this._textSanitizer === undefined) {
+                    this._textSanitizer = createSanitizer(textNode, 'data', 'property');
+                }
+                value = this._textSanitizer(value);
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'commit text',
+                        node: textNode,
+                        value,
+                        options: this.options,
+                    });
+                textNode.data = value;
+            }
+            else {
+                this._commitNode(d.createTextNode(value));
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'commit text',
+                        node: wrap(this._$startNode).nextSibling,
+                        value,
+                        options: this.options,
+                    });
+            }
+        }
+        this._$committedValue = value;
+    }
+    _commitTemplateResult(result) {
+        // This property needs to remain unminified.
+        const { values, ['_$litType$']: type } = result;
+        // If $litType$ is a number, result is a plain TemplateResult and we get
+        // the template from the template cache. If not, result is a
+        // CompiledTemplateResult and _$litType$ is a CompiledTemplate and we need
+        // to create the <template> element the first time we see it.
+        const template = typeof type === 'number'
+            ? this._$getTemplate(result)
+            : (type.el === undefined &&
+                (type.el = Template.createElement(trustFromTemplateString(type.h, type.h[0]), this.options)),
+                type);
+        if (this._$committedValue?._$template === template) {
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template updating',
+                    template,
+                    instance: this._$committedValue,
+                    parts: this._$committedValue._$parts,
+                    options: this.options,
+                    values,
+                });
+            this._$committedValue._update(values);
+        }
+        else {
+            const instance = new TemplateInstance(template, this);
+            const fragment = instance._clone(this.options);
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template instantiated',
+                    template,
+                    instance,
+                    parts: instance._$parts,
+                    options: this.options,
+                    fragment,
+                    values,
+                });
+            instance._update(values);
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template instantiated and updated',
+                    template,
+                    instance,
+                    parts: instance._$parts,
+                    options: this.options,
+                    fragment,
+                    values,
+                });
+            this._commitNode(fragment);
+            this._$committedValue = instance;
+        }
+    }
+    // Overridden via `litHtmlPolyfillSupport` to provide platform support.
+    /** @internal */
+    _$getTemplate(result) {
+        let template = templateCache.get(result.strings);
+        if (template === undefined) {
+            templateCache.set(result.strings, (template = new Template(result)));
+        }
+        return template;
+    }
+    _commitIterable(value) {
+        // For an Iterable, we create a new InstancePart per item, then set its
+        // value to the item. This is a little bit of overhead for every item in
+        // an Iterable, but it lets us recurse easily and efficiently update Arrays
+        // of TemplateResults that will be commonly returned from expressions like:
+        // array.map((i) => html`${i}`), by reusing existing TemplateInstances.
+        // If value is an array, then the previous render was of an
+        // iterable and value will contain the ChildParts from the previous
+        // render. If value is not an array, clear this part and make a new
+        // array for ChildParts.
+        if (!isArray(this._$committedValue)) {
+            this._$committedValue = [];
+            this._$clear();
+        }
+        // Lets us keep track of how many items we stamped so we can clear leftover
+        // items from a previous render
+        const itemParts = this._$committedValue;
+        let partIndex = 0;
+        let itemPart;
+        for (const item of value) {
+            if (partIndex === itemParts.length) {
+                // If no existing part, create a new one
+                // TODO (justinfagnani): test perf impact of always creating two parts
+                // instead of sharing parts between nodes
+                // https://github.com/lit/lit/issues/1266
+                itemParts.push((itemPart = new ChildPart(this._insert(createMarker()), this._insert(createMarker()), this, this.options)));
+            }
+            else {
+                // Reuse an existing part
+                itemPart = itemParts[partIndex];
+            }
+            itemPart._$setValue(item);
+            partIndex++;
+        }
+        if (partIndex < itemParts.length) {
+            // itemParts always have end nodes
+            this._$clear(itemPart && wrap(itemPart._$endNode).nextSibling, partIndex);
+            // Truncate the parts array so _value reflects the current state
+            itemParts.length = partIndex;
+        }
+    }
+    /**
+     * Removes the nodes contained within this Part from the DOM.
+     *
+     * @param start Start node to clear from, for clearing a subset of the part's
+     *     DOM (used when truncating iterables)
+     * @param from  When `start` is specified, the index within the iterable from
+     *     which ChildParts are being removed, used for disconnecting directives in
+     *     those Parts.
+     *
+     * @internal
+     */
+    _$clear(start = wrap(this._$startNode).nextSibling, from) {
+        this._$notifyConnectionChanged?.(false, true, from);
+        while (start && start !== this._$endNode) {
+            const n = wrap(start).nextSibling;
+            wrap(start).remove();
+            start = n;
+        }
+    }
+    /**
+     * Implementation of RootPart's `isConnected`. Note that this metod
+     * should only be called on `RootPart`s (the `ChildPart` returned from a
+     * top-level `render()` call). It has no effect on non-root ChildParts.
+     * @param isConnected Whether to set
+     * @internal
+     */
+    setConnected(isConnected) {
+        if (this._$parent === undefined) {
+            this.__isConnected = isConnected;
+            this._$notifyConnectionChanged?.(isConnected);
+        }
+        else if (DEV_MODE) {
+            throw new Error('part.setConnected() may only be called on a ' +
+                'RootPart returned from render().');
+        }
+    }
+}
+class AttributePart {
+    get tagName() {
+        return this.element.tagName;
+    }
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        return this._$parent._$isConnected;
+    }
+    constructor(element, name, strings, parent, options) {
+        this.type = ATTRIBUTE_PART;
+        /** @internal */
+        this._$committedValue = nothing;
+        /** @internal */
+        this._$disconnectableChildren = undefined;
+        this.element = element;
+        this.name = name;
+        this._$parent = parent;
+        this.options = options;
+        if (strings.length > 2 || strings[0] !== '' || strings[1] !== '') {
+            this._$committedValue = new Array(strings.length - 1).fill(new String());
+            this.strings = strings;
+        }
+        else {
+            this._$committedValue = nothing;
+        }
+        if (ENABLE_EXTRA_SECURITY_HOOKS) {
+            this._sanitizer = undefined;
+        }
+    }
+    /**
+     * Sets the value of this part by resolving the value from possibly multiple
+     * values and static strings and committing it to the DOM.
+     * If this part is single-valued, `this._strings` will be undefined, and the
+     * method will be called with a single value argument. If this part is
+     * multi-value, `this._strings` will be defined, and the method is called
+     * with the value array of the part's owning TemplateInstance, and an offset
+     * into the value array from which the values should be read.
+     * This method is overloaded this way to eliminate short-lived array slices
+     * of the template instance values, and allow a fast-path for single-valued
+     * parts.
+     *
+     * @param value The part value, or an array of values for multi-valued parts
+     * @param valueIndex the index to start reading values from. `undefined` for
+     *   single-valued parts
+     * @param noCommit causes the part to not commit its value to the DOM. Used
+     *   in hydration to prime attribute parts with their first-rendered value,
+     *   but not set the attribute, and in SSR to no-op the DOM operation and
+     *   capture the value for serialization.
+     *
+     * @internal
+     */
+    _$setValue(value, directiveParent = this, valueIndex, noCommit) {
+        const strings = this.strings;
+        // Whether any of the values has changed, for dirty-checking
+        let change = false;
+        if (strings === undefined) {
+            // Single-value binding case
+            value = resolveDirective(this, value, directiveParent, 0);
+            change =
+                !isPrimitive(value) ||
+                    (value !== this._$committedValue && value !== noChange);
+            if (change) {
+                this._$committedValue = value;
+            }
+        }
+        else {
+            // Interpolation case
+            const values = value;
+            value = strings[0];
+            let i, v;
+            for (i = 0; i < strings.length - 1; i++) {
+                v = resolveDirective(this, values[valueIndex + i], directiveParent, i);
+                if (v === noChange) {
+                    // If the user-provided value is `noChange`, use the previous value
+                    v = this._$committedValue[i];
+                }
+                change ||=
+                    !isPrimitive(v) || v !== this._$committedValue[i];
+                if (v === nothing) {
+                    value = nothing;
+                }
+                else if (value !== nothing) {
+                    value += (v ?? '') + strings[i + 1];
+                }
+                // We always record each value, even if one is `nothing`, for future
+                // change detection.
+                this._$committedValue[i] = v;
+            }
+        }
+        if (change && !noCommit) {
+            this._commitValue(value);
+        }
+    }
+    /** @internal */
+    _commitValue(value) {
+        if (value === nothing) {
+            wrap(this.element).removeAttribute(this.name);
+        }
+        else {
+            if (ENABLE_EXTRA_SECURITY_HOOKS) {
+                if (this._sanitizer === undefined) {
+                    this._sanitizer = sanitizerFactoryInternal(this.element, this.name, 'attribute');
+                }
+                value = this._sanitizer(value ?? '');
+            }
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit attribute',
+                    element: this.element,
+                    name: this.name,
+                    value,
+                    options: this.options,
+                });
+            wrap(this.element).setAttribute(this.name, (value ?? ''));
+        }
+    }
+}
+class PropertyPart extends AttributePart {
+    constructor() {
+        super(...arguments);
+        this.type = PROPERTY_PART;
+    }
+    /** @internal */
+    _commitValue(value) {
+        if (ENABLE_EXTRA_SECURITY_HOOKS) {
+            if (this._sanitizer === undefined) {
+                this._sanitizer = sanitizerFactoryInternal(this.element, this.name, 'property');
+            }
+            value = this._sanitizer(value);
+        }
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit property',
+                element: this.element,
+                name: this.name,
+                value,
+                options: this.options,
+            });
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        this.element[this.name] = value === nothing ? undefined : value;
+    }
+}
+class BooleanAttributePart extends AttributePart {
+    constructor() {
+        super(...arguments);
+        this.type = BOOLEAN_ATTRIBUTE_PART;
+    }
+    /** @internal */
+    _commitValue(value) {
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit boolean attribute',
+                element: this.element,
+                name: this.name,
+                value: !!(value && value !== nothing),
+                options: this.options,
+            });
+        wrap(this.element).toggleAttribute(this.name, !!value && value !== nothing);
+    }
+}
+class EventPart extends AttributePart {
+    constructor(element, name, strings, parent, options) {
+        super(element, name, strings, parent, options);
+        this.type = EVENT_PART;
+        if (DEV_MODE && this.strings !== undefined) {
+            throw new Error(`A \`<${element.localName}>\` has a \`@${name}=...\` listener with ` +
+                'invalid content. Event listeners in templates must have exactly ' +
+                'one expression and no surrounding text.');
+        }
+    }
+    // EventPart does not use the base _$setValue/_resolveValue implementation
+    // since the dirty checking is more complex
+    /** @internal */
+    _$setValue(newListener, directiveParent = this) {
+        newListener =
+            resolveDirective(this, newListener, directiveParent, 0) ?? nothing;
+        if (newListener === noChange) {
+            return;
+        }
+        const oldListener = this._$committedValue;
+        // If the new value is nothing or any options change we have to remove the
+        // part as a listener.
+        const shouldRemoveListener = (newListener === nothing && oldListener !== nothing) ||
+            newListener.capture !==
+                oldListener.capture ||
+            newListener.once !==
+                oldListener.once ||
+            newListener.passive !==
+                oldListener.passive;
+        // If the new value is not nothing and we removed the listener, we have
+        // to add the part as a listener.
+        const shouldAddListener = newListener !== nothing &&
+            (oldListener === nothing || shouldRemoveListener);
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit event listener',
+                element: this.element,
+                name: this.name,
+                value: newListener,
+                options: this.options,
+                removeListener: shouldRemoveListener,
+                addListener: shouldAddListener,
+                oldListener,
+            });
+        if (shouldRemoveListener) {
+            this.element.removeEventListener(this.name, this, oldListener);
+        }
+        if (shouldAddListener) {
+            // Beware: IE11 and Chrome 41 don't like using the listener as the
+            // options object. Figure out how to deal w/ this in IE11 - maybe
+            // patch addEventListener?
+            this.element.addEventListener(this.name, this, newListener);
+        }
+        this._$committedValue = newListener;
+    }
+    handleEvent(event) {
+        if (typeof this._$committedValue === 'function') {
+            this._$committedValue.call(this.options?.host ?? this.element, event);
+        }
+        else {
+            this._$committedValue.handleEvent(event);
+        }
+    }
+}
+class ElementPart {
+    constructor(element, parent, options) {
+        this.element = element;
+        this.type = ELEMENT_PART;
+        /** @internal */
+        this._$disconnectableChildren = undefined;
+        this._$parent = parent;
+        this.options = options;
+    }
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        return this._$parent._$isConnected;
+    }
+    _$setValue(value) {
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit to element binding',
+                element: this.element,
+                value,
+                options: this.options,
+            });
+        resolveDirective(this, value);
+    }
+}
+/**
+ * END USERS SHOULD NOT RELY ON THIS OBJECT.
+ *
+ * Private exports for use by other Lit packages, not intended for use by
+ * external users.
+ *
+ * We currently do not make a mangled rollup build of the lit-ssr code. In order
+ * to keep a number of (otherwise private) top-level exports  mangled in the
+ * client side code, we export a _$LH object containing those members (or
+ * helper methods for accessing private fields of those members), and then
+ * re-export them for use in lit-ssr. This keeps lit-ssr agnostic to whether the
+ * client-side code is being used in `dev` mode or `prod` mode.
+ *
+ * This has a unique name, to disambiguate it from private exports in
+ * lit-element, which re-exports all of lit-html.
+ *
+ * @private
+ */
+const _$LH = {
+    // Used in lit-ssr
+    _boundAttributeSuffix: boundAttributeSuffix,
+    _marker: marker,
+    _markerMatch: markerMatch,
+    _HTML_RESULT: HTML_RESULT,
+    _getTemplateHtml: getTemplateHtml,
+    // Used in tests and private-ssr-support
+    _TemplateInstance: TemplateInstance,
+    _isIterable: isIterable,
+    _resolveDirective: resolveDirective,
+    _ChildPart: ChildPart,
+    _AttributePart: AttributePart,
+    _BooleanAttributePart: BooleanAttributePart,
+    _EventPart: EventPart,
+    _PropertyPart: PropertyPart,
+    _ElementPart: ElementPart,
+};
+// Apply polyfills if available
+const polyfillSupport = DEV_MODE
+    ? global.litHtmlPolyfillSupportDevMode
+    : global.litHtmlPolyfillSupport;
+polyfillSupport?.(Template, ChildPart);
+// IMPORTANT: do not change the property name or the assignment expression.
+// This line will be used in regexes to search for lit-html usage.
+(global.litHtmlVersions ??= []).push('3.1.4');
+if (DEV_MODE && global.litHtmlVersions.length > 1) {
+    issueWarning('multiple-versions', `Multiple versions of Lit loaded. ` +
+        `Loading multiple versions is not recommended.`);
+}
+/**
+ * Renders a value, usually a lit-html TemplateResult, to the container.
+ *
+ * This example renders the text "Hello, Zoe!" inside a paragraph tag, appending
+ * it to the container `document.body`.
+ *
+ * ```js
+ * import {html, render} from 'lit';
+ *
+ * const name = "Zoe";
+ * render(html`<p>Hello, ${name}!</p>`, document.body);
+ * ```
+ *
+ * @param value Any [renderable
+ *   value](https://lit.dev/docs/templates/expressions/#child-expressions),
+ *   typically a {@linkcode TemplateResult} created by evaluating a template tag
+ *   like {@linkcode html} or {@linkcode svg}.
+ * @param container A DOM container to render to. The first render will append
+ *   the rendered value to the container, and subsequent renders will
+ *   efficiently update the rendered value if the same result type was
+ *   previously rendered there.
+ * @param options See {@linkcode RenderOptions} for options documentation.
+ * @see
+ * {@link https://lit.dev/docs/libraries/standalone-templates/#rendering-lit-html-templates| Rendering Lit HTML Templates}
+ */
+const render = (value, container, options) => {
+    if (DEV_MODE && container == null) {
+        // Give a clearer error message than
+        //     Uncaught TypeError: Cannot read properties of null (reading
+        //     '_$litPart$')
+        // which reads like an internal Lit error.
+        throw new TypeError(`The container to render into may not be ${container}`);
+    }
+    const renderId = DEV_MODE ? debugLogRenderId++ : 0;
+    const partOwnerNode = options?.renderBefore ?? container;
+    // This property needs to remain unminified.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let part = partOwnerNode['_$litPart$'];
+    debugLogEvent &&
+        debugLogEvent({
+            kind: 'begin render',
+            id: renderId,
+            value,
+            container,
+            options,
+            part,
+        });
+    if (part === undefined) {
+        const endNode = options?.renderBefore ?? null;
+        // This property needs to remain unminified.
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        partOwnerNode['_$litPart$'] = part = new ChildPart(container.insertBefore(createMarker(), endNode), endNode, undefined, options ?? {});
+    }
+    part._$setValue(value);
+    debugLogEvent &&
+        debugLogEvent({
+            kind: 'end render',
+            id: renderId,
+            value,
+            container,
+            options,
+            part,
+        });
+    return part;
+};
+if (ENABLE_EXTRA_SECURITY_HOOKS) {
+    render.setSanitizer = setSanitizer;
+    render.createSanitizer = createSanitizer;
+    if (DEV_MODE) {
+        render._testOnlyClearSanitizerFactoryDoNotCallOrElse =
+            _testOnlyClearSanitizerFactoryDoNotCallOrElse;
+    }
+}
+//# sourceMappingURL=lit-html.js.map
 
 /***/ }),
 
@@ -186,7 +3593,34 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   CSSResult: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.CSSResult),\n/* harmony export */   LitElement: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.LitElement),\n/* harmony export */   ReactiveElement: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.ReactiveElement),\n/* harmony export */   _$LE: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__._$LE),\n/* harmony export */   _$LH: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__._$LH),\n/* harmony export */   adoptStyles: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.adoptStyles),\n/* harmony export */   css: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.css),\n/* harmony export */   defaultConverter: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.defaultConverter),\n/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.getCompatibleStyle),\n/* harmony export */   html: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.html),\n/* harmony export */   isServer: () => (/* reexport safe */ lit_html_is_server_js__WEBPACK_IMPORTED_MODULE_3__.isServer),\n/* harmony export */   noChange: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.noChange),\n/* harmony export */   notEqual: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.notEqual),\n/* harmony export */   nothing: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.nothing),\n/* harmony export */   render: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.render),\n/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.supportsAdoptingStyleSheets),\n/* harmony export */   svg: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.svg),\n/* harmony export */   unsafeCSS: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.unsafeCSS)\n/* harmony export */ });\n/* harmony import */ var _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lit/reactive-element */ \"./node_modules/@lit/reactive-element/development/reactive-element.js\");\n/* harmony import */ var lit_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lit-html */ \"./node_modules/lit-html/development/lit-html.js\");\n/* harmony import */ var lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lit-element/lit-element.js */ \"./node_modules/lit-element/development/lit-element.js\");\n/* harmony import */ var lit_html_is_server_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lit-html/is-server.js */ \"./node_modules/lit-html/development/is-server.js\");\n\n//# sourceMappingURL=index.js.map\n\n\n//# sourceURL=webpack://wellbeing-app/./node_modules/lit/index.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CSSResult: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.CSSResult),
+/* harmony export */   LitElement: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.LitElement),
+/* harmony export */   ReactiveElement: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.ReactiveElement),
+/* harmony export */   _$LE: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__._$LE),
+/* harmony export */   _$LH: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__._$LH),
+/* harmony export */   adoptStyles: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.adoptStyles),
+/* harmony export */   css: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.css),
+/* harmony export */   defaultConverter: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.defaultConverter),
+/* harmony export */   getCompatibleStyle: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.getCompatibleStyle),
+/* harmony export */   html: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.html),
+/* harmony export */   isServer: () => (/* reexport safe */ lit_html_is_server_js__WEBPACK_IMPORTED_MODULE_3__.isServer),
+/* harmony export */   noChange: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.noChange),
+/* harmony export */   notEqual: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.notEqual),
+/* harmony export */   nothing: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.nothing),
+/* harmony export */   render: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.render),
+/* harmony export */   supportsAdoptingStyleSheets: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.supportsAdoptingStyleSheets),
+/* harmony export */   svg: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.svg),
+/* harmony export */   unsafeCSS: () => (/* reexport safe */ lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__.unsafeCSS)
+/* harmony export */ });
+/* harmony import */ var _lit_reactive_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lit/reactive-element */ "./node_modules/@lit/reactive-element/development/reactive-element.js");
+/* harmony import */ var lit_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lit-html */ "./node_modules/lit-html/development/lit-html.js");
+/* harmony import */ var lit_element_lit_element_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lit-element/lit-element.js */ "./node_modules/lit-element/development/lit-element.js");
+/* harmony import */ var lit_html_is_server_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lit-html/is-server.js */ "./node_modules/lit-html/development/is-server.js");
+
+//# sourceMappingURL=index.js.map
+
 
 /***/ })
 
@@ -263,11 +3697,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
+var __webpack_exports__ = {};
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
+/* harmony import */ var _lib_components_reflection_widget_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/components/reflection-widget.js */ "./src/lib/components/reflection-widget.js");
+
+
 /******/ })()
 ;
+//# sourceMappingURL=bundle.js.map
