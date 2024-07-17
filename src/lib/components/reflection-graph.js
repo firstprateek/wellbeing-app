@@ -12,19 +12,20 @@ class ReflectionGraph extends LitElement {
         this.width = 500;
         this.height = 750;
         this.graph = [
+            // {
+            //     day: 'Monday',
+            //     tag: 'Mon',
+            //     score: '5'
+            // }, {
+            //     day: 'Tuesday',
+            //     tag: 'Tue',
+            //     score: '4'
+            // }, {
+            //     day: 'Wednesday',
+            //     tag: 'Wed',
+            //     score: '3'
+            // }, 
             {
-                day: 'Monday',
-                tag: 'Mon',
-                score: '5'
-            }, {
-                day: 'Tuesday',
-                tag: 'Tue',
-                score: '4'
-            }, {
-                day: 'Wednesday',
-                tag: 'Wed',
-                score: '3'
-            }, {
                 day: 'Thursday',
                 tag: 'Thu',
                 score: '2'

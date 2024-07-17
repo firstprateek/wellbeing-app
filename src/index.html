@@ -4,6 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webpack Project</title>
+
+  <script type="module">
+    const reflectionWidget = document.querySelector('reflection-widget');
+    const reflectionGraph = document.querySelector('reflection-graph');
+
+    const today = new Date().toLocaleString('en-us', { weekday:'long' });
+    reflectionWidget.addEventListener('change', (event) => {
+      // Hit API endpoint to update today's mood
+
+      // Update reflection graph data
+    });
+
+
+  </script>
 </head>
 <body>
 

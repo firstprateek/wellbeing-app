@@ -145,6 +145,13 @@ class ReflectionWidget extends LitElement {
     const selectedMood = this.findMoodByEmoji(this.selectedMoodId);
     this.style.setProperty('--bg-color', selectedMood.backgroundColor);
     event.stopPropagation();
+
+    const change = new CustomEvent('change', {
+      detail: selectedMood,
+      bubbles: true,
+      composed: true,
+    });
+    this.dispatchEvent(change);
   }
 
   render() {
